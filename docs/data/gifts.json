@@ -21,7 +21,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -45,7 +45,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -68,8 +68,8 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "weekly-gifts",
-    "gameplayType": "weekly-gifts",
-    "badgeConfidence": 1.0
+    "gameplayType": "周礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -93,7 +93,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -117,7 +117,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -141,7 +141,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -165,7 +165,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -189,7 +189,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -212,8 +212,8 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "color-customized",
-    "gameplayType": "color-customized",
-    "badgeConfidence": 1.0
+    "gameplayType": "颜色定制",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -235,9 +235,9 @@
     "id": "classic::010_s02_r1c2",
     "priceTier": "低价",
     "hasBadge": true,
-    "badgeType": "mystery-gifts-box",
-    "gameplayType": "mystery-gifts-box",
-    "badgeConfidence": 0.625
+    "badgeType": "color-customized",
+    "gameplayType": "颜色定制",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -261,7 +261,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -285,7 +285,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -309,7 +309,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -333,7 +333,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -357,7 +357,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -381,7 +381,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -405,7 +405,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -429,7 +429,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -453,7 +453,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -477,7 +477,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -501,7 +501,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -524,8 +524,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "mystery-gifts-box",
-    "gameplayType": "mystery-gifts-box",
-    "badgeConfidence": 1.0
+    "gameplayType": "盲盒礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -549,7 +549,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -572,8 +572,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 1.0
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -595,9 +595,9 @@
     "id": "classic::025_s04_r1c1",
     "priceTier": "中价",
     "hasBadge": true,
-    "badgeType": "upgrade-gift",
-    "gameplayType": "upgrade-gift",
-    "badgeConfidence": 0.562
+    "badgeType": "on-mic-effect",
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -621,7 +621,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -644,8 +644,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.965
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -668,8 +668,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.972
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -693,7 +693,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -717,7 +717,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -741,7 +741,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -765,7 +765,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -786,10 +786,10 @@
     "hasFilenameBadgeSuffix": true,
     "id": "classic::033_s05_r1c1",
     "priceTier": "中价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "weekly-gifts",
+    "gameplayType": "周礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -812,8 +812,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "cumulative-gift",
-    "gameplayType": "cumulative-gift",
-    "badgeConfidence": 1.0
+    "gameplayType": "累计礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -834,10 +834,10 @@
     "hasFilenameBadgeSuffix": true,
     "id": "classic::035_s05_r1c3",
     "priceTier": "中价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "profile-display",
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -858,10 +858,10 @@
     "hasFilenameBadgeSuffix": true,
     "id": "classic::036_s05_r1c4",
     "priceTier": "中价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "profile-display",
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -884,8 +884,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -908,8 +908,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.926
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -933,7 +933,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -956,8 +956,8 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 1.0
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -981,7 +981,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1005,7 +1005,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1029,7 +1029,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1051,9 +1051,9 @@
     "id": "classic::044_s06_r1c4",
     "priceTier": "高价",
     "hasBadge": true,
-    "badgeType": "mystery-gifts-box",
-    "gameplayType": "mystery-gifts-box",
-    "badgeConfidence": 0.563
+    "badgeType": "color-customized",
+    "gameplayType": "颜色定制",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1077,7 +1077,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1100,8 +1100,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.875
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1125,7 +1125,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1148,8 +1148,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1172,8 +1172,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1196,8 +1196,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.926
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1220,8 +1220,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1244,8 +1244,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1269,7 +1269,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1292,8 +1292,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.875
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1316,8 +1316,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.964
+    "gameplayType": "上麦特效",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1341,7 +1341,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1365,7 +1365,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1389,7 +1389,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1413,7 +1413,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1437,7 +1437,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1460,8 +1460,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.682
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1484,8 +1484,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.696
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1509,7 +1509,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1533,7 +1533,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1557,7 +1557,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1580,8 +1580,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.927
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1604,8 +1604,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1629,7 +1629,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1652,8 +1652,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1676,8 +1676,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.926
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1700,8 +1700,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1724,8 +1724,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1746,10 +1746,10 @@
     "hasFilenameBadgeSuffix": false,
     "id": "classic::073_s10_r1c1",
     "priceTier": "高价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "profile-display",
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1770,10 +1770,10 @@
     "hasFilenameBadgeSuffix": false,
     "id": "classic::074_s10_r1c2",
     "priceTier": "高价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "profile-display",
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1794,10 +1794,10 @@
     "hasFilenameBadgeSuffix": false,
     "id": "classic::075_s10_r1c3",
     "priceTier": "高价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "sound-effect",
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1818,10 +1818,10 @@
     "hasFilenameBadgeSuffix": false,
     "id": "classic::076_s10_r1c4",
     "priceTier": "高价",
-    "hasBadge": false,
-    "badgeType": null,
-    "gameplayType": null,
-    "badgeConfidence": 0.0
+    "hasBadge": true,
+    "badgeType": "profile-display",
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1845,7 +1845,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1868,8 +1868,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.933
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1893,7 +1893,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1916,8 +1916,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1940,8 +1940,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "upgrade-gift",
-    "gameplayType": "upgrade-gift",
-    "badgeConfidence": 1.0
+    "gameplayType": "升级礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1964,8 +1964,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.927
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -1989,7 +1989,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2012,8 +2012,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2036,8 +2036,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2060,8 +2060,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.933
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2084,8 +2084,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2109,7 +2109,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2133,7 +2133,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2156,8 +2156,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "weekly-gifts",
-    "gameplayType": "weekly-gifts",
-    "badgeConfidence": 0.793
+    "gameplayType": "周礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2181,7 +2181,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2204,8 +2204,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2229,7 +2229,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2252,8 +2252,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.927
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2277,7 +2277,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2300,8 +2300,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2324,8 +2324,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2349,7 +2349,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2373,7 +2373,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2397,7 +2397,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2421,7 +2421,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2445,7 +2445,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2469,7 +2469,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2492,8 +2492,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2517,7 +2517,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2541,7 +2541,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2565,7 +2565,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2588,8 +2588,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "sound-effect",
-    "badgeConfidence": 0.97
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2612,8 +2612,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2637,7 +2637,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2661,7 +2661,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2685,7 +2685,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2708,8 +2708,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2732,8 +2732,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.926
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2756,8 +2756,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2780,8 +2780,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2804,8 +2804,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 1.0
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2828,8 +2828,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.926
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2852,8 +2852,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "sound-effect",
-    "badgeConfidence": 1.0
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2876,8 +2876,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "sound-effect",
-    "badgeConfidence": 0.985
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2900,8 +2900,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "sound-effect",
-    "badgeConfidence": 1.0
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2925,7 +2925,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2948,8 +2948,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.778
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2972,8 +2972,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.784
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -2996,8 +2996,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.928
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3020,8 +3020,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.751
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3044,8 +3044,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.783
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3068,8 +3068,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 1.0
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3092,8 +3092,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 1.0
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3116,8 +3116,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.748
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3140,8 +3140,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 0.779
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3164,8 +3164,8 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 1.0
+    "gameplayType": "全房间展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "classic",
@@ -3189,7 +3189,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "activity",
@@ -3213,7 +3213,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "activity",
@@ -3236,8 +3236,8 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "monthly-gifts",
-    "gameplayType": "monthly-gifts",
-    "badgeConfidence": 1.0
+    "gameplayType": "月礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "activity",
@@ -3261,7 +3261,7 @@
     "hasBadge": true,
     "badgeType": "unknown-badge",
     "gameplayType": null,
-    "badgeConfidence": 0.255
+    "badgeConfidence": 1
   },
   {
     "folder": "activity",
@@ -3285,7 +3285,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "activity",
@@ -3308,8 +3308,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "sound-effect",
-    "badgeConfidence": 1.0
+    "gameplayType": "音效礼物",
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3333,7 +3333,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3357,7 +3357,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3381,7 +3381,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3405,7 +3405,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3427,9 +3427,9 @@
     "id": "member::03_s01_r1c3",
     "priceTier": "低价",
     "hasBadge": true,
-    "badgeType": "on-mic-effect",
-    "gameplayType": "on-mic-effect",
-    "badgeConfidence": 0.503
+    "badgeType": "color-customized",
+    "gameplayType": "颜色定制",
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3453,7 +3453,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3477,7 +3477,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3501,7 +3501,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3525,7 +3525,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "member",
@@ -3548,8 +3548,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.693
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3573,7 +3573,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3597,7 +3597,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3621,7 +3621,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3645,7 +3645,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3669,7 +3669,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3693,7 +3693,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3716,8 +3716,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.723
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3741,7 +3741,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3764,8 +3764,8 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.731
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3789,7 +3789,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3812,8 +3812,8 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "profile-display",
-    "badgeConfidence": 0.694
+    "gameplayType": "主页展示",
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3837,7 +3837,7 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   },
   {
     "folder": "royal",
@@ -3861,6 +3861,6 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 0.0
+    "badgeConfidence": 1
   }
 ]
