@@ -5,12 +5,12 @@
     "fileName": "001_s01_r1c1_Balloon_1000_Gold_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::002_s01_r1c2",
@@ -18,12 +18,12 @@
     "fileName": "002_s01_r1c2_Bubble_3_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::003_s01_r1c3",
@@ -31,10 +31,10 @@
     "fileName": "003_s01_r1c3_Frying_Pan_9_Diamond_badge.png",
     "badgeType": "weekly-gifts",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -44,12 +44,12 @@
     "fileName": "004_s01_r1c4_Send_You_Gift_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::005_s01_r2c1",
@@ -57,12 +57,12 @@
     "fileName": "005_s01_r2c1_Brick_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::006_s01_r2c2",
@@ -70,12 +70,12 @@
     "fileName": "006_s01_r2c2_Love_for_You_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::007_s01_r2c3",
@@ -83,12 +83,12 @@
     "fileName": "007_s01_r2c3_Oh_no_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::008_s01_r2c4",
@@ -96,12 +96,12 @@
     "fileName": "008_s01_r2c4_Crow_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::009_s02_r1c1",
@@ -109,10 +109,10 @@
     "fileName": "009_s02_r1c1_Purple_Butterfly_19_Diamond.png",
     "badgeType": "color-customized",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -120,10 +120,10 @@
     "giftId": "classic::010_s02_r1c2",
     "folder": "classic",
     "fileName": "010_s02_r1c2_Red_Rose_19_Diamond_badge.png",
-    "badgeType": "mystery-gifts-box",
+    "badgeType": "color-customized",
     "hasBadge": true,
-    "confidence": 0.625,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": [
       236,
       20,
@@ -132,7 +132,7 @@
     ],
     "bestScore": 14.44,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::011_s02_r1c3",
@@ -140,12 +140,12 @@
     "fileName": "011_s02_r1c3_Jeweled_Bracelet_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::012_s02_r1c4",
@@ -153,12 +153,12 @@
     "fileName": "012_s02_r1c4_Heartbeat_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::013_s02_r2c1",
@@ -166,12 +166,12 @@
     "fileName": "013_s02_r2c1_Flying_Letter_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::014_s02_r2c2",
@@ -179,12 +179,12 @@
     "fileName": "014_s02_r2c2_Peace_of_Mind_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::015_s02_r2c3",
@@ -192,12 +192,12 @@
     "fileName": "015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::016_s02_r2c4",
@@ -205,12 +205,12 @@
     "fileName": "016_s02_r2c4_Taco_47500_Gold.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::017_s03_r1c1",
@@ -218,12 +218,12 @@
     "fileName": "017_s03_r1c1_Mini_Carousel_99_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::018_s03_r1c2",
@@ -231,12 +231,12 @@
     "fileName": "018_s03_r1c2_Diamond_Swan_99_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::019_s03_r1c3",
@@ -244,12 +244,12 @@
     "fileName": "019_s03_r1c3_Cute_Snowman_99_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::020_s03_r1c4",
@@ -257,12 +257,12 @@
     "fileName": "020_s03_r1c4_Sapphire_Necklace_199_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::021_s03_r2c1",
@@ -270,12 +270,12 @@
     "fileName": "021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::022_s03_r2c2",
@@ -283,10 +283,10 @@
     "fileName": "022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge.png",
     "badgeType": "mystery-gifts-box",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -296,12 +296,12 @@
     "fileName": "023_s03_r2c3_Antelope_399_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::024_s03_r2c4",
@@ -309,7 +309,7 @@
     "fileName": "024_s03_r2c4_Surprise_Gift_399_Diamond.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -325,10 +325,10 @@
     "giftId": "classic::025_s04_r1c1",
     "folder": "classic",
     "fileName": "025_s04_r1c1_Drink_Tea_399_Diamond.png",
-    "badgeType": "upgrade-gift",
+    "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.562,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": [
       246,
       15,
@@ -337,7 +337,7 @@
     ],
     "bestScore": 17.166,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::026_s04_r1c2",
@@ -345,12 +345,12 @@
     "fileName": "026_s04_r1c2_Love_Birds_399_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::027_s04_r1c3",
@@ -358,8 +358,8 @@
     "fileName": "027_s04_r1c3_Waving_Bear_399_Diamond_badge.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.965,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       15,
@@ -368,7 +368,7 @@
     ],
     "bestScore": 2.912,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::028_s04_r1c4",
@@ -376,8 +376,8 @@
     "fileName": "028_s04_r1c4_Love_Motto_399_Diamond_badge.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.972,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       215,
       15,
@@ -386,7 +386,7 @@
     ],
     "bestScore": 2.792,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::029_s04_r2c1",
@@ -394,12 +394,12 @@
     "fileName": "029_s04_r2c1_Donkey_399_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::030_s04_r2c2",
@@ -407,12 +407,12 @@
     "fileName": "030_s04_r2c2_Kiss_399_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::031_s04_r2c3",
@@ -420,12 +420,12 @@
     "fileName": "031_s04_r2c3_Gold_Lion_699_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::032_s04_r2c4",
@@ -433,25 +433,25 @@
     "fileName": "032_s04_r2c4_Sweet_Milkshake_699_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::033_s05_r1c1",
     "folder": "classic",
     "fileName": "033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "weekly-gifts",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::034_s05_r1c2",
@@ -459,10 +459,10 @@
     "fileName": "034_s05_r1c2_Shooting_Star_799_Diamond_badge.png",
     "badgeType": "cumulative-gift",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -470,27 +470,27 @@
     "giftId": "classic::035_s05_r1c3",
     "folder": "classic",
     "fileName": "035_s05_r1c3_Congratulations_999_Diamond_badge.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "profile-display",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::036_s05_r1c4",
     "folder": "classic",
     "fileName": "036_s05_r1c4_Apology_Letter_999_Diamond_badge.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "profile-display",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::037_s05_r2c1",
@@ -498,7 +498,7 @@
     "fileName": "037_s05_r2c1_Thank-You_Card_999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -516,8 +516,8 @@
     "fileName": "038_s05_r2c2_Confession_Letter_999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.926,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       22,
@@ -526,7 +526,7 @@
     ],
     "bestScore": 6.667,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::039_s05_r2c3",
@@ -534,12 +534,12 @@
     "fileName": "039_s05_r2c3_Beautiful_Rose_999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::040_s05_r2c4",
@@ -547,10 +547,10 @@
     "fileName": "040_s05_r2c4_Congrats_Trophy_999_Diamond.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -560,12 +560,12 @@
     "fileName": "041_s06_r1c1_Sweets_Food_1099_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::042_s06_r1c2",
@@ -573,12 +573,12 @@
     "fileName": "042_s06_r1c2_Sweet_Chocolate_1299_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::043_s06_r1c3",
@@ -586,21 +586,21 @@
     "fileName": "043_s06_r1c3_Desert_Castle_1299_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::044_s06_r1c4",
     "folder": "classic",
     "fileName": "044_s06_r1c4_Love_Blessing_1299_Diamond_badge.png",
-    "badgeType": "mystery-gifts-box",
+    "badgeType": "color-customized",
     "hasBadge": true,
-    "confidence": 0.563,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": [
       215,
       18,
@@ -609,7 +609,7 @@
     ],
     "bestScore": 15.693,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::045_s06_r2c1",
@@ -617,12 +617,12 @@
     "fileName": "045_s06_r2c1_Crystal_Diamond_1999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::046_s06_r2c2",
@@ -630,8 +630,8 @@
     "fileName": "046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.875,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       15,
@@ -640,7 +640,7 @@
     ],
     "bestScore": 5.456,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::047_s06_r2c3",
@@ -648,12 +648,12 @@
     "fileName": "047_s06_r2c3_Hand_Heart_1999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::048_s06_r2c4",
@@ -661,7 +661,7 @@
     "fileName": "048_s06_r2c4_Flamingos_Love_2999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -679,7 +679,7 @@
     "fileName": "049_s07_r1c1_AAAA_Winner_2999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -697,8 +697,8 @@
     "fileName": "050_s07_r1c2_Feathers_2999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.926,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       21,
@@ -707,7 +707,7 @@
     ],
     "bestScore": 6.528,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::051_s07_r1c3",
@@ -715,7 +715,7 @@
     "fileName": "051_s07_r1c3_Custom_Crown_2999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       225,
@@ -733,7 +733,7 @@
     "fileName": "052_s07_r1c4_Forever_Love_2999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -751,12 +751,12 @@
     "fileName": "053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::054_s07_r2c2",
@@ -764,8 +764,8 @@
     "fileName": "054_s07_r2c2_Flying_Flowers_3999_Diamond.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.875,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       8,
@@ -774,7 +774,7 @@
     ],
     "bestScore": 5.541,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::055_s07_r2c3",
@@ -782,8 +782,8 @@
     "fileName": "055_s07_r2c3_Love_Airdrop_3999_Diamond.png",
     "badgeType": "on-mic-effect",
     "hasBadge": true,
-    "confidence": 0.964,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       8,
@@ -792,7 +792,7 @@
     ],
     "bestScore": 2.848,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::056_s07_r2c4",
@@ -800,12 +800,12 @@
     "fileName": "056_s07_r2c4_Desert_Antelope_4999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::057_s08_r1c1",
@@ -813,12 +813,12 @@
     "fileName": "057_s08_r1c1_Ocean_Romance_4999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::058_s08_r1c2",
@@ -826,12 +826,12 @@
     "fileName": "058_s08_r1c2_Heart_Bubble_4999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::059_s08_r1c3",
@@ -839,12 +839,12 @@
     "fileName": "059_s08_r1c3_Fireworks_4999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::060_s08_r1c4",
@@ -852,12 +852,12 @@
     "fileName": "060_s08_r1c4_The_Gala_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::061_s08_r2c1",
@@ -865,8 +865,8 @@
     "fileName": "061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.682,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       246,
       0,
@@ -875,7 +875,7 @@
     ],
     "bestScore": 20.429,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::062_s08_r2c2",
@@ -883,8 +883,8 @@
     "fileName": "062_s08_r2c2_Magic_Castle_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.696,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       0,
@@ -893,7 +893,7 @@
     ],
     "bestScore": 19.09,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::063_s08_r2c3",
@@ -901,12 +901,12 @@
     "fileName": "063_s08_r2c3_Sky_Fleet_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::064_s08_r2c4",
@@ -914,12 +914,12 @@
     "fileName": "064_s08_r2c4_Skyline_Flight_5999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::065_s09_r1c1",
@@ -927,12 +927,12 @@
     "fileName": "065_s09_r1c1_Coastal_Race_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::066_s09_r1c2",
@@ -940,8 +940,8 @@
     "fileName": "066_s09_r1c2_Flying_Car_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.927,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       25,
@@ -950,7 +950,7 @@
     ],
     "bestScore": 6.419,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::067_s09_r1c3",
@@ -958,7 +958,7 @@
     "fileName": "067_s09_r1c3_Urban_Night_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       225,
@@ -976,12 +976,12 @@
     "fileName": "068_s09_r1c4_Dragon_of_Fortune_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::069_s09_r2c1",
@@ -989,7 +989,7 @@
     "fileName": "069_s09_r2c1_Boating_Trip_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1007,8 +1007,8 @@
     "fileName": "070_s09_r2c2_Burning_Wheels_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.926,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       14,
@@ -1017,7 +1017,7 @@
     ],
     "bestScore": 6.523,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::071_s09_r2c3",
@@ -1025,7 +1025,7 @@
     "fileName": "071_s09_r2c3_Luxury_Car_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       225,
@@ -1043,7 +1043,7 @@
     "fileName": "072_s09_r2c4_Ain_Dubai_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1059,53 +1059,53 @@
     "giftId": "classic::073_s10_r1c1",
     "folder": "classic",
     "fileName": "073_s10_r1c1_Galaxy_Rose_5999_Diamond.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "profile-display",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::074_s10_r1c2",
     "folder": "classic",
     "fileName": "074_s10_r1c2_True_Love_5999_Diamond.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "profile-display",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::075_s10_r1c3",
     "folder": "classic",
     "fileName": "075_s10_r1c3_Desert_Race_5999_Diamond.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "sound-effect",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::076_s10_r1c4",
     "folder": "classic",
     "fileName": "076_s10_r1c4_Love_of_Dinosaur_5999_Diamond.png",
-    "badgeType": null,
-    "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "badgeType": "profile-display",
+    "hasBadge": true,
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "classic::077_s10_r2c1",
@@ -1113,12 +1113,12 @@
     "fileName": "077_s10_r2c1_Above_the_Sky_5999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::078_s10_r2c2",
@@ -1126,8 +1126,8 @@
     "fileName": "078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.933,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       22,
@@ -1136,7 +1136,7 @@
     ],
     "bestScore": 6.132,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::079_s10_r2c3",
@@ -1144,12 +1144,12 @@
     "fileName": "079_s10_r2c3_Race_Car_Show_5999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::080_s10_r2c4",
@@ -1157,7 +1157,7 @@
     "fileName": "080_s10_r2c4_Jumping_Horse_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1175,10 +1175,10 @@
     "fileName": "081_s11_r1c1_Black_Luxury_Car_5999_Diamond.png",
     "badgeType": "upgrade-gift",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1188,8 +1188,8 @@
     "fileName": "082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.927,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       3,
@@ -1198,7 +1198,7 @@
     ],
     "bestScore": 6.476,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::083_s11_r1c3",
@@ -1206,12 +1206,12 @@
     "fileName": "083_s11_r1c3_I_LOVE_YOU_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::084_s11_r1c4",
@@ -1219,7 +1219,7 @@
     "fileName": "084_s11_r1c4_Golden_Music_Box_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1237,10 +1237,10 @@
     "fileName": "085_s11_r2c1_Glory_Road_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1250,8 +1250,8 @@
     "fileName": "086_s11_r2c2_Confession_Heart_5999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.933,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       8,
@@ -1260,7 +1260,7 @@
     ],
     "bestScore": 6.166,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::087_s11_r2c3",
@@ -1268,10 +1268,10 @@
     "fileName": "087_s11_r2c3_Moonlight_Dance_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1281,12 +1281,12 @@
     "fileName": "088_s11_r2c4_Through_the_Galaxy_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::089_s12_r1c1",
@@ -1294,12 +1294,12 @@
     "fileName": "089_s12_r1c1_Polar_Bear_5999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::090_s12_r1c2",
@@ -1307,8 +1307,8 @@
     "fileName": "090_s12_r1c2_Red_Sports_Car_5999_Diamond.png",
     "badgeType": "weekly-gifts",
     "hasBadge": true,
-    "confidence": 0.793,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       21,
@@ -1317,7 +1317,7 @@
     ],
     "bestScore": 5.083,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::091_s12_r1c3",
@@ -1325,12 +1325,12 @@
     "fileName": "091_s12_r1c3_Jet_Ski_Ride_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::092_s12_r1c4",
@@ -1338,7 +1338,7 @@
     "fileName": "092_s12_r1c4_Romantic_Gift_6999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1356,12 +1356,12 @@
     "fileName": "093_s12_r2c1_Thunder_Dragon_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::094_s12_r2c2",
@@ -1369,8 +1369,8 @@
     "fileName": "094_s12_r2c2_Romantic_Train_6999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.927,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       12,
@@ -1379,7 +1379,7 @@
     ],
     "bestScore": 6.4,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::095_s12_r2c3",
@@ -1387,12 +1387,12 @@
     "fileName": "095_s12_r2c3_Best_Biker_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::096_s12_r2c4",
@@ -1400,7 +1400,7 @@
     "fileName": "096_s12_r2c4_Private_Jet_6999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1418,7 +1418,7 @@
     "fileName": "097_s13_r1c1_Galloping_Horse_6999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1436,12 +1436,12 @@
     "fileName": "098_s13_r1c2_Reborn_Tiger_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::099_s13_r1c3",
@@ -1449,12 +1449,12 @@
     "fileName": "099_s13_r1c3_Fantasy_Horse_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::100_s13_r1c4",
@@ -1462,12 +1462,12 @@
     "fileName": "100_s13_r1c4_Reborn_Lion_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::101_s13_r2c1",
@@ -1475,12 +1475,12 @@
     "fileName": "101_s13_r2c1_Helicopter_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::102_s13_r2c2",
@@ -1488,12 +1488,12 @@
     "fileName": "102_s13_r2c2_Yacht_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::103_s13_r2c3",
@@ -1501,12 +1501,12 @@
     "fileName": "103_s13_r2c3_Yellow_Sports_Car_6999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::104_s13_r2c4",
@@ -1514,7 +1514,7 @@
     "fileName": "104_s13_r2c4_King_and_Queen_7999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1532,12 +1532,12 @@
     "fileName": "105_s14_r1c1_Luxury_Yacht_7999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::106_s14_r1c2",
@@ -1545,12 +1545,12 @@
     "fileName": "106_s14_r1c2_Motorcycle_7999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::107_s14_r1c3",
@@ -1558,12 +1558,12 @@
     "fileName": "107_s14_r1c3_Leopard_King_8999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::108_s14_r1c4",
@@ -1571,8 +1571,8 @@
     "fileName": "108_s14_r1c4_Legacy_of_Dragon_8999_Diamond.png",
     "badgeType": "sound-effect",
     "hasBadge": true,
-    "confidence": 0.97,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       215,
       3,
@@ -1581,7 +1581,7 @@
     ],
     "bestScore": 2.776,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::109_s14_r2c1",
@@ -1589,7 +1589,7 @@
     "fileName": "109_s14_r2c1_Eagle_King_8999_Diamond_badge.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1607,12 +1607,12 @@
     "fileName": "110_s14_r2c2_Black_Panther_8999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::111_s14_r2c3",
@@ -1620,12 +1620,12 @@
     "fileName": "111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::112_s14_r2c4",
@@ -1633,12 +1633,12 @@
     "fileName": "112_s14_r2c4_Golden_Limousine_8999_Diamond_badge.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::113_s15_r1c1",
@@ -1646,7 +1646,7 @@
     "fileName": "113_s15_r1c1_Love_Concert_9999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1664,8 +1664,8 @@
     "fileName": "114_s15_r1c2_Heart_of_Ocean_13999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.926,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       17,
@@ -1674,7 +1674,7 @@
     ],
     "bestScore": 6.512,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::115_s15_r1c3",
@@ -1682,7 +1682,7 @@
     "fileName": "115_s15_r1c3_Pink_Sports_Car_13999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       225,
@@ -1700,7 +1700,7 @@
     "fileName": "116_s15_r1c4_Attention_Please_13999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       215,
@@ -1718,7 +1718,7 @@
     "fileName": "117_s15_r2c1_Race_Car_13999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1736,8 +1736,8 @@
     "fileName": "118_s15_r2c2_Love_Diamond_Ring_15999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.926,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       18,
@@ -1746,7 +1746,7 @@
     ],
     "bestScore": 6.374,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::119_s15_r2c3",
@@ -1754,10 +1754,10 @@
     "fileName": "119_s15_r2c3_Merry-Go-Round_34999_Diamond.png",
     "badgeType": "sound-effect",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1767,8 +1767,8 @@
     "fileName": "120_s15_r2c4_Roaring_Lion_43999_Diamond.png",
     "badgeType": "sound-effect",
     "hasBadge": true,
-    "confidence": 0.985,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       215,
       18,
@@ -1777,7 +1777,7 @@
     ],
     "bestScore": 2.247,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::121_s16_r1c1",
@@ -1785,7 +1785,7 @@
     "fileName": "121_s16_r1c1_Wolf_and_Moon_43999_Diamond.png",
     "badgeType": "sound-effect",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       246,
@@ -1803,12 +1803,12 @@
     "fileName": "122_s16_r1c2_Throne_54999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::123_s16_r1c3",
@@ -1816,8 +1816,8 @@
     "fileName": "123_s16_r1c3_Rushing_Cars_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.778,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       9,
@@ -1826,7 +1826,7 @@
     ],
     "bestScore": 9.069,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::124_s16_r1c4",
@@ -1834,8 +1834,8 @@
     "fileName": "124_s16_r1c4_Ferris_Wheel_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.784,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       215,
       9,
@@ -1844,7 +1844,7 @@
     ],
     "bestScore": 8.804,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::125_s16_r2c1",
@@ -1852,8 +1852,8 @@
     "fileName": "125_s16_r2c1_Island_Paradise_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.928,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       246,
       8,
@@ -1862,7 +1862,7 @@
     ],
     "bestScore": 2.919,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::126_s16_r2c2",
@@ -1870,8 +1870,8 @@
     "fileName": "126_s16_r2c2_Aerobatic_Flight_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.751,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       8,
@@ -1880,7 +1880,7 @@
     ],
     "bestScore": 9.918,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::127_s16_r2c3",
@@ -1888,8 +1888,8 @@
     "fileName": "127_s16_r2c3_Meteor_Shower_199999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.783,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       8,
@@ -1898,7 +1898,7 @@
     ],
     "bestScore": 8.916,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::128_s16_r2c4",
@@ -1906,10 +1906,10 @@
     "fileName": "128_s16_r2c4_Castle_199999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1919,10 +1919,10 @@
     "fileName": "129_s17_r1c1_Island_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -1932,8 +1932,8 @@
     "fileName": "130_s17_r1c2_Aerobatic_Flight_169999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.748,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       15,
@@ -1942,7 +1942,7 @@
     ],
     "bestScore": 10.01,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::131_s17_r1c3",
@@ -1950,8 +1950,8 @@
     "fileName": "131_s17_r1c3_Meteor_Shower_199999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 0.779,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       15,
@@ -1960,7 +1960,7 @@
     ],
     "bestScore": 9.077,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "classic::132_s17_r1c4",
@@ -1968,7 +1968,7 @@
     "fileName": "132_s17_r1c4_Castle_199999_Diamond.png",
     "badgeType": "show-all-rooms",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "template-match",
     "bbox": [
       214,
@@ -1986,12 +1986,12 @@
     "fileName": "133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "activity::01_s01_r1c1",
@@ -1999,12 +1999,12 @@
     "fileName": "01_s01_r1c1_Delicious_Iftar_1999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "activity::02_s01_r1c2",
@@ -2012,10 +2012,10 @@
     "fileName": "02_s01_r1c2_Little_Sunflower_3_Diamond.png",
     "badgeType": "monthly-gifts",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -2025,8 +2025,8 @@
     "fileName": "03_s01_r1c3_Birthday_199_Diamond.png",
     "badgeType": "unknown-badge",
     "hasBadge": true,
-    "confidence": 0.255,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       225,
       18,
@@ -2035,7 +2035,7 @@
     ],
     "bestScore": 38.259,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "activity::04_s01_r1c4",
@@ -2043,12 +2043,12 @@
     "fileName": "04_s01_r1c4_Happy_Birthday_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "activity::05_s01_r2c1",
@@ -2056,10 +2056,10 @@
     "fileName": "05_s01_r2c1_Birthday_Party_5999_Diamond.png",
     "badgeType": "sound-effect",
     "hasBadge": true,
-    "confidence": 1.0,
+    "confidence": 1,
     "source": "sample-seed",
     "bbox": null,
-    "bestScore": 0.0,
+    "bestScore": 0,
     "reviewRequired": false,
     "reviewStatus": "pending"
   },
@@ -2069,12 +2069,12 @@
     "fileName": "01_s01_r1c1_Nice_9_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::01_s02_r1c1",
@@ -2082,12 +2082,12 @@
     "fileName": "01_s02_r1c1_Hawk_Necklace_699_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::02_s01_r1c2",
@@ -2095,12 +2095,12 @@
     "fileName": "02_s01_r1c2_Starlight_Bottle_19_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::02_s02_r1c2",
@@ -2108,21 +2108,21 @@
     "fileName": "02_s02_r1c2_Hawk_2999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::03_s01_r1c3",
     "folder": "member",
     "fileName": "03_s01_r1c3_Fiery_Heart_29_Diamond.png",
-    "badgeType": "on-mic-effect",
+    "badgeType": "color-customized",
     "hasBadge": true,
-    "confidence": 0.503,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-corrected",
     "bbox": [
       225,
       26,
@@ -2131,7 +2131,7 @@
     ],
     "bestScore": 21.848,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "corrected"
   },
   {
     "giftId": "member::03_s02_r1c3",
@@ -2139,12 +2139,12 @@
     "fileName": "03_s02_r1c3_Firebird_4999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::04_s01_r1c4",
@@ -2152,12 +2152,12 @@
     "fileName": "04_s01_r1c4_Fruit_Basket_399_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::04_s02_r1c4",
@@ -2165,12 +2165,12 @@
     "fileName": "04_s02_r1c4_Train_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::05_s02_r2c1",
@@ -2178,12 +2178,12 @@
     "fileName": "05_s02_r2c1_Love_Match_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "member::06_s02_r2c2",
@@ -2191,8 +2191,8 @@
     "fileName": "06_s02_r2c2_Fountain_of_Love_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.693,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       9,
@@ -2201,7 +2201,7 @@
     ],
     "bestScore": 15.934,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::01_s01_r1c1",
@@ -2209,12 +2209,12 @@
     "fileName": "01_s01_r1c1_Night_Race_Car_5999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::01_s02_r1c1",
@@ -2222,12 +2222,12 @@
     "fileName": "01_s02_r1c1_Horse_Bracelet_199_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::02_s01_r1c2",
@@ -2235,12 +2235,12 @@
     "fileName": "02_s01_r1c2_Chess_19_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::02_s02_r1c2",
@@ -2248,12 +2248,12 @@
     "fileName": "02_s02_r1c2_Violin_399_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::03_s01_r1c3",
@@ -2261,12 +2261,12 @@
     "fileName": "03_s01_r1c3_Saxophone_399_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::03_s02_r1c3",
@@ -2274,12 +2274,12 @@
     "fileName": "03_s02_r1c3_Crown_999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::04_s01_r1c4",
@@ -2287,8 +2287,8 @@
     "fileName": "04_s01_r1c4_Premium_Cake_7999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.723,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       215,
       15,
@@ -2297,7 +2297,7 @@
     ],
     "bestScore": 14.818,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::04_s02_r1c4",
@@ -2305,12 +2305,12 @@
     "fileName": "04_s02_r1c4_Sword_of_Glory_1999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::05_s01_r2c1",
@@ -2318,8 +2318,8 @@
     "fileName": "05_s01_r2c1_Green_Heaven_6999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.731,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       246,
       11,
@@ -2328,7 +2328,7 @@
     ],
     "bestScore": 15.979,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::05_s02_r2c1",
@@ -2336,12 +2336,12 @@
     "fileName": "05_s02_r2c1_Rose_Beauty_2999_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::06_s01_r2c2",
@@ -2349,8 +2349,8 @@
     "fileName": "06_s01_r2c2_Blue_Diamond_5999_Diamond.png",
     "badgeType": "profile-display",
     "hasBadge": true,
-    "confidence": 0.694,
-    "source": "template-match",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": [
       236,
       11,
@@ -2359,7 +2359,7 @@
     ],
     "bestScore": 15.921,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::07_s01_r2c3",
@@ -2367,12 +2367,12 @@
     "fileName": "07_s01_r2c3_Shining_Heart_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   },
   {
     "giftId": "royal::08_s01_r2c4",
@@ -2380,11 +2380,11 @@
     "fileName": "08_s01_r2c4_Hourglass_29_Diamond.png",
     "badgeType": null,
     "hasBadge": false,
-    "confidence": 0.0,
-    "source": "detector-none",
+    "confidence": 1,
+    "source": "manual-confirmed",
     "bbox": null,
     "bestScore": null,
     "reviewRequired": true,
-    "reviewStatus": "pending"
+    "reviewStatus": "confirmed"
   }
 ]

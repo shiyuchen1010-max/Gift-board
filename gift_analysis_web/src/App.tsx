@@ -7,7 +7,6 @@ import { GiftExplorerSection } from './components/sections/gift-explorer-section
 import { InsightSection } from './components/sections/insight-section';
 import { ManualReviewSection } from './components/sections/manual-review-section';
 import { OverviewSection } from './components/sections/overview-section';
-
 import { useGiftFilters } from './hooks/use-gift-filters';
 import {
   buildBadgeSummaries,
@@ -19,31 +18,37 @@ import {
 } from './lib/analytics';
 import { loadDashboardData } from './lib/data-loader';
 import { buildInsights } from './lib/insights';
+import { applyManualReviewsToGifts } from './lib/manual-review';
 import type { BadgeDefinition, GiftRecord, ManualBadgeReviewItem } from './types/gift';
 
-
 export default function App() {
-  const [gifts, setGifts] = useState<GiftRecord[]>([]);
+  const [sourceGifts, setSourceGifts] = useState<GiftRecord[]>([]);
   const [badges, setBadges] = useState<BadgeDefinition[]>([]);
   const [manualReviews, setManualReviews] = useState<ManualBadgeReviewItem[]>([]);
+  const [savedManualReviews, setSavedManualReviews] = useState<ManualBadgeReviewItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     loadDashboardData()
       .then((data) => {
-        setGifts(data.gifts);
+        setSourceGifts(data.gifts);
         setBadges(data.badges);
         setManualReviews(data.manualReviews);
+        setSavedManualReviews(data.manualReviews);
         setLoading(false);
       })
-
       .catch(() => {
         console.error('加载礼物看板数据失败');
         setHasError(true);
         setLoading(false);
       });
   }, []);
+
+  const gifts = useMemo(
+    () => applyManualReviewsToGifts(sourceGifts, manualReviews, badges),
+    [sourceGifts, manualReviews, badges],
+  );
 
   const { filters, filteredGifts, options, updateFilter, resetFilters } = useGiftFilters(gifts, badges);
 
@@ -84,12 +89,19 @@ export default function App() {
       />
       <GiftExplorerSection gifts={filteredGifts} badgeMap={badgeMap} />
       <BadgeAnalysisSection summaries={badgeSummaries} />
-      <ManualReviewSection items={manualReviews} />
+      <ManualReviewSection
+        items={manualReviews}
+        savedItems={savedManualReviews}
+        badges={badges}
+        gifts={gifts}
+        onItemsChange={setManualReviews}
+        onItemsSaved={setSavedManualReviews}
+      />
       <InsightSection insights={insights} />
-
     </AppShell>
   );
 }
+
 
 function LoadingState() {
   return (

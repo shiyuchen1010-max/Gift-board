@@ -61,11 +61,39 @@ python scripts/build_gift_dataset.py
 推荐操作方式：
 
 1. 在网页的“人工复核”区按图核对礼物
-2. 打开 `gift_analysis_config/manual_badge_reviews.json`
+2. 打开 `gift_analysis_config/manual_badge_reviews.json`（这是人工复核的唯一源文件）
 3. 把已确认项改成 `confirmed`
 4. 把识别错误项改成 `corrected`，并补 `reviewHasBadge` / `reviewBadgeType`
-5. 重跑 `python scripts/build_gift_dataset.py`
-6. 刷新网页，最终结果会同步更新
+5. 在项目根目录重跑 `python scripts/build_gift_dataset.py`
+6. 进入 `gift_analysis_web` 执行构建，把最新前端页面输出到 `docs`
+7. 提交 `gift_analysis_config`、`gift_analysis_web/src`、`gift_analysis_web/public/data`、`docs` 到仓库
+8. 推送到 GitHub 后，Pages 会自动展示最新结果
+
+### 复核后如何更新到仓库
+
+每次人工复核完成后，按下面顺序即可：
+
+```bash
+python scripts/build_gift_dataset.py
+cd gift_analysis_web
+npm run build -- --outDir ../docs
+```
+
+然后提交并推送这些变化：
+
+```bash
+git add gift_analysis_config gift_analysis_web/src gift_analysis_web/public/data docs
+git commit -m "update manual badge reviews"
+git push
+```
+
+如果这次只是改了人工复核结果、没有改前端代码，也至少要提交：
+
+- `gift_analysis_config/manual_badge_reviews.json`
+- `gift_analysis_web/public/data/manual_badge_reviews.json`
+- `gift_analysis_web/public/data/gifts.json`
+- `docs/`
+
 
 ### 如何补充玩法说明
 
