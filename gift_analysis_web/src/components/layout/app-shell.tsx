@@ -1,4 +1,5 @@
-import { BarChart3, GalleryVerticalEnd, Sparkles, Target } from 'lucide-react';
+import { BarChart3, ClipboardCheck, GalleryVerticalEnd, Sparkles, Target } from 'lucide-react';
+
 import type { ReactNode } from 'react';
 
 interface AppShellProps {

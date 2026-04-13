@@ -1,5 +1,7 @@
 import { AlertTriangle, CheckCircle2, ClipboardCheck, Edit3, ScanSearch } from 'lucide-react';
+import { resolveAssetPath } from '../../lib/format';
 import type { ManualBadgeReviewItem } from '../../types/gift';
+
 
 interface ManualReviewSectionProps {
   items: ManualBadgeReviewItem[];

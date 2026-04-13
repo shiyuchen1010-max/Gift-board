@@ -1,6 +1,7 @@
 import { Layers3, Sparkle, Star } from 'lucide-react';
 import type { BadgeDefinition, GiftRecord } from '../../types/gift';
-import { formatPrice } from '../../lib/format';
+import { formatPrice, resolveAssetPath } from '../../lib/format';
+
 
 interface GiftCardProps {
   gift: GiftRecord;
@@ -14,7 +15,8 @@ export function GiftCard({ gift, badgeDefinition }: GiftCardProps) {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,199,240,0.22),transparent_30%),radial-gradient(circle_at_center,rgba(109,94,247,0.16),transparent_40%)]" />
         <div className="relative z-10 flex min-h-[272px] items-center justify-center rounded-[24px] border border-white/10 bg-slate-950/70 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)]">
           <img
-            src={`/${gift.relativeImagePath}`}
+            src={resolveAssetPath(gift.relativeImagePath)}
+
             alt={gift.name}
             loading="lazy"
             className="max-h-60 max-w-full rounded-[20px] object-contain drop-shadow-[0_18px_36px_rgba(8,15,35,0.55)] transition duration-500 group-hover:scale-[1.02]"

@@ -1,7 +1,10 @@
+import { resolveAssetPath } from './format';
 import type { BadgeDefinition, GiftRecord, ManualBadgeReviewItem } from '../types/gift';
 
+
 async function fetchJson<T>(path: string): Promise<T> {
-  const response = await fetch(path);
+  const response = await fetch(resolveAssetPath(path));
+
   if (!response.ok) {
     console.error(`加载数据失败: ${path}`);
     return [] as T;

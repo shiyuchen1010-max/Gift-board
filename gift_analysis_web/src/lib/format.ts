@@ -29,3 +29,10 @@ export function formatBadgeLabel(text: string | null | undefined): string {
   }
   return text.replace(/[-_]/g, ' ');
 }
+
+export function resolveAssetPath(path: string): string {
+  const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+  return new URL(normalizedPath, document.baseURI).toString();
+}
+
+
