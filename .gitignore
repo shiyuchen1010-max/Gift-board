@@ -1,0 +1,11 @@
+gift_analysis_web/node_modules/
+gift_analysis_web/.tools/
+gift_analysis_web/.runtime/
+gift_analysis_web/dist/
+gift_analysis_web/.playwright-cli/
+.codebuddy/
+*.tsbuildinfo
+*.log
+Thumbs.db
+.DS_Store
+

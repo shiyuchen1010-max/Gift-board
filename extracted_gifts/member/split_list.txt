@@ -1,0 +1,26 @@
+文件夹: member
+============================================================
+源目录: D:\礼物截图\member
+截图数量: 2
+导出数量: 16
+
+[01] Screenshot_2026-04-10-17-46-45-401_com.yalla.yall.jpg
+  - r1c1 -> 01_s01_r1c1.png
+  - r1c2 -> 02_s01_r1c2.png
+  - r1c3 -> 03_s01_r1c3.png
+  - r1c4 -> 04_s01_r1c4.png
+  - r2c1 -> 05_s01_r2c1.png
+  - r2c2 -> 06_s01_r2c2.png
+  - r2c3 -> 07_s01_r2c3.png
+  - r2c4 -> 08_s01_r2c4.png
+
+[02] Screenshot_2026-04-10-17-46-47-777_com.yalla.yall.jpg
+  - r1c1 -> 01_s02_r1c1.png
+  - r1c2 -> 02_s02_r1c2.png
+  - r1c3 -> 03_s02_r1c3.png
+  - r1c4 -> 04_s02_r1c4.png
+  - r2c1 -> 05_s02_r2c1.png
+  - r2c2 -> 06_s02_r2c2.png
+  - r2c3 -> 07_s02_r2c3.png
+  - r2c4 -> 08_s02_r2c4.png
+

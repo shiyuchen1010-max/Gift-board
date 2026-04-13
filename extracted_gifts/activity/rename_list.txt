@@ -1,0 +1,10 @@
+文件夹: activity
+============================================================
+重命名数量: 5
+保持不变: 0
+
+[已重命名] 01_s01_r1c1_Delicious_Iftar_1999.png -> 01_s01_r1c1_Delicious_Iftar_1999_Diamond.png
+[已重命名] 02_s01_r1c2_Little_Sunflower_3.png -> 02_s01_r1c2_Little_Sunflower_3_Diamond.png
+[已重命名] 03_s01_r1c3_Birthday_199.png -> 03_s01_r1c3_Birthday_199_Diamond.png
+[已重命名] 04_s01_r1c4_Happy_Birthday_9.png -> 04_s01_r1c4_Happy_Birthday_9_Diamond.png
+[已重命名] 05_s01_r2c1_Birthday_Party_5999.png -> 05_s01_r2c1_Birthday_Party_5999_Diamond.png

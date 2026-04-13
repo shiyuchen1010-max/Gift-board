@@ -1,0 +1,18 @@
+文件夹: royal
+============================================================
+重命名数量: 13
+保持不变: 0
+
+[已重命名] 01_s01_r1c1_Night_Race_Car_5999.png -> 01_s01_r1c1_Night_Race_Car_5999_Diamond.png
+[已重命名] 02_s01_r1c2_Chess_19.png -> 02_s01_r1c2_Chess_19_Diamond.png
+[已重命名] 03_s01_r1c3_Saxophone_399.png -> 03_s01_r1c3_Saxophone_399_Diamond.png
+[已重命名] 04_s01_r1c4_Premium_Cake_7999.png -> 04_s01_r1c4_Premium_Cake_7999_Diamond.png
+[已重命名] 05_s01_r2c1_Green_Heaven_6999.png -> 05_s01_r2c1_Green_Heaven_6999_Diamond.png
+[已重命名] 06_s01_r2c2_Blue_Diamond_5999.png -> 06_s01_r2c2_Blue_Diamond_5999_Diamond.png
+[已重命名] 07_s01_r2c3_Shining_Heart_29.png -> 07_s01_r2c3_Shining_Heart_29_Diamond.png
+[已重命名] 08_s01_r2c4_Hourglass_29.png -> 08_s01_r2c4_Hourglass_29_Diamond.png
+[已重命名] 01_s02_r1c1_Horse_Bracelet_199.png -> 01_s02_r1c1_Horse_Bracelet_199_Diamond.png
+[已重命名] 02_s02_r1c2_Violin_399.png -> 02_s02_r1c2_Violin_399_Diamond.png
+[已重命名] 03_s02_r1c3_Crown_999.png -> 03_s02_r1c3_Crown_999_Diamond.png
+[已重命名] 04_s02_r1c4_Sword_of_Glory_1999.png -> 04_s02_r1c4_Sword_of_Glory_1999_Diamond.png
+[已重命名] 05_s02_r2c1_Rose_Beauty_2999.png -> 05_s02_r2c1_Rose_Beauty_2999_Diamond.png

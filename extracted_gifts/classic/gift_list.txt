@@ -1,0 +1,146 @@
+Yalla 礼物提取结果（固定两行四列裁剪）
+======================================================================
+
+截图数量: 17
+输出数量: 136
+输出目录: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts
+
+001. 第01张 r1c1  Balloon 1000                             [角标]  -> 001_s01_r1c1_Balloon_1000_badge.png
+002. 第01张 r1c2  Bubble 3                                   -> 002_s01_r1c2_Bubble_3.png
+003. 第01张 r1c3  Frying Pan 9                             [角标]  -> 003_s01_r1c3_Frying_Pan_9_badge.png
+004. 第01张 r1c4  Send You Gift 9                            -> 004_s01_r1c4_Send_You_Gift_9.png
+005. 第01张 r2c1  Brick 9                                    -> 005_s01_r2c1_Brick_9.png
+006. 第01张 r2c2  Love for You 9                             -> 006_s01_r2c2_Love_for_You_9.png
+007. 第01张 r2c3  Oh no! 9                                   -> 007_s01_r2c3_Oh_no_9.png
+008. 第01张 r2c4  Crow 9                                     -> 008_s01_r2c4_Crow_9.png
+009. 第02张 r1c1  Purple Butterfly 19                        -> 009_s02_r1c1_Purple_Butterfly_19.png
+010. 第02张 r1c2  Red Rose 19                              [角标]  -> 010_s02_r1c2_Red_Rose_19_badge.png
+011. 第02张 r1c3  Jeweled Bracelet 29                        -> 011_s02_r1c3_Jeweled_Bracelet_29.png
+012. 第02张 r1c4  Heartbeat 29                               -> 012_s02_r1c4_Heartbeat_29.png
+013. 第02张 r2c1  Flying Letter 29                           -> 013_s02_r2c1_Flying_Letter_29.png
+014. 第02张 r2c2  Peace of Mind 29                           -> 014_s02_r2c2_Peace_of_Mind_29.png
+015. 第02张 r2c3  Messenger Pigeon 69                      [角标]  -> 015_s02_r2c3_Messenger_Pigeon_69_badge.png
+016. 第02张 r2c4  Taco 47500                                 -> 016_s02_r2c4_Taco_47500.png
+017. 第03张 r1c1  Mini Carousel 99                           -> 017_s03_r1c1_Mini_Carousel_99.png
+018. 第03张 r1c2  Diamond Swan 99                            -> 018_s03_r1c2_Diamond_Swan_99.png
+019. 第03张 r1c3  Cute Snowman 99                            -> 019_s03_r1c3_Cute_Snowman_99.png
+020. 第03张 r1c4  Sapphire Necklace 199                      -> 020_s03_r1c4_Sapphire_Necklace_199.png
+021. 第03张 r2c1  Blue Rose Bouquet 199                      -> 021_s03_r2c1_Blue_Rose_Bouquet_199.png
+022. 第03张 r2c2  Mystery Gift Box 299                     [角标]  -> 022_s03_r2c2_Mystery_Gift_Box_299_badge.png
+023. 第03张 r2c3  Antelope 399                               -> 023_s03_r2c3_Antelope_399.png
+024. 第03张 r2c4  Surprise Gift 399                          -> 024_s03_r2c4_Surprise_Gift_399.png
+025. 第04张 r1c1  Drink Tea 399                              -> 025_s04_r1c1_Drink_Tea_399.png
+026. 第04张 r1c2  Love Birds 399                           [角标]  -> 026_s04_r1c2_Love_Birds_399_badge.png
+027. 第04张 r1c3  Waving Bear 399                          [角标]  -> 027_s04_r1c3_Waving_Bear_399_badge.png
+028. 第04张 r1c4  Love Motto 399                           [角标]  -> 028_s04_r1c4_Love_Motto_399_badge.png
+029. 第04张 r2c1  Donkey 399                                 -> 029_s04_r2c1_Donkey_399.png
+030. 第04张 r2c2  Kiss 399                                 [角标]  -> 030_s04_r2c2_Kiss_399_badge.png
+031. 第04张 r2c3  Gold Lion 699                              -> 031_s04_r2c3_Gold_Lion_699.png
+032. 第04张 r2c4  Sweet Milkshake 699                        -> 032_s04_r2c4_Sweet_Milkshake_699.png
+033. 第05张 r1c1  Fire Extinguisher 699                    [角标]  -> 033_s05_r1c1_Fire_Extinguisher_699_badge.png
+034. 第05张 r1c2  Shooting Star 799                        [角标]  -> 034_s05_r1c2_Shooting_Star_799_badge.png
+035. 第05张 r1c3  Congratulations 999                      [角标]  -> 035_s05_r1c3_Congratulations_999_badge.png
+036. 第05张 r1c4  Apology Letter 999                       [角标]  -> 036_s05_r1c4_Apology_Letter_999_badge.png
+037. 第05张 r2c1  Thank-You Card 999                         -> 037_s05_r2c1_Thank-You_Card_999.png
+038. 第05张 r2c2  Confession Letter 999                      -> 038_s05_r2c2_Confession_Letter_999.png
+039. 第05张 r2c3  Beautiful Rose 999                         -> 039_s05_r2c3_Beautiful_Rose_999.png
+040. 第05张 r2c4  Congrats Trophy 999                        -> 040_s05_r2c4_Congrats_Trophy_999.png
+041. 第06张 r1c1  Sweets Food 1099                           -> 041_s06_r1c1_Sweets_Food_1099.png
+042. 第06张 r1c2  Sweet Chocolate 1299                       -> 042_s06_r1c2_Sweet_Chocolate_1299.png
+043. 第06张 r1c3  Desert Castle 1299                         -> 043_s06_r1c3_Desert_Castle_1299.png
+044. 第06张 r1c4  Love Blessing 1299                       [角标]  -> 044_s06_r1c4_Love_Blessing_1299_badge.png
+045. 第06张 r2c1  Crystal Diamond 1999                       -> 045_s06_r2c1_Crystal_Diamond_1999.png
+046. 第06张 r2c2  Cupid's Arrow 1999                       [角标]  -> 046_s06_r2c2_Cupids_Arrow_1999_badge.png
+047. 第06张 r2c3  Hand Heart 1999                            -> 047_s06_r2c3_Hand_Heart_1999.png
+048. 第06张 r2c4  Flamingos Love 2999                      [角标]  -> 048_s06_r2c4_Flamingos_Love_2999_badge.png
+049. 第07张 r1c1  AAAA Winner 2999                           -> 049_s07_r1c1_AAAA_Winner_2999.png
+050. 第07张 r1c2  Feathers 2999                              -> 050_s07_r1c2_Feathers_2999.png
+051. 第07张 r1c3  Custom Crown 2999                          -> 051_s07_r1c3_Custom_Crown_2999.png
+052. 第07张 r1c4  Forever Love 2999                        [角标]  -> 052_s07_r1c4_Forever_Love_2999_badge.png
+053. 第07张 r2c1  Fun Roller Coaster 3999                    -> 053_s07_r2c1_Fun_Roller_Coaster_3999.png
+054. 第07张 r2c2  Flying Flowers 3999                        -> 054_s07_r2c2_Flying_Flowers_3999.png
+055. 第07张 r2c3  Love Airdrop 3999                          -> 055_s07_r2c3_Love_Airdrop_3999.png
+056. 第07张 r2c4  Desert Antelope 4999                       -> 056_s07_r2c4_Desert_Antelope_4999.png
+057. 第08张 r1c1  Ocean Romance 4999                         -> 057_s08_r1c1_Ocean_Romance_4999.png
+058. 第08张 r1c2  Heart Bubble 4999                          -> 058_s08_r1c2_Heart_Bubble_4999.png
+059. 第08张 r1c3  Fireworks 4999                             -> 059_s08_r1c3_Fireworks_4999.png
+060. 第08张 r1c4  The Gala 5999                              -> 060_s08_r1c4_The_Gala_5999.png
+061. 第08张 r2c1  Glamorous Dance 5999                     [角标]  -> 061_s08_r2c1_Glamorous_Dance_5999_badge.png
+062. 第08张 r2c2  Magic Castle 5999                        [角标]  -> 062_s08_r2c2_Magic_Castle_5999_badge.png
+063. 第08张 r2c3  Sky Fleet 5999                             -> 063_s08_r2c3_Sky_Fleet_5999.png
+064. 第08张 r2c4  Skyline Flight 5999                      [角标]  -> 064_s08_r2c4_Skyline_Flight_5999_badge.png
+065. 第09张 r1c1  Coastal Race 5999                          -> 065_s09_r1c1_Coastal_Race_5999.png
+066. 第09张 r1c2  Flying Car 5999                            -> 066_s09_r1c2_Flying_Car_5999.png
+067. 第09张 r1c3  Urban Night 5999                           -> 067_s09_r1c3_Urban_Night_5999.png
+068. 第09张 r1c4  Dragon of Fortune 5999                     -> 068_s09_r1c4_Dragon_of_Fortune_5999.png
+069. 第09张 r2c1  Boating Trip 5999                        [角标]  -> 069_s09_r2c1_Boating_Trip_5999_badge.png
+070. 第09张 r2c2  Burning Wheels 5999                      [角标]  -> 070_s09_r2c2_Burning_Wheels_5999_badge.png
+071. 第09张 r2c3  Luxury Car 5999                          [角标]  -> 071_s09_r2c3_Luxury_Car_5999_badge.png
+072. 第09张 r2c4  Ain Dubai 5999                           [角标]  -> 072_s09_r2c4_Ain_Dubai_5999_badge.png
+073. 第10张 r1c1  Galaxy Rose 5999                           -> 073_s10_r1c1_Galaxy_Rose_5999.png
+074. 第10张 r1c2  True Love 5999                             -> 074_s10_r1c2_True_Love_5999.png
+075. 第10张 r1c3  Desert Race 5999                           -> 075_s10_r1c3_Desert_Race_5999.png
+076. 第10张 r1c4  Love of Dinosaur 5999                      -> 076_s10_r1c4_Love_of_Dinosaur_5999.png
+077. 第10张 r2c1  Above the Sky 5999                       [角标]  -> 077_s10_r2c1_Above_the_Sky_5999_badge.png
+078. 第10张 r2c2  Puzzle of Love 5999                      [角标]  -> 078_s10_r2c2_Puzzle_of_Love_5999_badge.png
+079. 第10张 r2c3  Race Car Show 5999                       [角标]  -> 079_s10_r2c3_Race_Car_Show_5999_badge.png
+080. 第10张 r2c4  Jumping Horse 5999                       [角标]  -> 080_s10_r2c4_Jumping_Horse_5999_badge.png
+081. 第11张 r1c1  Black Luxury Car 5999                      -> 081_s11_r1c1_Black_Luxury_Car_5999.png
+082. 第11张 r1c2  Happy Ferris Wheel 5999                    -> 082_s11_r1c2_Happy_Ferris_Wheel_5999.png
+083. 第11张 r1c3  I LOVE YOU! 5999                           -> 083_s11_r1c3_I_LOVE_YOU_5999.png
+084. 第11张 r1c4  Golden Music Box 5999                      -> 084_s11_r1c4_Golden_Music_Box_5999.png
+085. 第11张 r2c1  Glory Road 5999                            -> 085_s11_r2c1_Glory_Road_5999.png
+086. 第11张 r2c2  Confession Heart 5999                    [角标]  -> 086_s11_r2c2_Confession_Heart_5999_badge.png
+087. 第11张 r2c3  Moonlight Dance 5999                       -> 087_s11_r2c3_Moonlight_Dance_5999.png
+088. 第11张 r2c4  Through the Galaxy 5999                    -> 088_s11_r2c4_Through_the_Galaxy_5999.png
+089. 第12张 r1c1  Polar Bear 5999                          [角标]  -> 089_s12_r1c1_Polar_Bear_5999_badge.png
+090. 第12张 r1c2  Red Sports Car 5999                        -> 090_s12_r1c2_Red_Sports_Car_5999.png
+091. 第12张 r1c3  Jet Ski Ride 6999                          -> 091_s12_r1c3_Jet_Ski_Ride_6999.png
+092. 第12张 r1c4  Romantic Gift 6999                         -> 092_s12_r1c4_Romantic_Gift_6999.png
+093. 第12张 r2c1  Thunder Dragon 6999                        -> 093_s12_r2c1_Thunder_Dragon_6999.png
+094. 第12张 r2c2  Romantic Train 6999                        -> 094_s12_r2c2_Romantic_Train_6999.png
+095. 第12张 r2c3  Best Biker 6999                            -> 095_s12_r2c3_Best_Biker_6999.png
+096. 第12张 r2c4  Private Jet 6999                           -> 096_s12_r2c4_Private_Jet_6999.png
+097. 第13张 r1c1  Galloping Horse 6999                       -> 097_s13_r1c1_Galloping_Horse_6999.png
+098. 第13张 r1c2  Reborn Tiger 6999                          -> 098_s13_r1c2_Reborn_Tiger_6999.png
+099. 第13张 r1c3  Fantasy Horse 6999                         -> 099_s13_r1c3_Fantasy_Horse_6999.png
+100. 第13张 r1c4  Reborn Lion 6999                           -> 100_s13_r1c4_Reborn_Lion_6999.png
+101. 第13张 r2c1  Helicopter 6999                            -> 101_s13_r2c1_Helicopter_6999.png
+102. 第13张 r2c2  Yacht 6999                                 -> 102_s13_r2c2_Yacht_6999.png
+103. 第13张 r2c3  Yellow Sports Car 6999                     -> 103_s13_r2c3_Yellow_Sports_Car_6999.png
+104. 第13张 r2c4  King and Queen 7999                        -> 104_s13_r2c4_King_and_Queen_7999.png
+105. 第14张 r1c1  Luxury Yacht 7999                          -> 105_s14_r1c1_Luxury_Yacht_7999.png
+106. 第14张 r1c2  Motorcycle 7999                            -> 106_s14_r1c2_Motorcycle_7999.png
+107. 第14张 r1c3  Leopard King 8999                          -> 107_s14_r1c3_Leopard_King_8999.png
+108. 第14张 r1c4  Legacy of Dragon 8999                      -> 108_s14_r1c4_Legacy_of_Dragon_8999.png
+109. 第14张 r2c1  Eagle King 8999                          [角标]  -> 109_s14_r2c1_Eagle_King_8999_badge.png
+110. 第14张 r2c2  Black Panther 8999                       [角标]  -> 110_s14_r2c2_Black_Panther_8999_badge.png
+111. 第14张 r2c3  Romantic Carriage 8999                   [角标]  -> 111_s14_r2c3_Romantic_Carriage_8999_badge.png
+112. 第14张 r2c4  Golden Limousine 8999                    [角标]  -> 112_s14_r2c4_Golden_Limousine_8999_badge.png
+113. 第15张 r1c1  Love Concert 9999                          -> 113_s15_r1c1_Love_Concert_9999.png
+114. 第15张 r1c2  Heart of Ocean 13999                       -> 114_s15_r1c2_Heart_of_Ocean_13999.png
+115. 第15张 r1c3  Pink Sports Car 13999                      -> 115_s15_r1c3_Pink_Sports_Car_13999.png
+116. 第15张 r1c4  Attention Please 13999                     -> 116_s15_r1c4_Attention_Please_13999.png
+117. 第15张 r2c1  Race Car 13999                             -> 117_s15_r2c1_Race_Car_13999.png
+118. 第15张 r2c2  Love Diamond Ring 15999                    -> 118_s15_r2c2_Love_Diamond_Ring_15999.png
+119. 第15张 r2c3  Merry-Go-Round 34999                       -> 119_s15_r2c3_Merry-Go-Round_34999.png
+120. 第15张 r2c4  Roaring Lion 43999                         -> 120_s15_r2c4_Roaring_Lion_43999.png
+121. 第16张 r1c1  Wolf and Moon 43999                        -> 121_s16_r1c1_Wolf_and_Moon_43999.png
+122. 第16张 r1c2  Throne 54999                               -> 122_s16_r1c2_Throne_54999.png
+123. 第16张 r1c3  Rushing Cars 169999                        -> 123_s16_r1c3_Rushing_Cars_169999.png
+124. 第16张 r1c4  Ferris Wheel 169999                        -> 124_s16_r1c4_Ferris_Wheel_169999.png
+125. 第16张 r2c1  Island Paradise 169999                     -> 125_s16_r2c1_Island_Paradise_169999.png
+126. 第16张 r2c2  Aerobatic Flight 169999                    -> 126_s16_r2c2_Aerobatic_Flight_169999.png
+127. 第16张 r2c3  Meteor Shower 199999                       -> 127_s16_r2c3_Meteor_Shower_199999.png
+128. 第16张 r2c4  Castle 199999                              -> 128_s16_r2c4_Castle_199999.png
+129. 第17张 r1c1  Gift Box Select gift                       -> 129_s17_r1c1_Gift_Box_Select_gift.png
+130. 第17张 r1c2  未命名  -> 130_s17_r1c2.png
+131. 第17张 r1c3  未命名  -> 131_s17_r1c3.png
+132. 第17张 r1c4  未命名  -> 132_s17_r1c4.png
+133. 第17张 r2c1  未命名  -> 133_s17_r2c1.png
+134. 第17张 r2c2  未命名  -> 134_s17_r2c2.png
+135. 第17张 r2c3  未命名  -> 135_s17_r2c3.png
+136. 第17张 r2c4  未命名  -> 136_s17_r2c4.png
+
+有角标: 34
+无角标: 102

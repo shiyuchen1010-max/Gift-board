@@ -1,0 +1,26 @@
+礼物分割图重命名结果
+============================================================
+
+[classic]
+- 处理记录数: 133
+- 实际重命名: 0
+- 目录清单: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\classic\rename_list.txt
+
+[activity]
+- 处理记录数: 5
+- 实际重命名: 5
+- 目录清单: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\activity\rename_list.txt
+- 含推断补全名称: Delicious Iftar, Little Sunflower, Happy Birthday, Birthday Party
+
+[member]
+- 处理记录数: 10
+- 实际重命名: 10
+- 目录清单: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\member\rename_list.txt
+- 含推断补全名称: Starlight Bottle, Fountain of Love
+
+[royal]
+- 处理记录数: 13
+- 实际重命名: 13
+- 目录清单: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\royal\rename_list.txt
+- 含推断补全名称: Night Race Car, Premium Cake, Green Heaven, Blue Diamond, Horse Bracelet, Sword of Glory
+

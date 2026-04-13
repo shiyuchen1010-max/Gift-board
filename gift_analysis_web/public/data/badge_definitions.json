@@ -1,0 +1,90 @@
+[
+  {
+    "code": "color-customized",
+    "label": "颜色定制",
+    "gameplay": "颜色定制",
+    "description": "待补充玩法说明",
+    "color": "#60A5FA",
+    "sampleCount": 1
+  },
+  {
+    "code": "weekly-gifts",
+    "label": "周礼物",
+    "gameplay": "周礼物",
+    "description": "待补充玩法说明",
+    "color": "#A855F7",
+    "sampleCount": 1
+  },
+  {
+    "code": "monthly-gifts",
+    "label": "月礼物",
+    "gameplay": "月礼物",
+    "description": "待补充玩法说明",
+    "color": "#D946EF",
+    "sampleCount": 1
+  },
+  {
+    "code": "mystery-gifts-box",
+    "label": "盲盒礼物",
+    "gameplay": "盲盒礼物",
+    "description": "待补充玩法说明",
+    "color": "#F59E0B",
+    "sampleCount": 1
+  },
+  {
+    "code": "on-mic-effect",
+    "label": "上麦特效",
+    "gameplay": "上麦特效",
+    "description": "待补充玩法说明",
+    "color": "#3B82F6",
+    "sampleCount": 1
+  },
+  {
+    "code": "cumulative-gift",
+    "label": "累计礼物",
+    "gameplay": "累计礼物",
+    "description": "待补充玩法说明",
+    "color": "#22C55E",
+    "sampleCount": 1
+  },
+  {
+    "code": "profile-display",
+    "label": "主页展示",
+    "gameplay": "主页展示",
+    "description": "待补充玩法说明",
+    "color": "#8B5CF6",
+    "sampleCount": 2
+  },
+  {
+    "code": "upgrade-gift",
+    "label": "升级礼物",
+    "gameplay": "升级礼物",
+    "description": "待补充玩法说明",
+    "color": "#EC4899",
+    "sampleCount": 1
+  },
+  {
+    "code": "sound-effect",
+    "label": "音效礼物",
+    "gameplay": "音效礼物",
+    "description": "待补充玩法说明",
+    "color": "#06B6D4",
+    "sampleCount": 2
+  },
+  {
+    "code": "show-all-rooms",
+    "label": "全房间展示",
+    "gameplay": "全房间展示",
+    "description": "待补充玩法说明",
+    "color": "#F97316",
+    "sampleCount": 2
+  },
+  {
+    "code": "unknown-badge",
+    "label": "待确认角标",
+    "gameplay": "待确认角标",
+    "description": "识别到角标但暂未可靠归类",
+    "color": "#94A3B8",
+    "sampleCount": 0
+  }
+]

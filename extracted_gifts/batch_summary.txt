@@ -1,0 +1,28 @@
+Yalla 多目录礼物分割结果
+============================================================
+
+处理目录数: 3
+截图总数: 5
+导出总数: 40
+
+[activity]
+- 截图数量: 1
+- 导出数量: 8
+- 输出目录: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\activity
+- 清单文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\activity\split_list.txt
+- 预览文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\activity\preview_first_screen.png
+
+[member]
+- 截图数量: 2
+- 导出数量: 16
+- 输出目录: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\member
+- 清单文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\member\split_list.txt
+- 预览文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\member\preview_first_screen.png
+
+[royal]
+- 截图数量: 2
+- 导出数量: 16
+- 输出目录: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\royal
+- 清单文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\royal\split_list.txt
+- 预览文件: c:\Users\V_Shyschen\CodeBuddy\20260410162015\extracted_gifts\royal\preview_first_screen.png
+

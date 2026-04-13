@@ -1,0 +1,15 @@
+文件夹: member
+============================================================
+重命名数量: 10
+保持不变: 0
+
+[已重命名] 01_s01_r1c1_Nice_9.png -> 01_s01_r1c1_Nice_9_Diamond.png
+[已重命名] 02_s01_r1c2_Starlight_Bottle_19.png -> 02_s01_r1c2_Starlight_Bottle_19_Diamond.png
+[已重命名] 03_s01_r1c3_Fiery_Heart_29.png -> 03_s01_r1c3_Fiery_Heart_29_Diamond.png
+[已重命名] 04_s01_r1c4_Fruit_Basket_399.png -> 04_s01_r1c4_Fruit_Basket_399_Diamond.png
+[已重命名] 01_s02_r1c1_Hawk_Necklace_699.png -> 01_s02_r1c1_Hawk_Necklace_699_Diamond.png
+[已重命名] 02_s02_r1c2_Hawk_2999.png -> 02_s02_r1c2_Hawk_2999_Diamond.png
+[已重命名] 03_s02_r1c3_Firebird_4999.png -> 03_s02_r1c3_Firebird_4999_Diamond.png
+[已重命名] 04_s02_r1c4_Train_5999.png -> 04_s02_r1c4_Train_5999_Diamond.png
+[已重命名] 05_s02_r2c1_Love_Match_5999.png -> 05_s02_r2c1_Love_Match_5999_Diamond.png
+[已重命名] 06_s02_r2c2_Fountain_of_Love_5999.png -> 06_s02_r2c2_Fountain_of_Love_5999_Diamond.png
