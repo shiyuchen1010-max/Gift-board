@@ -32,7 +32,5 @@ export function formatBadgeLabel(text: string | null | undefined): string {
 
 export function resolveAssetPath(path: string): string {
   const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
-  return new URL(normalizedPath, document.baseURI).toString();
+  return `${import.meta.env.BASE_URL}${normalizedPath}`;
 }
-
-
