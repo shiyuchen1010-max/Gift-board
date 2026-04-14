@@ -1,0 +1,338 @@
+{
+  "summary": {
+    "giftCount": 161,
+    "badgeGiftCount": 79,
+    "badgeCoverage": 0.4907,
+    "pricedGiftCount": 160,
+    "averagePrice": 16401.19,
+    "medianPrice": 5999.0,
+    "maxPrice": 199999
+  },
+  "priceTierDistribution": [
+    {
+      "name": "高价",
+      "value": 62
+    },
+    {
+      "name": "超高价",
+      "value": 30
+    },
+    {
+      "name": "中价",
+      "value": 28
+    },
+    {
+      "name": "低价",
+      "value": 25
+    },
+    {
+      "name": "收藏级",
+      "value": 15
+    },
+    {
+      "name": "未定价",
+      "value": 1
+    }
+  ],
+  "folderDistribution": [
+    {
+      "name": "经典礼物",
+      "value": 133
+    },
+    {
+      "name": "贵族礼物",
+      "value": 13
+    },
+    {
+      "name": "会员礼物",
+      "value": 10
+    },
+    {
+      "name": "活动礼物",
+      "value": 5
+    }
+  ],
+  "currencyDistribution": [
+    {
+      "name": "Diamond",
+      "value": 159
+    },
+    {
+      "name": "Gold",
+      "value": 2
+    }
+  ],
+  "folderBadgeCoverage": [
+    {
+      "folder": "classic",
+      "label": "经典礼物",
+      "count": 133,
+      "badgeCount": 71,
+      "badgeRate": 0.5338
+    },
+    {
+      "folder": "activity",
+      "label": "活动礼物",
+      "count": 5,
+      "badgeCount": 3,
+      "badgeRate": 0.6
+    },
+    {
+      "folder": "member",
+      "label": "会员礼物",
+      "count": 10,
+      "badgeCount": 2,
+      "badgeRate": 0.2
+    },
+    {
+      "folder": "royal",
+      "label": "贵族礼物",
+      "count": 13,
+      "badgeCount": 3,
+      "badgeRate": 0.2308
+    }
+  ],
+  "gameplayBreakdown": [
+    {
+      "code": "profile-display",
+      "label": "主页展示",
+      "description": "该礼物在成功送出并触发全屏/半屏动效播放的期间，系统会在特效画面的核心视觉区域，自动提取并同步展示被赠方（收礼人）的个人名片信息（包含但不限于头像、昵称、ID等），使特效与收礼人身份强绑定。",
+      "count": 43,
+      "coverage": 0.2671,
+      "averagePrice": 6533.88,
+      "maxPrice": 15999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Congratulations",
+        "Apology Letter",
+        "Thank-You Card",
+        "Confession Letter"
+      ]
+    },
+    {
+      "code": "show-all-rooms",
+      "label": "全房间展示",
+      "description": "用户成功送出该礼物后，系统不仅会在当前所在的房间内播放礼物特效，还会强制触发全平台级别的广播机制。全服所有正在活跃的房间顶部或公屏区域，均会展示横幅/跑马灯播报，播报内容包含赠送方昵称、接收方昵称以及礼物的名称和数量。",
+      "count": 10,
+      "coverage": 0.0621,
+      "averagePrice": 181999.0,
+      "maxPrice": 199999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Rushing Cars",
+        "Ferris Wheel",
+        "Island Paradise",
+        "Aerobatic Flight"
+      ]
+    },
+    {
+      "code": "on-mic-effect",
+      "label": "上麦特效",
+      "description": "用户送出该礼物后，礼物的视觉元素会以界面的“礼物播报栏”为起点，生成一段定向的飞行轨迹，直接飞向麦位上被赠方（收礼人）的头像位置，并在到达头像区域后触发并播放完整的专属环绕或覆盖动效。",
+      "count": 8,
+      "coverage": 0.0497,
+      "averagePrice": 1574.0,
+      "maxPrice": 3999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Surprise Gift",
+        "Drink Tea",
+        "Waving Bear",
+        "Love Motto"
+      ]
+    },
+    {
+      "code": "sound-effect",
+      "label": "音效礼物",
+      "description": "该礼物在基础的视觉动画之上绑定了专属的音频文件。当礼物在房间内成功送出并展示特效时，系统会同步播放该礼物独有的音效，当前房间内所有未静音的用户均可听到该专属声音反馈。",
+      "count": 6,
+      "coverage": 0.0373,
+      "averagePrice": 23999.0,
+      "maxPrice": 43999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Desert Race",
+        "Legacy of Dragon",
+        "Merry-Go-Round",
+        "Roaring Lion"
+      ]
+    },
+    {
+      "code": "color-customized",
+      "label": "颜色定制",
+      "description": "用户在礼物面板选中该类礼物时，可唤出颜色选择子面板。所有可选颜色均对应相同的单次消耗价格。用户选定特定颜色并点击赠送后，当前房间内及接收方将展示对应色彩版本的礼物视觉动效。",
+      "count": 4,
+      "coverage": 0.0248,
+      "averagePrice": 341.5,
+      "maxPrice": 1299,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Purple Butterfly",
+        "Red Rose",
+        "Love Blessing",
+        "Fiery Heart"
+      ]
+    },
+    {
+      "code": "weekly-gifts",
+      "label": "周礼物",
+      "description": "系统每周固定周期内指定若干款特定礼物作为“周星礼物”。用户在当前周期内赠送或收到该类礼物，将累计专属积分并计入全服“周星排行榜”。榜单数据按固定频率（如每10分钟）刷新。每周结算周期结束后，榜单排名前列的用户将发放具有时效性（如7天有效期）的专属奖励（如特殊徽章、头像框、进场特效等）。新周期开启时，榜单数据清零，并可能更换指定的周星礼物款式。",
+      "count": 3,
+      "coverage": 0.0186,
+      "averagePrice": 2235.67,
+      "maxPrice": 5999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Frying Pan",
+        "Fire Extinguisher",
+        "Red Sports Car"
+      ]
+    },
+    {
+      "code": "mystery-gifts-box",
+      "label": "盲盒礼物",
+      "description": "用户每次需支付固定的单次开启价格。送出后，系统会根据礼物面板上强制公开的掉落概率，随机生成一款对应的礼物并赠送给目标用户。奖池通常包含极低概率的稀有隐藏款礼物（Secret Editions）、中等概率的常规礼物以及高概率的保底礼物。",
+      "count": 1,
+      "coverage": 0.0062,
+      "averagePrice": 299.0,
+      "maxPrice": 299,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Mystery Gift Box"
+      ]
+    },
+    {
+      "code": "cumulative-gift",
+      "label": "累计礼物",
+      "description": "该类礼物具有“时间限制+数量累计”的进阶触发机制。以流星礼物为例：自当前房间内送出第一个该礼物起，系统触发1分钟的倒计时。在此1分钟内，房间内所有用户送出的该礼物均计入总数进度条（不限制单一用户，支持众筹累计）。当总数累计达到10个时，系统将立刻触发并播放进阶版的璀璨流星雨全屏特效。若1分钟倒计时结束时总数未达标，则当前累计进度清零。",
+      "count": 1,
+      "coverage": 0.0062,
+      "averagePrice": 799.0,
+      "maxPrice": 799,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Shooting Star"
+      ]
+    },
+    {
+      "code": "upgrade-gift",
+      "label": "升级礼物",
+      "description": "该系列礼物采用阶梯式的进度解锁机制。用户默认仅拥有初级礼物的购买与赠送权限；当用户累计赠送满指定数量（如5个）的初级礼物后，进度条达标，系统将自动解锁下一层级（高级）礼物的赠送权限。重置机制：所有用户的礼物解锁进度与状态，将在每个自然月的特定时间点（如每月1日 6:00 GMT+3）强制清零，进入新月度周期后需重新从初级礼物开始累计解锁。",
+      "count": 1,
+      "coverage": 0.0062,
+      "averagePrice": 5999.0,
+      "maxPrice": 5999,
+      "dominantFolder": "经典礼物",
+      "sampleNames": [
+        "Black Luxury Car"
+      ]
+    },
+    {
+      "code": "monthly-gifts",
+      "label": "月礼物",
+      "description": "系统每个自然月会指定一款专属的“每月礼物”。该玩法以“房间”为单位进行全服排行，排名依据是当前自然月内该房间中送出的“每月礼物”总数量。\n榜单展示：榜单分为“本月”和“上月”两个页签，最多展示排名前50的房间，本月实时数据每10分钟刷新一次。\n结算周期：数据统计与结算周期为每月1日 00:00 (GMT+3) 至下个月1日 00:00 (GMT+3)。结算完成后，奖励将在24小时内自动发放。\n奖励机制：最终排名前10的房间可获得专属排行奖励。此外，活动页面的“摩天轮（Ferris Wheel）”会提供特殊的超级曝光位：固定展示上个月最终排名第一的房间头像，并动态展示本月当前实时排名第一的房间头像。",
+      "count": 1,
+      "coverage": 0.0062,
+      "averagePrice": 3.0,
+      "maxPrice": 3,
+      "dominantFolder": "活动礼物",
+      "sampleNames": [
+        "Little Sunflower"
+      ]
+    },
+    {
+      "code": "unknown-badge",
+      "label": "待确认角标",
+      "description": "识别到角标但暂未可靠归类",
+      "count": 1,
+      "coverage": 0.0062,
+      "averagePrice": 199.0,
+      "maxPrice": 199,
+      "dominantFolder": "活动礼物",
+      "sampleNames": [
+        "Birthday"
+      ]
+    }
+  ],
+  "topPricedGifts": [
+    {
+      "name": "Meteor Shower",
+      "price": 199999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Castle",
+      "price": 199999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Meteor Shower",
+      "price": 199999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Castle",
+      "price": 199999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Rushing Cars",
+      "price": 169999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Ferris Wheel",
+      "price": 169999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Island Paradise",
+      "price": 169999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    },
+    {
+      "name": "Aerobatic Flight",
+      "price": 169999,
+      "folder": "经典礼物",
+      "badgeType": "show-all-rooms",
+      "badgeLabel": "全房间展示"
+    }
+  ],
+  "keyFindings": [
+    {
+      "title": "礼物池规模偏向经典库，适合做基础消费漏斗",
+      "detail": "当前 133 个经典礼物占全部礼物的 82.6% ，说明现有系统以常驻礼物池作为付费底座。"
+    },
+    {
+      "title": "角标玩法已成为高价值礼物的主要差异化承载层",
+      "detail": "带角标礼物共 79 个，覆盖率 49.1%；其中 主页展示 是当前数量最多的玩法。"
+    },
+    {
+      "title": "高价锚点集中在广播与展示型玩法",
+      "detail": "最高价达到 199999，当前最贵样本主要由全服广播、名片展示等强曝光玩法承载，说明价格溢价来自展示范围与社交可见度。"
+    },
+    {
+      "title": "虚拟货币结构高度统一，便于做二次包装",
+      "detail": "159 个礼物使用 Diamond，仅 2 个礼物使用 Gold，适合在同一虚拟币体系下叠加活动包、赛季包和排行榜驱动。"
+    }
+  ],
+  "systemTraits": [
+    "当前送礼系统不是单纯的礼物商城，而是把礼物作为曝光、榜单、身份展示与局内反馈的复合载体。",
+    "玩法按“展示范围、榜单周期、音视频反馈、解锁机制”四条轴线分层，利于组合出不同价位与不同目标的商品矩阵。",
+    "高价值礼物的核心卖点不是图本身，而是全房间、全服、名片绑定、音效等可传播的附加权益。"
+  ]
+}

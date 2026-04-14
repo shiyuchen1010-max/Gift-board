@@ -8,4 +8,6 @@ gift_analysis_web/.playwright-cli/
 *.log
 Thumbs.db
 .DS_Store
+.workbuddy/
+
 

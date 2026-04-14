@@ -3,7 +3,7 @@
     "folder": "classic",
     "fileName": "001_s01_r1c1_Balloon_1000_Gold_badge.png",
     "fileStem": "001_s01_r1c1_Balloon_1000_Gold_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\001_s01_r1c1_Balloon_1000_Gold_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\001_s01_r1c1_Balloon_1000_Gold_badge.png",
     "relativeImagePath": "gifts/classic/001_s01_r1c1_Balloon_1000_Gold_badge.png",
     "slotRaw": "001",
     "slot": 1,
@@ -21,13 +21,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "002_s01_r1c2_Bubble_3_Diamond.png",
     "fileStem": "002_s01_r1c2_Bubble_3_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\002_s01_r1c2_Bubble_3_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\002_s01_r1c2_Bubble_3_Diamond.png",
     "relativeImagePath": "gifts/classic/002_s01_r1c2_Bubble_3_Diamond.png",
     "slotRaw": "002",
     "slot": 2,
@@ -45,13 +45,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "003_s01_r1c3_Frying_Pan_9_Diamond_badge.png",
     "fileStem": "003_s01_r1c3_Frying_Pan_9_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\003_s01_r1c3_Frying_Pan_9_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\003_s01_r1c3_Frying_Pan_9_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/003_s01_r1c3_Frying_Pan_9_Diamond_badge.png",
     "slotRaw": "003",
     "slot": 3,
@@ -68,14 +68,14 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "weekly-gifts",
-    "gameplayType": "周礼物",
-    "badgeConfidence": 1
+    "gameplayType": "weekly-gifts",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "004_s01_r1c4_Send_You_Gift_9_Diamond.png",
     "fileStem": "004_s01_r1c4_Send_You_Gift_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\004_s01_r1c4_Send_You_Gift_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\004_s01_r1c4_Send_You_Gift_9_Diamond.png",
     "relativeImagePath": "gifts/classic/004_s01_r1c4_Send_You_Gift_9_Diamond.png",
     "slotRaw": "004",
     "slot": 4,
@@ -93,13 +93,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "005_s01_r2c1_Brick_9_Diamond.png",
     "fileStem": "005_s01_r2c1_Brick_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\005_s01_r2c1_Brick_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\005_s01_r2c1_Brick_9_Diamond.png",
     "relativeImagePath": "gifts/classic/005_s01_r2c1_Brick_9_Diamond.png",
     "slotRaw": "005",
     "slot": 5,
@@ -117,13 +117,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "006_s01_r2c2_Love_for_You_9_Diamond.png",
     "fileStem": "006_s01_r2c2_Love_for_You_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\006_s01_r2c2_Love_for_You_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\006_s01_r2c2_Love_for_You_9_Diamond.png",
     "relativeImagePath": "gifts/classic/006_s01_r2c2_Love_for_You_9_Diamond.png",
     "slotRaw": "006",
     "slot": 6,
@@ -141,13 +141,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "007_s01_r2c3_Oh_no_9_Diamond.png",
     "fileStem": "007_s01_r2c3_Oh_no_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\007_s01_r2c3_Oh_no_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\007_s01_r2c3_Oh_no_9_Diamond.png",
     "relativeImagePath": "gifts/classic/007_s01_r2c3_Oh_no_9_Diamond.png",
     "slotRaw": "007",
     "slot": 7,
@@ -165,13 +165,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "008_s01_r2c4_Crow_9_Diamond.png",
     "fileStem": "008_s01_r2c4_Crow_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\008_s01_r2c4_Crow_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\008_s01_r2c4_Crow_9_Diamond.png",
     "relativeImagePath": "gifts/classic/008_s01_r2c4_Crow_9_Diamond.png",
     "slotRaw": "008",
     "slot": 8,
@@ -189,13 +189,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "009_s02_r1c1_Purple_Butterfly_19_Diamond.png",
     "fileStem": "009_s02_r1c1_Purple_Butterfly_19_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\009_s02_r1c1_Purple_Butterfly_19_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\009_s02_r1c1_Purple_Butterfly_19_Diamond.png",
     "relativeImagePath": "gifts/classic/009_s02_r1c1_Purple_Butterfly_19_Diamond.png",
     "slotRaw": "009",
     "slot": 9,
@@ -212,14 +212,14 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "color-customized",
-    "gameplayType": "颜色定制",
-    "badgeConfidence": 1
+    "gameplayType": "color-customized",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "010_s02_r1c2_Red_Rose_19_Diamond_badge.png",
     "fileStem": "010_s02_r1c2_Red_Rose_19_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\010_s02_r1c2_Red_Rose_19_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\010_s02_r1c2_Red_Rose_19_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/010_s02_r1c2_Red_Rose_19_Diamond_badge.png",
     "slotRaw": "010",
     "slot": 10,
@@ -236,14 +236,14 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "color-customized",
-    "gameplayType": "颜色定制",
-    "badgeConfidence": 1
+    "gameplayType": "color-customized",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "011_s02_r1c3_Jeweled_Bracelet_29_Diamond.png",
     "fileStem": "011_s02_r1c3_Jeweled_Bracelet_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\011_s02_r1c3_Jeweled_Bracelet_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\011_s02_r1c3_Jeweled_Bracelet_29_Diamond.png",
     "relativeImagePath": "gifts/classic/011_s02_r1c3_Jeweled_Bracelet_29_Diamond.png",
     "slotRaw": "011",
     "slot": 11,
@@ -261,13 +261,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "012_s02_r1c4_Heartbeat_29_Diamond.png",
     "fileStem": "012_s02_r1c4_Heartbeat_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\012_s02_r1c4_Heartbeat_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\012_s02_r1c4_Heartbeat_29_Diamond.png",
     "relativeImagePath": "gifts/classic/012_s02_r1c4_Heartbeat_29_Diamond.png",
     "slotRaw": "012",
     "slot": 12,
@@ -285,13 +285,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "013_s02_r2c1_Flying_Letter_29_Diamond.png",
     "fileStem": "013_s02_r2c1_Flying_Letter_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\013_s02_r2c1_Flying_Letter_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\013_s02_r2c1_Flying_Letter_29_Diamond.png",
     "relativeImagePath": "gifts/classic/013_s02_r2c1_Flying_Letter_29_Diamond.png",
     "slotRaw": "013",
     "slot": 13,
@@ -309,13 +309,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "014_s02_r2c2_Peace_of_Mind_29_Diamond.png",
     "fileStem": "014_s02_r2c2_Peace_of_Mind_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\014_s02_r2c2_Peace_of_Mind_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\014_s02_r2c2_Peace_of_Mind_29_Diamond.png",
     "relativeImagePath": "gifts/classic/014_s02_r2c2_Peace_of_Mind_29_Diamond.png",
     "slotRaw": "014",
     "slot": 14,
@@ -333,13 +333,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge.png",
     "fileStem": "015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/015_s02_r2c3_Messenger_Pigeon_69_Diamond_badge.png",
     "slotRaw": "015",
     "slot": 15,
@@ -357,13 +357,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "016_s02_r2c4_Taco_47500_Gold.png",
     "fileStem": "016_s02_r2c4_Taco_47500_Gold",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\016_s02_r2c4_Taco_47500_Gold.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\016_s02_r2c4_Taco_47500_Gold.png",
     "relativeImagePath": "gifts/classic/016_s02_r2c4_Taco_47500_Gold.png",
     "slotRaw": "016",
     "slot": 16,
@@ -381,13 +381,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "017_s03_r1c1_Mini_Carousel_99_Diamond.png",
     "fileStem": "017_s03_r1c1_Mini_Carousel_99_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\017_s03_r1c1_Mini_Carousel_99_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\017_s03_r1c1_Mini_Carousel_99_Diamond.png",
     "relativeImagePath": "gifts/classic/017_s03_r1c1_Mini_Carousel_99_Diamond.png",
     "slotRaw": "017",
     "slot": 17,
@@ -405,13 +405,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "018_s03_r1c2_Diamond_Swan_99_Diamond.png",
     "fileStem": "018_s03_r1c2_Diamond_Swan_99_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\018_s03_r1c2_Diamond_Swan_99_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\018_s03_r1c2_Diamond_Swan_99_Diamond.png",
     "relativeImagePath": "gifts/classic/018_s03_r1c2_Diamond_Swan_99_Diamond.png",
     "slotRaw": "018",
     "slot": 18,
@@ -429,13 +429,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "019_s03_r1c3_Cute_Snowman_99_Diamond.png",
     "fileStem": "019_s03_r1c3_Cute_Snowman_99_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\019_s03_r1c3_Cute_Snowman_99_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\019_s03_r1c3_Cute_Snowman_99_Diamond.png",
     "relativeImagePath": "gifts/classic/019_s03_r1c3_Cute_Snowman_99_Diamond.png",
     "slotRaw": "019",
     "slot": 19,
@@ -453,13 +453,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "020_s03_r1c4_Sapphire_Necklace_199_Diamond.png",
     "fileStem": "020_s03_r1c4_Sapphire_Necklace_199_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\020_s03_r1c4_Sapphire_Necklace_199_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\020_s03_r1c4_Sapphire_Necklace_199_Diamond.png",
     "relativeImagePath": "gifts/classic/020_s03_r1c4_Sapphire_Necklace_199_Diamond.png",
     "slotRaw": "020",
     "slot": 20,
@@ -477,13 +477,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond.png",
     "fileStem": "021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond.png",
     "relativeImagePath": "gifts/classic/021_s03_r2c1_Blue_Rose_Bouquet_199_Diamond.png",
     "slotRaw": "021",
     "slot": 21,
@@ -501,13 +501,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge.png",
     "fileStem": "022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/022_s03_r2c2_Mystery_Gift_Box_299_Diamond_badge.png",
     "slotRaw": "022",
     "slot": 22,
@@ -524,14 +524,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "mystery-gifts-box",
-    "gameplayType": "盲盒礼物",
-    "badgeConfidence": 1
+    "gameplayType": "mystery-gifts-box",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "023_s03_r2c3_Antelope_399_Diamond.png",
     "fileStem": "023_s03_r2c3_Antelope_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\023_s03_r2c3_Antelope_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\023_s03_r2c3_Antelope_399_Diamond.png",
     "relativeImagePath": "gifts/classic/023_s03_r2c3_Antelope_399_Diamond.png",
     "slotRaw": "023",
     "slot": 23,
@@ -549,13 +549,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "024_s03_r2c4_Surprise_Gift_399_Diamond.png",
     "fileStem": "024_s03_r2c4_Surprise_Gift_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\024_s03_r2c4_Surprise_Gift_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\024_s03_r2c4_Surprise_Gift_399_Diamond.png",
     "relativeImagePath": "gifts/classic/024_s03_r2c4_Surprise_Gift_399_Diamond.png",
     "slotRaw": "024",
     "slot": 24,
@@ -572,14 +572,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "025_s04_r1c1_Drink_Tea_399_Diamond.png",
     "fileStem": "025_s04_r1c1_Drink_Tea_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\025_s04_r1c1_Drink_Tea_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\025_s04_r1c1_Drink_Tea_399_Diamond.png",
     "relativeImagePath": "gifts/classic/025_s04_r1c1_Drink_Tea_399_Diamond.png",
     "slotRaw": "025",
     "slot": 25,
@@ -596,14 +596,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "026_s04_r1c2_Love_Birds_399_Diamond_badge.png",
     "fileStem": "026_s04_r1c2_Love_Birds_399_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\026_s04_r1c2_Love_Birds_399_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\026_s04_r1c2_Love_Birds_399_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/026_s04_r1c2_Love_Birds_399_Diamond_badge.png",
     "slotRaw": "026",
     "slot": 26,
@@ -621,13 +621,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "027_s04_r1c3_Waving_Bear_399_Diamond_badge.png",
     "fileStem": "027_s04_r1c3_Waving_Bear_399_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\027_s04_r1c3_Waving_Bear_399_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\027_s04_r1c3_Waving_Bear_399_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/027_s04_r1c3_Waving_Bear_399_Diamond_badge.png",
     "slotRaw": "027",
     "slot": 27,
@@ -644,14 +644,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "028_s04_r1c4_Love_Motto_399_Diamond_badge.png",
     "fileStem": "028_s04_r1c4_Love_Motto_399_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\028_s04_r1c4_Love_Motto_399_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\028_s04_r1c4_Love_Motto_399_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/028_s04_r1c4_Love_Motto_399_Diamond_badge.png",
     "slotRaw": "028",
     "slot": 28,
@@ -668,14 +668,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "029_s04_r2c1_Donkey_399_Diamond.png",
     "fileStem": "029_s04_r2c1_Donkey_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\029_s04_r2c1_Donkey_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\029_s04_r2c1_Donkey_399_Diamond.png",
     "relativeImagePath": "gifts/classic/029_s04_r2c1_Donkey_399_Diamond.png",
     "slotRaw": "029",
     "slot": 29,
@@ -693,13 +693,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "030_s04_r2c2_Kiss_399_Diamond_badge.png",
     "fileStem": "030_s04_r2c2_Kiss_399_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\030_s04_r2c2_Kiss_399_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\030_s04_r2c2_Kiss_399_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/030_s04_r2c2_Kiss_399_Diamond_badge.png",
     "slotRaw": "030",
     "slot": 30,
@@ -717,13 +717,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "031_s04_r2c3_Gold_Lion_699_Diamond.png",
     "fileStem": "031_s04_r2c3_Gold_Lion_699_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\031_s04_r2c3_Gold_Lion_699_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\031_s04_r2c3_Gold_Lion_699_Diamond.png",
     "relativeImagePath": "gifts/classic/031_s04_r2c3_Gold_Lion_699_Diamond.png",
     "slotRaw": "031",
     "slot": 31,
@@ -741,13 +741,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "032_s04_r2c4_Sweet_Milkshake_699_Diamond.png",
     "fileStem": "032_s04_r2c4_Sweet_Milkshake_699_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\032_s04_r2c4_Sweet_Milkshake_699_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\032_s04_r2c4_Sweet_Milkshake_699_Diamond.png",
     "relativeImagePath": "gifts/classic/032_s04_r2c4_Sweet_Milkshake_699_Diamond.png",
     "slotRaw": "032",
     "slot": 32,
@@ -765,13 +765,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge.png",
     "fileStem": "033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/033_s05_r1c1_Fire_Extinguisher_699_Diamond_badge.png",
     "slotRaw": "033",
     "slot": 33,
@@ -788,14 +788,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "weekly-gifts",
-    "gameplayType": "周礼物",
-    "badgeConfidence": 1
+    "gameplayType": "weekly-gifts",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "034_s05_r1c2_Shooting_Star_799_Diamond_badge.png",
     "fileStem": "034_s05_r1c2_Shooting_Star_799_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\034_s05_r1c2_Shooting_Star_799_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\034_s05_r1c2_Shooting_Star_799_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/034_s05_r1c2_Shooting_Star_799_Diamond_badge.png",
     "slotRaw": "034",
     "slot": 34,
@@ -812,14 +812,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "cumulative-gift",
-    "gameplayType": "累计礼物",
-    "badgeConfidence": 1
+    "gameplayType": "cumulative-gift",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "035_s05_r1c3_Congratulations_999_Diamond_badge.png",
     "fileStem": "035_s05_r1c3_Congratulations_999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\035_s05_r1c3_Congratulations_999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\035_s05_r1c3_Congratulations_999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/035_s05_r1c3_Congratulations_999_Diamond_badge.png",
     "slotRaw": "035",
     "slot": 35,
@@ -836,14 +836,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "036_s05_r1c4_Apology_Letter_999_Diamond_badge.png",
     "fileStem": "036_s05_r1c4_Apology_Letter_999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\036_s05_r1c4_Apology_Letter_999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\036_s05_r1c4_Apology_Letter_999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/036_s05_r1c4_Apology_Letter_999_Diamond_badge.png",
     "slotRaw": "036",
     "slot": 36,
@@ -860,14 +860,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "037_s05_r2c1_Thank-You_Card_999_Diamond.png",
     "fileStem": "037_s05_r2c1_Thank-You_Card_999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\037_s05_r2c1_Thank-You_Card_999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\037_s05_r2c1_Thank-You_Card_999_Diamond.png",
     "relativeImagePath": "gifts/classic/037_s05_r2c1_Thank-You_Card_999_Diamond.png",
     "slotRaw": "037",
     "slot": 37,
@@ -884,14 +884,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "038_s05_r2c2_Confession_Letter_999_Diamond.png",
     "fileStem": "038_s05_r2c2_Confession_Letter_999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\038_s05_r2c2_Confession_Letter_999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\038_s05_r2c2_Confession_Letter_999_Diamond.png",
     "relativeImagePath": "gifts/classic/038_s05_r2c2_Confession_Letter_999_Diamond.png",
     "slotRaw": "038",
     "slot": 38,
@@ -908,14 +908,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "039_s05_r2c3_Beautiful_Rose_999_Diamond.png",
     "fileStem": "039_s05_r2c3_Beautiful_Rose_999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\039_s05_r2c3_Beautiful_Rose_999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\039_s05_r2c3_Beautiful_Rose_999_Diamond.png",
     "relativeImagePath": "gifts/classic/039_s05_r2c3_Beautiful_Rose_999_Diamond.png",
     "slotRaw": "039",
     "slot": 39,
@@ -933,13 +933,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "040_s05_r2c4_Congrats_Trophy_999_Diamond.png",
     "fileStem": "040_s05_r2c4_Congrats_Trophy_999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\040_s05_r2c4_Congrats_Trophy_999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\040_s05_r2c4_Congrats_Trophy_999_Diamond.png",
     "relativeImagePath": "gifts/classic/040_s05_r2c4_Congrats_Trophy_999_Diamond.png",
     "slotRaw": "040",
     "slot": 40,
@@ -956,14 +956,14 @@
     "priceTier": "中价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "041_s06_r1c1_Sweets_Food_1099_Diamond.png",
     "fileStem": "041_s06_r1c1_Sweets_Food_1099_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\041_s06_r1c1_Sweets_Food_1099_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\041_s06_r1c1_Sweets_Food_1099_Diamond.png",
     "relativeImagePath": "gifts/classic/041_s06_r1c1_Sweets_Food_1099_Diamond.png",
     "slotRaw": "041",
     "slot": 41,
@@ -981,13 +981,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "042_s06_r1c2_Sweet_Chocolate_1299_Diamond.png",
     "fileStem": "042_s06_r1c2_Sweet_Chocolate_1299_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\042_s06_r1c2_Sweet_Chocolate_1299_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\042_s06_r1c2_Sweet_Chocolate_1299_Diamond.png",
     "relativeImagePath": "gifts/classic/042_s06_r1c2_Sweet_Chocolate_1299_Diamond.png",
     "slotRaw": "042",
     "slot": 42,
@@ -1005,13 +1005,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "043_s06_r1c3_Desert_Castle_1299_Diamond.png",
     "fileStem": "043_s06_r1c3_Desert_Castle_1299_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\043_s06_r1c3_Desert_Castle_1299_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\043_s06_r1c3_Desert_Castle_1299_Diamond.png",
     "relativeImagePath": "gifts/classic/043_s06_r1c3_Desert_Castle_1299_Diamond.png",
     "slotRaw": "043",
     "slot": 43,
@@ -1029,13 +1029,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "044_s06_r1c4_Love_Blessing_1299_Diamond_badge.png",
     "fileStem": "044_s06_r1c4_Love_Blessing_1299_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\044_s06_r1c4_Love_Blessing_1299_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\044_s06_r1c4_Love_Blessing_1299_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/044_s06_r1c4_Love_Blessing_1299_Diamond_badge.png",
     "slotRaw": "044",
     "slot": 44,
@@ -1052,14 +1052,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "color-customized",
-    "gameplayType": "颜色定制",
-    "badgeConfidence": 1
+    "gameplayType": "color-customized",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "045_s06_r2c1_Crystal_Diamond_1999_Diamond.png",
     "fileStem": "045_s06_r2c1_Crystal_Diamond_1999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\045_s06_r2c1_Crystal_Diamond_1999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\045_s06_r2c1_Crystal_Diamond_1999_Diamond.png",
     "relativeImagePath": "gifts/classic/045_s06_r2c1_Crystal_Diamond_1999_Diamond.png",
     "slotRaw": "045",
     "slot": 45,
@@ -1077,13 +1077,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge.png",
     "fileStem": "046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/046_s06_r2c2_Cupids_Arrow_1999_Diamond_badge.png",
     "slotRaw": "046",
     "slot": 46,
@@ -1100,14 +1100,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "047_s06_r2c3_Hand_Heart_1999_Diamond.png",
     "fileStem": "047_s06_r2c3_Hand_Heart_1999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\047_s06_r2c3_Hand_Heart_1999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\047_s06_r2c3_Hand_Heart_1999_Diamond.png",
     "relativeImagePath": "gifts/classic/047_s06_r2c3_Hand_Heart_1999_Diamond.png",
     "slotRaw": "047",
     "slot": 47,
@@ -1125,13 +1125,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "048_s06_r2c4_Flamingos_Love_2999_Diamond_badge.png",
     "fileStem": "048_s06_r2c4_Flamingos_Love_2999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\048_s06_r2c4_Flamingos_Love_2999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\048_s06_r2c4_Flamingos_Love_2999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/048_s06_r2c4_Flamingos_Love_2999_Diamond_badge.png",
     "slotRaw": "048",
     "slot": 48,
@@ -1148,14 +1148,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "049_s07_r1c1_AAAA_Winner_2999_Diamond.png",
     "fileStem": "049_s07_r1c1_AAAA_Winner_2999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\049_s07_r1c1_AAAA_Winner_2999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\049_s07_r1c1_AAAA_Winner_2999_Diamond.png",
     "relativeImagePath": "gifts/classic/049_s07_r1c1_AAAA_Winner_2999_Diamond.png",
     "slotRaw": "049",
     "slot": 49,
@@ -1172,14 +1172,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "050_s07_r1c2_Feathers_2999_Diamond.png",
     "fileStem": "050_s07_r1c2_Feathers_2999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\050_s07_r1c2_Feathers_2999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\050_s07_r1c2_Feathers_2999_Diamond.png",
     "relativeImagePath": "gifts/classic/050_s07_r1c2_Feathers_2999_Diamond.png",
     "slotRaw": "050",
     "slot": 50,
@@ -1196,14 +1196,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "051_s07_r1c3_Custom_Crown_2999_Diamond.png",
     "fileStem": "051_s07_r1c3_Custom_Crown_2999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\051_s07_r1c3_Custom_Crown_2999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\051_s07_r1c3_Custom_Crown_2999_Diamond.png",
     "relativeImagePath": "gifts/classic/051_s07_r1c3_Custom_Crown_2999_Diamond.png",
     "slotRaw": "051",
     "slot": 51,
@@ -1220,14 +1220,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "052_s07_r1c4_Forever_Love_2999_Diamond_badge.png",
     "fileStem": "052_s07_r1c4_Forever_Love_2999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\052_s07_r1c4_Forever_Love_2999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\052_s07_r1c4_Forever_Love_2999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/052_s07_r1c4_Forever_Love_2999_Diamond_badge.png",
     "slotRaw": "052",
     "slot": 52,
@@ -1244,14 +1244,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond.png",
     "fileStem": "053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond.png",
     "relativeImagePath": "gifts/classic/053_s07_r2c1_Fun_Roller_Coaster_3999_Diamond.png",
     "slotRaw": "053",
     "slot": 53,
@@ -1269,13 +1269,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "054_s07_r2c2_Flying_Flowers_3999_Diamond.png",
     "fileStem": "054_s07_r2c2_Flying_Flowers_3999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\054_s07_r2c2_Flying_Flowers_3999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\054_s07_r2c2_Flying_Flowers_3999_Diamond.png",
     "relativeImagePath": "gifts/classic/054_s07_r2c2_Flying_Flowers_3999_Diamond.png",
     "slotRaw": "054",
     "slot": 54,
@@ -1292,14 +1292,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "055_s07_r2c3_Love_Airdrop_3999_Diamond.png",
     "fileStem": "055_s07_r2c3_Love_Airdrop_3999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\055_s07_r2c3_Love_Airdrop_3999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\055_s07_r2c3_Love_Airdrop_3999_Diamond.png",
     "relativeImagePath": "gifts/classic/055_s07_r2c3_Love_Airdrop_3999_Diamond.png",
     "slotRaw": "055",
     "slot": 55,
@@ -1316,14 +1316,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "on-mic-effect",
-    "gameplayType": "上麦特效",
-    "badgeConfidence": 1
+    "gameplayType": "on-mic-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "056_s07_r2c4_Desert_Antelope_4999_Diamond.png",
     "fileStem": "056_s07_r2c4_Desert_Antelope_4999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\056_s07_r2c4_Desert_Antelope_4999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\056_s07_r2c4_Desert_Antelope_4999_Diamond.png",
     "relativeImagePath": "gifts/classic/056_s07_r2c4_Desert_Antelope_4999_Diamond.png",
     "slotRaw": "056",
     "slot": 56,
@@ -1341,13 +1341,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "057_s08_r1c1_Ocean_Romance_4999_Diamond.png",
     "fileStem": "057_s08_r1c1_Ocean_Romance_4999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\057_s08_r1c1_Ocean_Romance_4999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\057_s08_r1c1_Ocean_Romance_4999_Diamond.png",
     "relativeImagePath": "gifts/classic/057_s08_r1c1_Ocean_Romance_4999_Diamond.png",
     "slotRaw": "057",
     "slot": 57,
@@ -1365,13 +1365,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "058_s08_r1c2_Heart_Bubble_4999_Diamond.png",
     "fileStem": "058_s08_r1c2_Heart_Bubble_4999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\058_s08_r1c2_Heart_Bubble_4999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\058_s08_r1c2_Heart_Bubble_4999_Diamond.png",
     "relativeImagePath": "gifts/classic/058_s08_r1c2_Heart_Bubble_4999_Diamond.png",
     "slotRaw": "058",
     "slot": 58,
@@ -1389,13 +1389,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "059_s08_r1c3_Fireworks_4999_Diamond.png",
     "fileStem": "059_s08_r1c3_Fireworks_4999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\059_s08_r1c3_Fireworks_4999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\059_s08_r1c3_Fireworks_4999_Diamond.png",
     "relativeImagePath": "gifts/classic/059_s08_r1c3_Fireworks_4999_Diamond.png",
     "slotRaw": "059",
     "slot": 59,
@@ -1413,13 +1413,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "060_s08_r1c4_The_Gala_5999_Diamond.png",
     "fileStem": "060_s08_r1c4_The_Gala_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\060_s08_r1c4_The_Gala_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\060_s08_r1c4_The_Gala_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/060_s08_r1c4_The_Gala_5999_Diamond.png",
     "slotRaw": "060",
     "slot": 60,
@@ -1437,13 +1437,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge.png",
     "fileStem": "061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/061_s08_r2c1_Glamorous_Dance_5999_Diamond_badge.png",
     "slotRaw": "061",
     "slot": 61,
@@ -1460,14 +1460,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "062_s08_r2c2_Magic_Castle_5999_Diamond_badge.png",
     "fileStem": "062_s08_r2c2_Magic_Castle_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\062_s08_r2c2_Magic_Castle_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\062_s08_r2c2_Magic_Castle_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/062_s08_r2c2_Magic_Castle_5999_Diamond_badge.png",
     "slotRaw": "062",
     "slot": 62,
@@ -1484,14 +1484,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "063_s08_r2c3_Sky_Fleet_5999_Diamond.png",
     "fileStem": "063_s08_r2c3_Sky_Fleet_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\063_s08_r2c3_Sky_Fleet_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\063_s08_r2c3_Sky_Fleet_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/063_s08_r2c3_Sky_Fleet_5999_Diamond.png",
     "slotRaw": "063",
     "slot": 63,
@@ -1509,13 +1509,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "064_s08_r2c4_Skyline_Flight_5999_Diamond_badge.png",
     "fileStem": "064_s08_r2c4_Skyline_Flight_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\064_s08_r2c4_Skyline_Flight_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\064_s08_r2c4_Skyline_Flight_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/064_s08_r2c4_Skyline_Flight_5999_Diamond_badge.png",
     "slotRaw": "064",
     "slot": 64,
@@ -1533,13 +1533,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "065_s09_r1c1_Coastal_Race_5999_Diamond.png",
     "fileStem": "065_s09_r1c1_Coastal_Race_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\065_s09_r1c1_Coastal_Race_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\065_s09_r1c1_Coastal_Race_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/065_s09_r1c1_Coastal_Race_5999_Diamond.png",
     "slotRaw": "065",
     "slot": 65,
@@ -1557,13 +1557,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "066_s09_r1c2_Flying_Car_5999_Diamond.png",
     "fileStem": "066_s09_r1c2_Flying_Car_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\066_s09_r1c2_Flying_Car_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\066_s09_r1c2_Flying_Car_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/066_s09_r1c2_Flying_Car_5999_Diamond.png",
     "slotRaw": "066",
     "slot": 66,
@@ -1580,14 +1580,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "067_s09_r1c3_Urban_Night_5999_Diamond.png",
     "fileStem": "067_s09_r1c3_Urban_Night_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\067_s09_r1c3_Urban_Night_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\067_s09_r1c3_Urban_Night_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/067_s09_r1c3_Urban_Night_5999_Diamond.png",
     "slotRaw": "067",
     "slot": 67,
@@ -1604,14 +1604,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "068_s09_r1c4_Dragon_of_Fortune_5999_Diamond.png",
     "fileStem": "068_s09_r1c4_Dragon_of_Fortune_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\068_s09_r1c4_Dragon_of_Fortune_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\068_s09_r1c4_Dragon_of_Fortune_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/068_s09_r1c4_Dragon_of_Fortune_5999_Diamond.png",
     "slotRaw": "068",
     "slot": 68,
@@ -1629,13 +1629,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "069_s09_r2c1_Boating_Trip_5999_Diamond_badge.png",
     "fileStem": "069_s09_r2c1_Boating_Trip_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\069_s09_r2c1_Boating_Trip_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\069_s09_r2c1_Boating_Trip_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/069_s09_r2c1_Boating_Trip_5999_Diamond_badge.png",
     "slotRaw": "069",
     "slot": 69,
@@ -1652,14 +1652,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "070_s09_r2c2_Burning_Wheels_5999_Diamond_badge.png",
     "fileStem": "070_s09_r2c2_Burning_Wheels_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\070_s09_r2c2_Burning_Wheels_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\070_s09_r2c2_Burning_Wheels_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/070_s09_r2c2_Burning_Wheels_5999_Diamond_badge.png",
     "slotRaw": "070",
     "slot": 70,
@@ -1676,14 +1676,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "071_s09_r2c3_Luxury_Car_5999_Diamond_badge.png",
     "fileStem": "071_s09_r2c3_Luxury_Car_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\071_s09_r2c3_Luxury_Car_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\071_s09_r2c3_Luxury_Car_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/071_s09_r2c3_Luxury_Car_5999_Diamond_badge.png",
     "slotRaw": "071",
     "slot": 71,
@@ -1700,14 +1700,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "072_s09_r2c4_Ain_Dubai_5999_Diamond_badge.png",
     "fileStem": "072_s09_r2c4_Ain_Dubai_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\072_s09_r2c4_Ain_Dubai_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\072_s09_r2c4_Ain_Dubai_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/072_s09_r2c4_Ain_Dubai_5999_Diamond_badge.png",
     "slotRaw": "072",
     "slot": 72,
@@ -1724,14 +1724,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "073_s10_r1c1_Galaxy_Rose_5999_Diamond.png",
     "fileStem": "073_s10_r1c1_Galaxy_Rose_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\073_s10_r1c1_Galaxy_Rose_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\073_s10_r1c1_Galaxy_Rose_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/073_s10_r1c1_Galaxy_Rose_5999_Diamond.png",
     "slotRaw": "073",
     "slot": 73,
@@ -1748,14 +1748,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "074_s10_r1c2_True_Love_5999_Diamond.png",
     "fileStem": "074_s10_r1c2_True_Love_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\074_s10_r1c2_True_Love_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\074_s10_r1c2_True_Love_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/074_s10_r1c2_True_Love_5999_Diamond.png",
     "slotRaw": "074",
     "slot": 74,
@@ -1772,14 +1772,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "075_s10_r1c3_Desert_Race_5999_Diamond.png",
     "fileStem": "075_s10_r1c3_Desert_Race_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\075_s10_r1c3_Desert_Race_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\075_s10_r1c3_Desert_Race_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/075_s10_r1c3_Desert_Race_5999_Diamond.png",
     "slotRaw": "075",
     "slot": 75,
@@ -1796,14 +1796,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "076_s10_r1c4_Love_of_Dinosaur_5999_Diamond.png",
     "fileStem": "076_s10_r1c4_Love_of_Dinosaur_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\076_s10_r1c4_Love_of_Dinosaur_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\076_s10_r1c4_Love_of_Dinosaur_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/076_s10_r1c4_Love_of_Dinosaur_5999_Diamond.png",
     "slotRaw": "076",
     "slot": 76,
@@ -1820,14 +1820,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "077_s10_r2c1_Above_the_Sky_5999_Diamond_badge.png",
     "fileStem": "077_s10_r2c1_Above_the_Sky_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\077_s10_r2c1_Above_the_Sky_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\077_s10_r2c1_Above_the_Sky_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/077_s10_r2c1_Above_the_Sky_5999_Diamond_badge.png",
     "slotRaw": "077",
     "slot": 77,
@@ -1845,13 +1845,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge.png",
     "fileStem": "078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/078_s10_r2c2_Puzzle_of_Love_5999_Diamond_badge.png",
     "slotRaw": "078",
     "slot": 78,
@@ -1868,14 +1868,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "079_s10_r2c3_Race_Car_Show_5999_Diamond_badge.png",
     "fileStem": "079_s10_r2c3_Race_Car_Show_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\079_s10_r2c3_Race_Car_Show_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\079_s10_r2c3_Race_Car_Show_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/079_s10_r2c3_Race_Car_Show_5999_Diamond_badge.png",
     "slotRaw": "079",
     "slot": 79,
@@ -1893,13 +1893,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "080_s10_r2c4_Jumping_Horse_5999_Diamond_badge.png",
     "fileStem": "080_s10_r2c4_Jumping_Horse_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\080_s10_r2c4_Jumping_Horse_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\080_s10_r2c4_Jumping_Horse_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/080_s10_r2c4_Jumping_Horse_5999_Diamond_badge.png",
     "slotRaw": "080",
     "slot": 80,
@@ -1916,14 +1916,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "081_s11_r1c1_Black_Luxury_Car_5999_Diamond.png",
     "fileStem": "081_s11_r1c1_Black_Luxury_Car_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\081_s11_r1c1_Black_Luxury_Car_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\081_s11_r1c1_Black_Luxury_Car_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/081_s11_r1c1_Black_Luxury_Car_5999_Diamond.png",
     "slotRaw": "081",
     "slot": 81,
@@ -1940,14 +1940,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "upgrade-gift",
-    "gameplayType": "升级礼物",
-    "badgeConfidence": 1
+    "gameplayType": "upgrade-gift",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond.png",
     "fileStem": "082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/082_s11_r1c2_Happy_Ferris_Wheel_5999_Diamond.png",
     "slotRaw": "082",
     "slot": 82,
@@ -1964,14 +1964,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "083_s11_r1c3_I_LOVE_YOU_5999_Diamond.png",
     "fileStem": "083_s11_r1c3_I_LOVE_YOU_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\083_s11_r1c3_I_LOVE_YOU_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\083_s11_r1c3_I_LOVE_YOU_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/083_s11_r1c3_I_LOVE_YOU_5999_Diamond.png",
     "slotRaw": "083",
     "slot": 83,
@@ -1989,13 +1989,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "084_s11_r1c4_Golden_Music_Box_5999_Diamond.png",
     "fileStem": "084_s11_r1c4_Golden_Music_Box_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\084_s11_r1c4_Golden_Music_Box_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\084_s11_r1c4_Golden_Music_Box_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/084_s11_r1c4_Golden_Music_Box_5999_Diamond.png",
     "slotRaw": "084",
     "slot": 84,
@@ -2012,14 +2012,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "085_s11_r2c1_Glory_Road_5999_Diamond.png",
     "fileStem": "085_s11_r2c1_Glory_Road_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\085_s11_r2c1_Glory_Road_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\085_s11_r2c1_Glory_Road_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/085_s11_r2c1_Glory_Road_5999_Diamond.png",
     "slotRaw": "085",
     "slot": 85,
@@ -2036,14 +2036,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "086_s11_r2c2_Confession_Heart_5999_Diamond_badge.png",
     "fileStem": "086_s11_r2c2_Confession_Heart_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\086_s11_r2c2_Confession_Heart_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\086_s11_r2c2_Confession_Heart_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/086_s11_r2c2_Confession_Heart_5999_Diamond_badge.png",
     "slotRaw": "086",
     "slot": 86,
@@ -2060,14 +2060,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "087_s11_r2c3_Moonlight_Dance_5999_Diamond.png",
     "fileStem": "087_s11_r2c3_Moonlight_Dance_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\087_s11_r2c3_Moonlight_Dance_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\087_s11_r2c3_Moonlight_Dance_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/087_s11_r2c3_Moonlight_Dance_5999_Diamond.png",
     "slotRaw": "087",
     "slot": 87,
@@ -2084,14 +2084,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "088_s11_r2c4_Through_the_Galaxy_5999_Diamond.png",
     "fileStem": "088_s11_r2c4_Through_the_Galaxy_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\088_s11_r2c4_Through_the_Galaxy_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\088_s11_r2c4_Through_the_Galaxy_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/088_s11_r2c4_Through_the_Galaxy_5999_Diamond.png",
     "slotRaw": "088",
     "slot": 88,
@@ -2109,13 +2109,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "089_s12_r1c1_Polar_Bear_5999_Diamond_badge.png",
     "fileStem": "089_s12_r1c1_Polar_Bear_5999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\089_s12_r1c1_Polar_Bear_5999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\089_s12_r1c1_Polar_Bear_5999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/089_s12_r1c1_Polar_Bear_5999_Diamond_badge.png",
     "slotRaw": "089",
     "slot": 89,
@@ -2133,13 +2133,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "090_s12_r1c2_Red_Sports_Car_5999_Diamond.png",
     "fileStem": "090_s12_r1c2_Red_Sports_Car_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\090_s12_r1c2_Red_Sports_Car_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\090_s12_r1c2_Red_Sports_Car_5999_Diamond.png",
     "relativeImagePath": "gifts/classic/090_s12_r1c2_Red_Sports_Car_5999_Diamond.png",
     "slotRaw": "090",
     "slot": 90,
@@ -2156,14 +2156,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "weekly-gifts",
-    "gameplayType": "周礼物",
-    "badgeConfidence": 1
+    "gameplayType": "weekly-gifts",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "091_s12_r1c3_Jet_Ski_Ride_6999_Diamond.png",
     "fileStem": "091_s12_r1c3_Jet_Ski_Ride_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\091_s12_r1c3_Jet_Ski_Ride_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\091_s12_r1c3_Jet_Ski_Ride_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/091_s12_r1c3_Jet_Ski_Ride_6999_Diamond.png",
     "slotRaw": "091",
     "slot": 91,
@@ -2181,13 +2181,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "092_s12_r1c4_Romantic_Gift_6999_Diamond.png",
     "fileStem": "092_s12_r1c4_Romantic_Gift_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\092_s12_r1c4_Romantic_Gift_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\092_s12_r1c4_Romantic_Gift_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/092_s12_r1c4_Romantic_Gift_6999_Diamond.png",
     "slotRaw": "092",
     "slot": 92,
@@ -2204,14 +2204,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "093_s12_r2c1_Thunder_Dragon_6999_Diamond.png",
     "fileStem": "093_s12_r2c1_Thunder_Dragon_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\093_s12_r2c1_Thunder_Dragon_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\093_s12_r2c1_Thunder_Dragon_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/093_s12_r2c1_Thunder_Dragon_6999_Diamond.png",
     "slotRaw": "093",
     "slot": 93,
@@ -2229,13 +2229,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "094_s12_r2c2_Romantic_Train_6999_Diamond.png",
     "fileStem": "094_s12_r2c2_Romantic_Train_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\094_s12_r2c2_Romantic_Train_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\094_s12_r2c2_Romantic_Train_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/094_s12_r2c2_Romantic_Train_6999_Diamond.png",
     "slotRaw": "094",
     "slot": 94,
@@ -2252,14 +2252,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "095_s12_r2c3_Best_Biker_6999_Diamond.png",
     "fileStem": "095_s12_r2c3_Best_Biker_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\095_s12_r2c3_Best_Biker_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\095_s12_r2c3_Best_Biker_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/095_s12_r2c3_Best_Biker_6999_Diamond.png",
     "slotRaw": "095",
     "slot": 95,
@@ -2277,13 +2277,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "096_s12_r2c4_Private_Jet_6999_Diamond.png",
     "fileStem": "096_s12_r2c4_Private_Jet_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\096_s12_r2c4_Private_Jet_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\096_s12_r2c4_Private_Jet_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/096_s12_r2c4_Private_Jet_6999_Diamond.png",
     "slotRaw": "096",
     "slot": 96,
@@ -2300,14 +2300,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "097_s13_r1c1_Galloping_Horse_6999_Diamond.png",
     "fileStem": "097_s13_r1c1_Galloping_Horse_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\097_s13_r1c1_Galloping_Horse_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\097_s13_r1c1_Galloping_Horse_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/097_s13_r1c1_Galloping_Horse_6999_Diamond.png",
     "slotRaw": "097",
     "slot": 97,
@@ -2324,14 +2324,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "098_s13_r1c2_Reborn_Tiger_6999_Diamond.png",
     "fileStem": "098_s13_r1c2_Reborn_Tiger_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\098_s13_r1c2_Reborn_Tiger_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\098_s13_r1c2_Reborn_Tiger_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/098_s13_r1c2_Reborn_Tiger_6999_Diamond.png",
     "slotRaw": "098",
     "slot": 98,
@@ -2349,13 +2349,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "099_s13_r1c3_Fantasy_Horse_6999_Diamond.png",
     "fileStem": "099_s13_r1c3_Fantasy_Horse_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\099_s13_r1c3_Fantasy_Horse_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\099_s13_r1c3_Fantasy_Horse_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/099_s13_r1c3_Fantasy_Horse_6999_Diamond.png",
     "slotRaw": "099",
     "slot": 99,
@@ -2373,13 +2373,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "100_s13_r1c4_Reborn_Lion_6999_Diamond.png",
     "fileStem": "100_s13_r1c4_Reborn_Lion_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\100_s13_r1c4_Reborn_Lion_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\100_s13_r1c4_Reborn_Lion_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/100_s13_r1c4_Reborn_Lion_6999_Diamond.png",
     "slotRaw": "100",
     "slot": 100,
@@ -2397,13 +2397,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "101_s13_r2c1_Helicopter_6999_Diamond.png",
     "fileStem": "101_s13_r2c1_Helicopter_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\101_s13_r2c1_Helicopter_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\101_s13_r2c1_Helicopter_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/101_s13_r2c1_Helicopter_6999_Diamond.png",
     "slotRaw": "101",
     "slot": 101,
@@ -2421,13 +2421,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "102_s13_r2c2_Yacht_6999_Diamond.png",
     "fileStem": "102_s13_r2c2_Yacht_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\102_s13_r2c2_Yacht_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\102_s13_r2c2_Yacht_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/102_s13_r2c2_Yacht_6999_Diamond.png",
     "slotRaw": "102",
     "slot": 102,
@@ -2445,13 +2445,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "103_s13_r2c3_Yellow_Sports_Car_6999_Diamond.png",
     "fileStem": "103_s13_r2c3_Yellow_Sports_Car_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\103_s13_r2c3_Yellow_Sports_Car_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\103_s13_r2c3_Yellow_Sports_Car_6999_Diamond.png",
     "relativeImagePath": "gifts/classic/103_s13_r2c3_Yellow_Sports_Car_6999_Diamond.png",
     "slotRaw": "103",
     "slot": 103,
@@ -2469,13 +2469,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "104_s13_r2c4_King_and_Queen_7999_Diamond.png",
     "fileStem": "104_s13_r2c4_King_and_Queen_7999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\104_s13_r2c4_King_and_Queen_7999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\104_s13_r2c4_King_and_Queen_7999_Diamond.png",
     "relativeImagePath": "gifts/classic/104_s13_r2c4_King_and_Queen_7999_Diamond.png",
     "slotRaw": "104",
     "slot": 104,
@@ -2492,14 +2492,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "105_s14_r1c1_Luxury_Yacht_7999_Diamond.png",
     "fileStem": "105_s14_r1c1_Luxury_Yacht_7999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\105_s14_r1c1_Luxury_Yacht_7999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\105_s14_r1c1_Luxury_Yacht_7999_Diamond.png",
     "relativeImagePath": "gifts/classic/105_s14_r1c1_Luxury_Yacht_7999_Diamond.png",
     "slotRaw": "105",
     "slot": 105,
@@ -2517,13 +2517,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "106_s14_r1c2_Motorcycle_7999_Diamond.png",
     "fileStem": "106_s14_r1c2_Motorcycle_7999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\106_s14_r1c2_Motorcycle_7999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\106_s14_r1c2_Motorcycle_7999_Diamond.png",
     "relativeImagePath": "gifts/classic/106_s14_r1c2_Motorcycle_7999_Diamond.png",
     "slotRaw": "106",
     "slot": 106,
@@ -2541,13 +2541,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "107_s14_r1c3_Leopard_King_8999_Diamond.png",
     "fileStem": "107_s14_r1c3_Leopard_King_8999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\107_s14_r1c3_Leopard_King_8999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\107_s14_r1c3_Leopard_King_8999_Diamond.png",
     "relativeImagePath": "gifts/classic/107_s14_r1c3_Leopard_King_8999_Diamond.png",
     "slotRaw": "107",
     "slot": 107,
@@ -2565,13 +2565,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "108_s14_r1c4_Legacy_of_Dragon_8999_Diamond.png",
     "fileStem": "108_s14_r1c4_Legacy_of_Dragon_8999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\108_s14_r1c4_Legacy_of_Dragon_8999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\108_s14_r1c4_Legacy_of_Dragon_8999_Diamond.png",
     "relativeImagePath": "gifts/classic/108_s14_r1c4_Legacy_of_Dragon_8999_Diamond.png",
     "slotRaw": "108",
     "slot": 108,
@@ -2588,14 +2588,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "109_s14_r2c1_Eagle_King_8999_Diamond_badge.png",
     "fileStem": "109_s14_r2c1_Eagle_King_8999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\109_s14_r2c1_Eagle_King_8999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\109_s14_r2c1_Eagle_King_8999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/109_s14_r2c1_Eagle_King_8999_Diamond_badge.png",
     "slotRaw": "109",
     "slot": 109,
@@ -2612,14 +2612,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "110_s14_r2c2_Black_Panther_8999_Diamond_badge.png",
     "fileStem": "110_s14_r2c2_Black_Panther_8999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\110_s14_r2c2_Black_Panther_8999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\110_s14_r2c2_Black_Panther_8999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/110_s14_r2c2_Black_Panther_8999_Diamond_badge.png",
     "slotRaw": "110",
     "slot": 110,
@@ -2637,13 +2637,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge.png",
     "fileStem": "111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/111_s14_r2c3_Romantic_Carriage_8999_Diamond_badge.png",
     "slotRaw": "111",
     "slot": 111,
@@ -2661,13 +2661,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "112_s14_r2c4_Golden_Limousine_8999_Diamond_badge.png",
     "fileStem": "112_s14_r2c4_Golden_Limousine_8999_Diamond_badge",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\112_s14_r2c4_Golden_Limousine_8999_Diamond_badge.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\112_s14_r2c4_Golden_Limousine_8999_Diamond_badge.png",
     "relativeImagePath": "gifts/classic/112_s14_r2c4_Golden_Limousine_8999_Diamond_badge.png",
     "slotRaw": "112",
     "slot": 112,
@@ -2685,13 +2685,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "113_s15_r1c1_Love_Concert_9999_Diamond.png",
     "fileStem": "113_s15_r1c1_Love_Concert_9999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\113_s15_r1c1_Love_Concert_9999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\113_s15_r1c1_Love_Concert_9999_Diamond.png",
     "relativeImagePath": "gifts/classic/113_s15_r1c1_Love_Concert_9999_Diamond.png",
     "slotRaw": "113",
     "slot": 113,
@@ -2708,14 +2708,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "114_s15_r1c2_Heart_of_Ocean_13999_Diamond.png",
     "fileStem": "114_s15_r1c2_Heart_of_Ocean_13999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\114_s15_r1c2_Heart_of_Ocean_13999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\114_s15_r1c2_Heart_of_Ocean_13999_Diamond.png",
     "relativeImagePath": "gifts/classic/114_s15_r1c2_Heart_of_Ocean_13999_Diamond.png",
     "slotRaw": "114",
     "slot": 114,
@@ -2732,14 +2732,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "115_s15_r1c3_Pink_Sports_Car_13999_Diamond.png",
     "fileStem": "115_s15_r1c3_Pink_Sports_Car_13999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\115_s15_r1c3_Pink_Sports_Car_13999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\115_s15_r1c3_Pink_Sports_Car_13999_Diamond.png",
     "relativeImagePath": "gifts/classic/115_s15_r1c3_Pink_Sports_Car_13999_Diamond.png",
     "slotRaw": "115",
     "slot": 115,
@@ -2756,14 +2756,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "116_s15_r1c4_Attention_Please_13999_Diamond.png",
     "fileStem": "116_s15_r1c4_Attention_Please_13999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\116_s15_r1c4_Attention_Please_13999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\116_s15_r1c4_Attention_Please_13999_Diamond.png",
     "relativeImagePath": "gifts/classic/116_s15_r1c4_Attention_Please_13999_Diamond.png",
     "slotRaw": "116",
     "slot": 116,
@@ -2780,14 +2780,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "117_s15_r2c1_Race_Car_13999_Diamond.png",
     "fileStem": "117_s15_r2c1_Race_Car_13999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\117_s15_r2c1_Race_Car_13999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\117_s15_r2c1_Race_Car_13999_Diamond.png",
     "relativeImagePath": "gifts/classic/117_s15_r2c1_Race_Car_13999_Diamond.png",
     "slotRaw": "117",
     "slot": 117,
@@ -2804,14 +2804,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "118_s15_r2c2_Love_Diamond_Ring_15999_Diamond.png",
     "fileStem": "118_s15_r2c2_Love_Diamond_Ring_15999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\118_s15_r2c2_Love_Diamond_Ring_15999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\118_s15_r2c2_Love_Diamond_Ring_15999_Diamond.png",
     "relativeImagePath": "gifts/classic/118_s15_r2c2_Love_Diamond_Ring_15999_Diamond.png",
     "slotRaw": "118",
     "slot": 118,
@@ -2828,14 +2828,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "119_s15_r2c3_Merry-Go-Round_34999_Diamond.png",
     "fileStem": "119_s15_r2c3_Merry-Go-Round_34999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\119_s15_r2c3_Merry-Go-Round_34999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\119_s15_r2c3_Merry-Go-Round_34999_Diamond.png",
     "relativeImagePath": "gifts/classic/119_s15_r2c3_Merry-Go-Round_34999_Diamond.png",
     "slotRaw": "119",
     "slot": 119,
@@ -2852,14 +2852,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "120_s15_r2c4_Roaring_Lion_43999_Diamond.png",
     "fileStem": "120_s15_r2c4_Roaring_Lion_43999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\120_s15_r2c4_Roaring_Lion_43999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\120_s15_r2c4_Roaring_Lion_43999_Diamond.png",
     "relativeImagePath": "gifts/classic/120_s15_r2c4_Roaring_Lion_43999_Diamond.png",
     "slotRaw": "120",
     "slot": 120,
@@ -2876,14 +2876,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "121_s16_r1c1_Wolf_and_Moon_43999_Diamond.png",
     "fileStem": "121_s16_r1c1_Wolf_and_Moon_43999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\121_s16_r1c1_Wolf_and_Moon_43999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\121_s16_r1c1_Wolf_and_Moon_43999_Diamond.png",
     "relativeImagePath": "gifts/classic/121_s16_r1c1_Wolf_and_Moon_43999_Diamond.png",
     "slotRaw": "121",
     "slot": 121,
@@ -2900,14 +2900,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "122_s16_r1c2_Throne_54999_Diamond.png",
     "fileStem": "122_s16_r1c2_Throne_54999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\122_s16_r1c2_Throne_54999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\122_s16_r1c2_Throne_54999_Diamond.png",
     "relativeImagePath": "gifts/classic/122_s16_r1c2_Throne_54999_Diamond.png",
     "slotRaw": "122",
     "slot": 122,
@@ -2925,13 +2925,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "123_s16_r1c3_Rushing_Cars_169999_Diamond.png",
     "fileStem": "123_s16_r1c3_Rushing_Cars_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\123_s16_r1c3_Rushing_Cars_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\123_s16_r1c3_Rushing_Cars_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/123_s16_r1c3_Rushing_Cars_169999_Diamond.png",
     "slotRaw": "123",
     "slot": 123,
@@ -2948,14 +2948,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "124_s16_r1c4_Ferris_Wheel_169999_Diamond.png",
     "fileStem": "124_s16_r1c4_Ferris_Wheel_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\124_s16_r1c4_Ferris_Wheel_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\124_s16_r1c4_Ferris_Wheel_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/124_s16_r1c4_Ferris_Wheel_169999_Diamond.png",
     "slotRaw": "124",
     "slot": 124,
@@ -2972,14 +2972,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "125_s16_r2c1_Island_Paradise_169999_Diamond.png",
     "fileStem": "125_s16_r2c1_Island_Paradise_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\125_s16_r2c1_Island_Paradise_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\125_s16_r2c1_Island_Paradise_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/125_s16_r2c1_Island_Paradise_169999_Diamond.png",
     "slotRaw": "125",
     "slot": 125,
@@ -2996,14 +2996,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "126_s16_r2c2_Aerobatic_Flight_169999_Diamond.png",
     "fileStem": "126_s16_r2c2_Aerobatic_Flight_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\126_s16_r2c2_Aerobatic_Flight_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\126_s16_r2c2_Aerobatic_Flight_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/126_s16_r2c2_Aerobatic_Flight_169999_Diamond.png",
     "slotRaw": "126",
     "slot": 126,
@@ -3020,14 +3020,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "127_s16_r2c3_Meteor_Shower_199999_Diamond.png",
     "fileStem": "127_s16_r2c3_Meteor_Shower_199999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\127_s16_r2c3_Meteor_Shower_199999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\127_s16_r2c3_Meteor_Shower_199999_Diamond.png",
     "relativeImagePath": "gifts/classic/127_s16_r2c3_Meteor_Shower_199999_Diamond.png",
     "slotRaw": "127",
     "slot": 127,
@@ -3044,14 +3044,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "128_s16_r2c4_Castle_199999_Diamond.png",
     "fileStem": "128_s16_r2c4_Castle_199999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\128_s16_r2c4_Castle_199999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\128_s16_r2c4_Castle_199999_Diamond.png",
     "relativeImagePath": "gifts/classic/128_s16_r2c4_Castle_199999_Diamond.png",
     "slotRaw": "128",
     "slot": 128,
@@ -3068,14 +3068,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "129_s17_r1c1_Island_169999_Diamond.png",
     "fileStem": "129_s17_r1c1_Island_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\129_s17_r1c1_Island_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\129_s17_r1c1_Island_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/129_s17_r1c1_Island_169999_Diamond.png",
     "slotRaw": "129",
     "slot": 129,
@@ -3092,14 +3092,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "130_s17_r1c2_Aerobatic_Flight_169999_Diamond.png",
     "fileStem": "130_s17_r1c2_Aerobatic_Flight_169999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\130_s17_r1c2_Aerobatic_Flight_169999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\130_s17_r1c2_Aerobatic_Flight_169999_Diamond.png",
     "relativeImagePath": "gifts/classic/130_s17_r1c2_Aerobatic_Flight_169999_Diamond.png",
     "slotRaw": "130",
     "slot": 130,
@@ -3116,14 +3116,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "131_s17_r1c3_Meteor_Shower_199999_Diamond.png",
     "fileStem": "131_s17_r1c3_Meteor_Shower_199999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\131_s17_r1c3_Meteor_Shower_199999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\131_s17_r1c3_Meteor_Shower_199999_Diamond.png",
     "relativeImagePath": "gifts/classic/131_s17_r1c3_Meteor_Shower_199999_Diamond.png",
     "slotRaw": "131",
     "slot": 131,
@@ -3140,14 +3140,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "132_s17_r1c4_Castle_199999_Diamond.png",
     "fileStem": "132_s17_r1c4_Castle_199999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\132_s17_r1c4_Castle_199999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\132_s17_r1c4_Castle_199999_Diamond.png",
     "relativeImagePath": "gifts/classic/132_s17_r1c4_Castle_199999_Diamond.png",
     "slotRaw": "132",
     "slot": 132,
@@ -3164,14 +3164,14 @@
     "priceTier": "收藏级",
     "hasBadge": true,
     "badgeType": "show-all-rooms",
-    "gameplayType": "全房间展示",
-    "badgeConfidence": 1
+    "gameplayType": "show-all-rooms",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "classic",
     "fileName": "133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",
     "fileStem": "133_s17_r2c1_Gift_Box_Select_gift_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",
     "relativeImagePath": "gifts/classic/133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",
     "slotRaw": "133",
     "slot": 133,
@@ -3189,13 +3189,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "activity",
     "fileName": "01_s01_r1c1_Delicious_Iftar_1999_Diamond.png",
     "fileStem": "01_s01_r1c1_Delicious_Iftar_1999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\01_s01_r1c1_Delicious_Iftar_1999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\01_s01_r1c1_Delicious_Iftar_1999_Diamond.png",
     "relativeImagePath": "gifts/activity/01_s01_r1c1_Delicious_Iftar_1999_Diamond.png",
     "slotRaw": "01",
     "slot": 1,
@@ -3213,13 +3213,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "activity",
     "fileName": "02_s01_r1c2_Little_Sunflower_3_Diamond.png",
     "fileStem": "02_s01_r1c2_Little_Sunflower_3_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\02_s01_r1c2_Little_Sunflower_3_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\02_s01_r1c2_Little_Sunflower_3_Diamond.png",
     "relativeImagePath": "gifts/activity/02_s01_r1c2_Little_Sunflower_3_Diamond.png",
     "slotRaw": "02",
     "slot": 2,
@@ -3236,14 +3236,14 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "monthly-gifts",
-    "gameplayType": "月礼物",
-    "badgeConfidence": 1
+    "gameplayType": "monthly-gifts",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "activity",
     "fileName": "03_s01_r1c3_Birthday_199_Diamond.png",
     "fileStem": "03_s01_r1c3_Birthday_199_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\03_s01_r1c3_Birthday_199_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\03_s01_r1c3_Birthday_199_Diamond.png",
     "relativeImagePath": "gifts/activity/03_s01_r1c3_Birthday_199_Diamond.png",
     "slotRaw": "03",
     "slot": 3,
@@ -3261,13 +3261,13 @@
     "hasBadge": true,
     "badgeType": "unknown-badge",
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "activity",
     "fileName": "04_s01_r1c4_Happy_Birthday_9_Diamond.png",
     "fileStem": "04_s01_r1c4_Happy_Birthday_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\04_s01_r1c4_Happy_Birthday_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\04_s01_r1c4_Happy_Birthday_9_Diamond.png",
     "relativeImagePath": "gifts/activity/04_s01_r1c4_Happy_Birthday_9_Diamond.png",
     "slotRaw": "04",
     "slot": 4,
@@ -3285,13 +3285,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "activity",
     "fileName": "05_s01_r2c1_Birthday_Party_5999_Diamond.png",
     "fileStem": "05_s01_r2c1_Birthday_Party_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\05_s01_r2c1_Birthday_Party_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\activity\\05_s01_r2c1_Birthday_Party_5999_Diamond.png",
     "relativeImagePath": "gifts/activity/05_s01_r2c1_Birthday_Party_5999_Diamond.png",
     "slotRaw": "05",
     "slot": 5,
@@ -3308,14 +3308,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "sound-effect",
-    "gameplayType": "音效礼物",
-    "badgeConfidence": 1
+    "gameplayType": "sound-effect",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "01_s01_r1c1_Nice_9_Diamond.png",
     "fileStem": "01_s01_r1c1_Nice_9_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\01_s01_r1c1_Nice_9_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\01_s01_r1c1_Nice_9_Diamond.png",
     "relativeImagePath": "gifts/member/01_s01_r1c1_Nice_9_Diamond.png",
     "slotRaw": "01",
     "slot": 1,
@@ -3333,13 +3333,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "01_s02_r1c1_Hawk_Necklace_699_Diamond.png",
     "fileStem": "01_s02_r1c1_Hawk_Necklace_699_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\01_s02_r1c1_Hawk_Necklace_699_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\01_s02_r1c1_Hawk_Necklace_699_Diamond.png",
     "relativeImagePath": "gifts/member/01_s02_r1c1_Hawk_Necklace_699_Diamond.png",
     "slotRaw": "01",
     "slot": 1,
@@ -3357,13 +3357,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "02_s01_r1c2_Starlight_Bottle_19_Diamond.png",
     "fileStem": "02_s01_r1c2_Starlight_Bottle_19_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\02_s01_r1c2_Starlight_Bottle_19_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\02_s01_r1c2_Starlight_Bottle_19_Diamond.png",
     "relativeImagePath": "gifts/member/02_s01_r1c2_Starlight_Bottle_19_Diamond.png",
     "slotRaw": "02",
     "slot": 2,
@@ -3381,13 +3381,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "02_s02_r1c2_Hawk_2999_Diamond.png",
     "fileStem": "02_s02_r1c2_Hawk_2999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\02_s02_r1c2_Hawk_2999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\02_s02_r1c2_Hawk_2999_Diamond.png",
     "relativeImagePath": "gifts/member/02_s02_r1c2_Hawk_2999_Diamond.png",
     "slotRaw": "02",
     "slot": 2,
@@ -3405,13 +3405,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "03_s01_r1c3_Fiery_Heart_29_Diamond.png",
     "fileStem": "03_s01_r1c3_Fiery_Heart_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\03_s01_r1c3_Fiery_Heart_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\03_s01_r1c3_Fiery_Heart_29_Diamond.png",
     "relativeImagePath": "gifts/member/03_s01_r1c3_Fiery_Heart_29_Diamond.png",
     "slotRaw": "03",
     "slot": 3,
@@ -3428,14 +3428,14 @@
     "priceTier": "低价",
     "hasBadge": true,
     "badgeType": "color-customized",
-    "gameplayType": "颜色定制",
-    "badgeConfidence": 1
+    "gameplayType": "color-customized",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "03_s02_r1c3_Firebird_4999_Diamond.png",
     "fileStem": "03_s02_r1c3_Firebird_4999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\03_s02_r1c3_Firebird_4999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\03_s02_r1c3_Firebird_4999_Diamond.png",
     "relativeImagePath": "gifts/member/03_s02_r1c3_Firebird_4999_Diamond.png",
     "slotRaw": "03",
     "slot": 3,
@@ -3453,13 +3453,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "04_s01_r1c4_Fruit_Basket_399_Diamond.png",
     "fileStem": "04_s01_r1c4_Fruit_Basket_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\04_s01_r1c4_Fruit_Basket_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\04_s01_r1c4_Fruit_Basket_399_Diamond.png",
     "relativeImagePath": "gifts/member/04_s01_r1c4_Fruit_Basket_399_Diamond.png",
     "slotRaw": "04",
     "slot": 4,
@@ -3477,13 +3477,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "04_s02_r1c4_Train_5999_Diamond.png",
     "fileStem": "04_s02_r1c4_Train_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\04_s02_r1c4_Train_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\04_s02_r1c4_Train_5999_Diamond.png",
     "relativeImagePath": "gifts/member/04_s02_r1c4_Train_5999_Diamond.png",
     "slotRaw": "04",
     "slot": 4,
@@ -3501,13 +3501,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "05_s02_r2c1_Love_Match_5999_Diamond.png",
     "fileStem": "05_s02_r2c1_Love_Match_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\05_s02_r2c1_Love_Match_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\05_s02_r2c1_Love_Match_5999_Diamond.png",
     "relativeImagePath": "gifts/member/05_s02_r2c1_Love_Match_5999_Diamond.png",
     "slotRaw": "05",
     "slot": 5,
@@ -3525,13 +3525,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "member",
     "fileName": "06_s02_r2c2_Fountain_of_Love_5999_Diamond.png",
     "fileStem": "06_s02_r2c2_Fountain_of_Love_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\06_s02_r2c2_Fountain_of_Love_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\member\\06_s02_r2c2_Fountain_of_Love_5999_Diamond.png",
     "relativeImagePath": "gifts/member/06_s02_r2c2_Fountain_of_Love_5999_Diamond.png",
     "slotRaw": "06",
     "slot": 6,
@@ -3548,14 +3548,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "01_s01_r1c1_Night_Race_Car_5999_Diamond.png",
     "fileStem": "01_s01_r1c1_Night_Race_Car_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\01_s01_r1c1_Night_Race_Car_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\01_s01_r1c1_Night_Race_Car_5999_Diamond.png",
     "relativeImagePath": "gifts/royal/01_s01_r1c1_Night_Race_Car_5999_Diamond.png",
     "slotRaw": "01",
     "slot": 1,
@@ -3573,13 +3573,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "01_s02_r1c1_Horse_Bracelet_199_Diamond.png",
     "fileStem": "01_s02_r1c1_Horse_Bracelet_199_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\01_s02_r1c1_Horse_Bracelet_199_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\01_s02_r1c1_Horse_Bracelet_199_Diamond.png",
     "relativeImagePath": "gifts/royal/01_s02_r1c1_Horse_Bracelet_199_Diamond.png",
     "slotRaw": "01",
     "slot": 1,
@@ -3597,13 +3597,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "02_s01_r1c2_Chess_19_Diamond.png",
     "fileStem": "02_s01_r1c2_Chess_19_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\02_s01_r1c2_Chess_19_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\02_s01_r1c2_Chess_19_Diamond.png",
     "relativeImagePath": "gifts/royal/02_s01_r1c2_Chess_19_Diamond.png",
     "slotRaw": "02",
     "slot": 2,
@@ -3621,13 +3621,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "02_s02_r1c2_Violin_399_Diamond.png",
     "fileStem": "02_s02_r1c2_Violin_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\02_s02_r1c2_Violin_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\02_s02_r1c2_Violin_399_Diamond.png",
     "relativeImagePath": "gifts/royal/02_s02_r1c2_Violin_399_Diamond.png",
     "slotRaw": "02",
     "slot": 2,
@@ -3645,13 +3645,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "03_s01_r1c3_Saxophone_399_Diamond.png",
     "fileStem": "03_s01_r1c3_Saxophone_399_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\03_s01_r1c3_Saxophone_399_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\03_s01_r1c3_Saxophone_399_Diamond.png",
     "relativeImagePath": "gifts/royal/03_s01_r1c3_Saxophone_399_Diamond.png",
     "slotRaw": "03",
     "slot": 3,
@@ -3669,13 +3669,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "03_s02_r1c3_Crown_999_Diamond.png",
     "fileStem": "03_s02_r1c3_Crown_999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\03_s02_r1c3_Crown_999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\03_s02_r1c3_Crown_999_Diamond.png",
     "relativeImagePath": "gifts/royal/03_s02_r1c3_Crown_999_Diamond.png",
     "slotRaw": "03",
     "slot": 3,
@@ -3693,13 +3693,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "04_s01_r1c4_Premium_Cake_7999_Diamond.png",
     "fileStem": "04_s01_r1c4_Premium_Cake_7999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\04_s01_r1c4_Premium_Cake_7999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\04_s01_r1c4_Premium_Cake_7999_Diamond.png",
     "relativeImagePath": "gifts/royal/04_s01_r1c4_Premium_Cake_7999_Diamond.png",
     "slotRaw": "04",
     "slot": 4,
@@ -3716,14 +3716,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "04_s02_r1c4_Sword_of_Glory_1999_Diamond.png",
     "fileStem": "04_s02_r1c4_Sword_of_Glory_1999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\04_s02_r1c4_Sword_of_Glory_1999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\04_s02_r1c4_Sword_of_Glory_1999_Diamond.png",
     "relativeImagePath": "gifts/royal/04_s02_r1c4_Sword_of_Glory_1999_Diamond.png",
     "slotRaw": "04",
     "slot": 4,
@@ -3741,13 +3741,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "05_s01_r2c1_Green_Heaven_6999_Diamond.png",
     "fileStem": "05_s01_r2c1_Green_Heaven_6999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\05_s01_r2c1_Green_Heaven_6999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\05_s01_r2c1_Green_Heaven_6999_Diamond.png",
     "relativeImagePath": "gifts/royal/05_s01_r2c1_Green_Heaven_6999_Diamond.png",
     "slotRaw": "05",
     "slot": 5,
@@ -3764,14 +3764,14 @@
     "priceTier": "超高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "05_s02_r2c1_Rose_Beauty_2999_Diamond.png",
     "fileStem": "05_s02_r2c1_Rose_Beauty_2999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\05_s02_r2c1_Rose_Beauty_2999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\05_s02_r2c1_Rose_Beauty_2999_Diamond.png",
     "relativeImagePath": "gifts/royal/05_s02_r2c1_Rose_Beauty_2999_Diamond.png",
     "slotRaw": "05",
     "slot": 5,
@@ -3789,13 +3789,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "06_s01_r2c2_Blue_Diamond_5999_Diamond.png",
     "fileStem": "06_s01_r2c2_Blue_Diamond_5999_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\06_s01_r2c2_Blue_Diamond_5999_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\06_s01_r2c2_Blue_Diamond_5999_Diamond.png",
     "relativeImagePath": "gifts/royal/06_s01_r2c2_Blue_Diamond_5999_Diamond.png",
     "slotRaw": "06",
     "slot": 6,
@@ -3812,14 +3812,14 @@
     "priceTier": "高价",
     "hasBadge": true,
     "badgeType": "profile-display",
-    "gameplayType": "主页展示",
-    "badgeConfidence": 1
+    "gameplayType": "profile-display",
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "07_s01_r2c3_Shining_Heart_29_Diamond.png",
     "fileStem": "07_s01_r2c3_Shining_Heart_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\07_s01_r2c3_Shining_Heart_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\07_s01_r2c3_Shining_Heart_29_Diamond.png",
     "relativeImagePath": "gifts/royal/07_s01_r2c3_Shining_Heart_29_Diamond.png",
     "slotRaw": "07",
     "slot": 7,
@@ -3837,13 +3837,13 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   },
   {
     "folder": "royal",
     "fileName": "08_s01_r2c4_Hourglass_29_Diamond.png",
     "fileStem": "08_s01_r2c4_Hourglass_29_Diamond",
-    "imagePath": "c:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\08_s01_r2c4_Hourglass_29_Diamond.png",
+    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\royal\\08_s01_r2c4_Hourglass_29_Diamond.png",
     "relativeImagePath": "gifts/royal/08_s01_r2c4_Hourglass_29_Diamond.png",
     "slotRaw": "08",
     "slot": 8,
@@ -3861,6 +3861,6 @@
     "hasBadge": false,
     "badgeType": null,
     "gameplayType": null,
-    "badgeConfidence": 1
+    "badgeConfidence": 1.0
   }
 ]

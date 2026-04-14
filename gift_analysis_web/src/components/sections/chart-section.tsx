@@ -26,8 +26,8 @@ export function ChartSection({ priceTierData, folderCurrencyData, badgeTypeData,
         <TopPriceChart data={topGiftData} />
       </div>
       <div className="glass-panel rounded-[28px] p-5">
-        <h3 className="mb-2 text-lg font-semibold text-white">玩法说明接入状态</h3>
-        <p className="mb-4 text-sm text-slate-300">当前已接入角标类型定义，后续你只要补充玩法说明，网页就会自动把 badge 类型和玩法文案同步更新到专题区。</p>
+        <h3 className="mb-2 text-lg font-semibold text-white">玩法说明同步状态</h3>
+        <p className="mb-4 text-sm text-slate-300">当前角标玩法说明已经从 `角标规则说明.txt` 接入到构建链路。后续只要重跑 `build_gift_dataset.py`，规则文案和专题内容会一起同步更新到网页。</p>
         <div className="flex flex-wrap gap-2">
           {badgeDefinitions.map((badge) => (
             <span key={badge.code} className="rounded-full px-3 py-1 text-xs text-white" style={{ backgroundColor: `${badge.color}22`, border: `1px solid ${badge.color}55` }}>

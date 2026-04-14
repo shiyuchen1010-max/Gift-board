@@ -1,0 +1,236 @@
+{
+  "scenario": "无聊天室 Facebook Ludo 接入送礼系统",
+  "positioning": "以棋局内反馈、结算荣誉和大厅曝光替代聊天室公屏，把送礼系统重构为“轻社交炫耀 + 赛季留存 + 高光消费”的混合增长模块。",
+  "analysisContext": {
+    "giftCount": 161,
+    "badgeCoverage": 0.4907,
+    "highestPrice": 199999,
+    "dominantGameplay": "主页展示"
+  },
+  "designPrinciples": [
+    "优先占据开局前、掷骰瞬间、吃子、冲线、结算、赛季页等高情绪节点，而不是依赖聊天室对话流。",
+    "把高价礼物绑定到更大范围的可见度，例如好友动态、赛事大厅、俱乐部主页和周月榜曝光位。",
+    "基础礼物负责高频表达，稀有礼物负责广播与身份权益，确保消费梯度与用户分层清晰。"
+  ],
+  "triggerScenes": [
+    {
+      "name": "开局前赠礼",
+      "placement": "房间准备页 / 对手确认页",
+      "goal": "促进首单与破冰社交",
+      "detail": "在确认入局与好友开黑时展示快捷礼物条，支持一键送 Lucky Dice 或开门红礼物。"
+    },
+    {
+      "name": "局内高光赠礼",
+      "placement": "掷出 6 点、吃子、连续回合、终点冲线",
+      "goal": "强化爽点反馈",
+      "detail": "当玩家完成高光操作时弹出轻量礼物入口，采用飞线到头像/棋子的方式表达。"
+    },
+    {
+      "name": "结算页赠礼",
+      "placement": "MVP 卡片、胜者页、好友复盘页",
+      "goal": "提高高价礼物转化",
+      "detail": "在结算页提供更完整的礼物橱窗，结合胜者名片、最佳操作和连胜信息展示。"
+    },
+    {
+      "name": "赛季与活动页赠礼",
+      "placement": "周赛、月赛、活动大厅",
+      "goal": "承接榜单与长期留存",
+      "detail": "把周礼物、月礼物、升级礼物映射到赛季活动页，形成长期消费目标。"
+    }
+  ],
+  "gameplayMappings": [
+    {
+      "badgeCode": "profile-display",
+      "badgeLabel": "主页展示",
+      "currentMechanic": "礼物动效期间展示收礼人名片信息",
+      "ludoAdaptation": "改为对局结算页 MVP 高亮、棋盘侧边荣誉卡和好友观战浮层展示，强化赢家与被赠方身份露出。",
+      "priority": "P0",
+      "fit": "高"
+    },
+    {
+      "badgeCode": "show-all-rooms",
+      "badgeLabel": "全房间展示",
+      "currentMechanic": "送礼后触发跨房间播报",
+      "ludoAdaptation": "改为大厅、赛事页、好友动态流的全局播报，避免依赖聊天室，同时保留稀缺礼物的公共曝光。",
+      "priority": "P0",
+      "fit": "高"
+    },
+    {
+      "badgeCode": "weekly-gifts",
+      "badgeLabel": "周礼物",
+      "currentMechanic": "礼物累计积分进入周榜",
+      "ludoAdaptation": "映射为每周主题礼物赛季任务，与玩家、好友圈或战队榜结合，推动周活与回流。",
+      "priority": "P1",
+      "fit": "高"
+    },
+    {
+      "badgeCode": "monthly-gifts",
+      "badgeLabel": "月礼物",
+      "currentMechanic": "按房间累计月礼物并结算排行",
+      "ludoAdaptation": "改为按棋桌、俱乐部、战队或赛季房间做月榜，适合承接长期荣誉与超级曝光位。",
+      "priority": "P1",
+      "fit": "中高"
+    },
+    {
+      "badgeCode": "mystery-gifts-box",
+      "badgeLabel": "盲盒礼物",
+      "currentMechanic": "支付固定价格随机掉落礼物",
+      "ludoAdaptation": "接入 Lucky Dice / Surprise Crate，放在开局前、结算后和活动页，适合做高频抽奖消耗。",
+      "priority": "P0",
+      "fit": "高"
+    },
+    {
+      "badgeCode": "upgrade-gift",
+      "badgeLabel": "升级礼物",
+      "currentMechanic": "累计赠送解锁更高阶礼物",
+      "ludoAdaptation": "改为赛季成长礼物链，结合月度通行证、连胜任务和好友互赠进度条。",
+      "priority": "P1",
+      "fit": "中高"
+    },
+    {
+      "badgeCode": "cumulative-gift",
+      "badgeLabel": "累计礼物",
+      "currentMechanic": "限时内累计达到阈值触发进阶特效",
+      "ludoAdaptation": "改为多人观赛/战队众筹礼物，或在淘汰赛阶段触发团队冲刺奖池，强化协作与冲榜。",
+      "priority": "P2",
+      "fit": "中"
+    },
+    {
+      "badgeCode": "on-mic-effect",
+      "badgeLabel": "上麦特效",
+      "currentMechanic": "礼物轨迹飞向麦位头像",
+      "ludoAdaptation": "改为棋盘飞线到玩家头像或棋子终点，强化局内送礼反馈，不依赖麦位与聊天室。",
+      "priority": "P1",
+      "fit": "中高"
+    },
+    {
+      "badgeCode": "sound-effect",
+      "badgeLabel": "音效礼物",
+      "currentMechanic": "礼物附带全房间可听音效",
+      "ludoAdaptation": "改为局内短音效和结算音簇，默认弱打扰并允许一键静音，提升送礼即时爽感。",
+      "priority": "P1",
+      "fit": "中"
+    },
+    {
+      "badgeCode": "color-customized",
+      "badgeLabel": "颜色定制",
+      "currentMechanic": "赠送前选择礼物颜色",
+      "ludoAdaptation": "改为阵营色、骰子色或节庆色主题皮肤，提高复购与收藏属性。",
+      "priority": "P2",
+      "fit": "中"
+    }
+  ],
+  "featureModules": [
+    {
+      "name": "轻量送礼入口",
+      "summary": "在局前、局中、结算三类场景提供低打扰快捷入口。",
+      "items": [
+        "底部礼物快捷条",
+        "高光事件触发弹层",
+        "结算页推荐礼物卡"
+      ]
+    },
+    {
+      "name": "曝光与排行系统",
+      "summary": "用好友流、大厅位、战队榜替代聊天室广播。",
+      "items": [
+        "全局横幅播报",
+        "好友动态卡片",
+        "周榜/月榜/战队榜"
+      ]
+    },
+    {
+      "name": "成长与抽奖系统",
+      "summary": "通过盲盒、升级、累计机制形成复购链路。",
+      "items": [
+        "Lucky Dice 盲盒",
+        "赛季成长礼物链",
+        "多人众筹进度条"
+      ]
+    }
+  ],
+  "economyLoop": [
+    {
+      "stage": "首单转化",
+      "detail": "低价局前礼物与新手任务结合，降低第一次付费门槛。"
+    },
+    {
+      "stage": "高光刺激",
+      "detail": "在赢面扩大、关键掷骰和结算时推荐中高价礼物，提高情绪驱动消费。"
+    },
+    {
+      "stage": "排行榜沉淀",
+      "detail": "周榜、月榜和赛季成长奖励驱动持续消费与回流。"
+    },
+    {
+      "stage": "稀缺炫耀",
+      "detail": "把广播位、专属边框、主页荣誉卡绑定高价礼物，形成身份溢价。"
+    }
+  ],
+  "riskControls": [
+    {
+      "title": "局内打扰度",
+      "level": "高",
+      "detail": "飞线、音效与弹层都必须做弱打扰、可跳过与静音控制，避免影响核心对局。"
+    },
+    {
+      "title": "社交关系不足",
+      "level": "中",
+      "detail": "若缺少聊天室和强好友关系，需优先依赖结算页、观战流和活动大厅承接送礼曝光。"
+    },
+    {
+      "title": "付费与概率披露",
+      "level": "高",
+      "detail": "盲盒与排行榜奖励必须明确概率、公示规则和结算时间，符合 Facebook 发行区合规要求。"
+    }
+  ],
+  "rolloutPhases": [
+    {
+      "phase": "Phase 1",
+      "goal": "验证送礼意愿与不打扰体验",
+      "capabilities": [
+        "开局前礼物",
+        "结算页礼物",
+        "基础飞线动效"
+      ],
+      "metrics": [
+        "首单转化率",
+        "结算页送礼渗透率",
+        "对局完成率"
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "goal": "引入榜单与抽奖，扩大复购",
+      "capabilities": [
+        "周礼物赛季榜",
+        "Lucky Dice 盲盒",
+        "大厅播报"
+      ],
+      "metrics": [
+        "周付费率",
+        "复购率",
+        "榜单参与人数"
+      ]
+    },
+    {
+      "phase": "Phase 3",
+      "goal": "做强高价值炫耀体系",
+      "capabilities": [
+        "月榜超级曝光",
+        "成长礼物链",
+        "战队众筹特效"
+      ],
+      "metrics": [
+        "高价礼物占比",
+        "ARPPU",
+        "赛季留存"
+      ]
+    }
+  ],
+  "openQuestions": [
+    "当前 Facebook Ludo 是否存在局内礼物动效层与结算页弹层资源位，需要产品与前端进一步确认。",
+    "是否已有好友关系、战队或赛季通行证体系可承接礼物排行榜，需要与现有社交系统对齐。",
+    "Facebook 支付、广告变现与虚拟币体系的最终组合策略尚未给定，需结合发行区域与风控要求定案。"
+  ]
+}

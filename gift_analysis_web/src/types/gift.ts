@@ -93,7 +93,11 @@ export interface ChartDatum {
   color?: string;
   gold?: number;
   diamond?: number;
+  detail?: string;
+  description?: string;
+  percentage?: number;
 }
+
 
 export interface BadgeSummary {
   code: string;

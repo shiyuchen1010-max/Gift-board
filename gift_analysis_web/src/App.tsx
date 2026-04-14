@@ -1,9 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
+
 import { FilterPanel } from './components/filters/filter-panel';
 import { AppShell } from './components/layout/app-shell';
 import { BadgeAnalysisSection } from './components/sections/badge-analysis-section';
 import { ChartSection } from './components/sections/chart-section';
+import { FacebookLudoNoChatPlanSection } from './components/sections/facebook-ludo-nochat-plan-section';
 import { GiftExplorerSection } from './components/sections/gift-explorer-section';
+import { GiftSystemAnalysisSection } from './components/sections/gift-system-analysis-section';
 import { InsightSection } from './components/sections/insight-section';
 import { ManualReviewSection } from './components/sections/manual-review-section';
 import { OverviewSection } from './components/sections/overview-section';
@@ -19,6 +22,7 @@ import {
 import { loadDashboardData } from './lib/data-loader';
 import { buildInsights } from './lib/insights';
 import { applyManualReviewsToGifts } from './lib/manual-review';
+import type { FacebookLudoNoChatPlan, GiftSystemAnalysis } from './types/analysis';
 import type { BadgeDefinition, GiftRecord, ManualBadgeReviewItem } from './types/gift';
 
 export default function App() {
@@ -26,6 +30,8 @@ export default function App() {
   const [badges, setBadges] = useState<BadgeDefinition[]>([]);
   const [manualReviews, setManualReviews] = useState<ManualBadgeReviewItem[]>([]);
   const [savedManualReviews, setSavedManualReviews] = useState<ManualBadgeReviewItem[]>([]);
+  const [giftSystemAnalysis, setGiftSystemAnalysis] = useState<GiftSystemAnalysis | null>(null);
+  const [facebookLudoPlan, setFacebookLudoPlan] = useState<FacebookLudoNoChatPlan | null>(null);
   const [loading, setLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
@@ -36,6 +42,8 @@ export default function App() {
         setBadges(data.badges);
         setManualReviews(data.manualReviews);
         setSavedManualReviews(data.manualReviews);
+        setGiftSystemAnalysis(data.giftSystemAnalysis);
+        setFacebookLudoPlan(data.facebookLudoPlan);
         setLoading(false);
       })
       .catch(() => {
@@ -45,13 +53,8 @@ export default function App() {
       });
   }, []);
 
-  const gifts = useMemo(
-    () => applyManualReviewsToGifts(sourceGifts, manualReviews, badges),
-    [sourceGifts, manualReviews, badges],
-  );
-
+  const gifts = useMemo(() => applyManualReviewsToGifts(sourceGifts, manualReviews, badges), [sourceGifts, manualReviews, badges]);
   const { filters, filteredGifts, options, updateFilter, resetFilters } = useGiftFilters(gifts, badges);
-
   const overview = useMemo(() => buildOverviewMetrics(filteredGifts, gifts), [filteredGifts, gifts]);
   const priceTierData = useMemo(() => buildPriceTierData(filteredGifts), [filteredGifts]);
   const folderCurrencyData = useMemo(() => buildFolderCurrencyData(filteredGifts), [filteredGifts]);
@@ -72,6 +75,7 @@ export default function App() {
   return (
     <AppShell total={gifts.length} badgeCount={gifts.filter((gift) => gift.hasBadge).length}>
       <OverviewSection metrics={overview} />
+      {giftSystemAnalysis ? <GiftSystemAnalysisSection analysis={giftSystemAnalysis} badges={badges} /> : null}
       <FilterPanel
         filters={filters}
         badgeTypes={options.badgeTypes}
@@ -89,6 +93,7 @@ export default function App() {
       />
       <GiftExplorerSection gifts={filteredGifts} badgeMap={badgeMap} />
       <BadgeAnalysisSection summaries={badgeSummaries} />
+      {facebookLudoPlan ? <FacebookLudoNoChatPlanSection plan={facebookLudoPlan} /> : null}
       <ManualReviewSection
         items={manualReviews}
         savedItems={savedManualReviews}
@@ -102,14 +107,13 @@ export default function App() {
   );
 }
 
-
 function LoadingState() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-hero-gradient px-6 text-center text-white">
       <div className="glass-panel rounded-[32px] p-8">
         <p className="text-sm uppercase tracking-[0.28em] text-cyan-200">Loading Dashboard</p>
-        <h1 className="mt-3 text-3xl font-bold">正在装载礼物图片与角标分析数据</h1>
-        <p className="mt-3 text-sm text-slate-300">识别结果、分类结构和价格分层会在数据读取完成后一起显示。</p>
+        <h1 className="mt-3 text-3xl font-bold">正在装载礼物分析、玩法规则与 Ludo 规划数据</h1>
+        <p className="mt-3 text-sm text-slate-300">礼物图库、角标规则、系统分析结论和接入规划会在数据读取完成后一起显示。</p>
       </div>
     </div>
   );
@@ -121,7 +125,7 @@ function ErrorState() {
       <div className="glass-panel rounded-[32px] p-8">
         <p className="text-sm uppercase tracking-[0.28em] text-rose-200">Data Error</p>
         <h1 className="mt-3 text-3xl font-bold">数据加载失败</h1>
-        <p className="mt-3 text-sm text-slate-300">请确认 `public/data` 下的 `gifts.json` 和 `badge_definitions.json` 已经生成，再重新刷新页面。</p>
+        <p className="mt-3 text-sm text-slate-300">请确认 `public/data` 下的 `gifts.json`、`badge_definitions.json`、`gift_system_analysis.json` 和 `facebook_ludo_nochat_plan.json` 已生成，再重新刷新页面。</p>
       </div>
     </div>
   );

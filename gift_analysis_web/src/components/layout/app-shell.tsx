@@ -1,5 +1,4 @@
-import { BarChart3, ClipboardCheck, GalleryVerticalEnd, Sparkles, Target } from 'lucide-react';
-
+import { BarChart3, ClipboardCheck, FileText, GalleryVerticalEnd, Gamepad2, Sparkles, Target } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 interface AppShellProps {
@@ -10,12 +9,13 @@ interface AppShellProps {
 
 const navItems = [
   { href: '#overview', label: '概览', icon: Sparkles },
-  { href: '#manual-review', label: '人工复核', icon: ClipboardCheck },
+  { href: '#system-analysis', label: '系统分析', icon: FileText },
   { href: '#charts', label: '图表', icon: BarChart3 },
   { href: '#gallery', label: '礼物库', icon: GalleryVerticalEnd },
   { href: '#badge-lab', label: '角标专题', icon: Target },
+  { href: '#ludo-plan', label: 'Ludo 规划', icon: Gamepad2 },
+  { href: '#manual-review', label: '人工复核', icon: ClipboardCheck },
 ];
-
 
 export function AppShell({ children, total, badgeCount }: AppShellProps) {
   return (
@@ -27,8 +27,8 @@ export function AppShell({ children, total, badgeCount }: AppShellProps) {
               <Sparkles className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-medium uppercase tracking-[0.28em] text-cyan/90">Gift Analytics</span>
-              <h1 className="text-xl font-bold text-white lg:text-2xl">礼物图库与角标玩法分析看板</h1>
+              <span className="text-sm font-medium uppercase tracking-[0.28em] text-cyan/90">Gift Research Board</span>
+              <h1 className="text-xl font-bold text-white lg:text-2xl">礼物系统分析与接入规划看板</h1>
             </div>
           </div>
           <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-200 lg:flex">

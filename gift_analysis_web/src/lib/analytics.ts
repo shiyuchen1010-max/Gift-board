@@ -63,14 +63,23 @@ export function buildFolderCurrencyData(gifts: GiftRecord[]): ChartDatum[] {
 }
 
 export function buildBadgeTypeData(gifts: GiftRecord[], definitions: BadgeDefinition[]): ChartDatum[] {
+  const totalBadgeCount = gifts.filter((gift) => gift.hasBadge).length;
+
   return definitions
-    .map((definition) => ({
-      name: definition.label,
-      value: gifts.filter((gift) => gift.badgeType === definition.code).length,
-      color: definition.color,
-    }))
+    .map((definition) => {
+      const count = gifts.filter((gift) => gift.badgeType === definition.code).length;
+      return {
+        name: definition.label,
+        value: count,
+        color: definition.color,
+        detail: definition.gameplay,
+        description: definition.description,
+        percentage: totalBadgeCount ? count / totalBadgeCount : 0,
+      };
+    })
     .filter((item) => item.value > 0);
 }
+
 
 export function buildTopGiftData(gifts: GiftRecord[], limit = 8): ChartDatum[] {
   return [...gifts]
