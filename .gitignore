@@ -9,5 +9,7 @@ gift_analysis_web/.playwright-cli/
 Thumbs.db
 .DS_Store
 .workbuddy/
+_publish_clone/
+
 
 
