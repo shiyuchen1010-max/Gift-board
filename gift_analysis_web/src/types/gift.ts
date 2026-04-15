@@ -2,6 +2,29 @@ export type GiftFolder = 'classic' | 'activity' | 'member' | 'royal';
 export type CurrencyType = 'Gold' | 'Diamond' | null;
 export type BadgeMode = 'all' | 'with' | 'without';
 export type SortKey = 'price-desc' | 'price-asc' | 'name-asc' | 'badge-confidence';
+export type DashboardView = 'dashboard' | 'analysis';
+export type SectionId =
+  | 'overview'
+  | 'filters'
+  | 'insights'
+  | 'charts'
+  | 'badge-analysis'
+  | 'gift-explorer'
+  | 'manual-review'
+  | 'system-analysis'
+  | 'ludo-plan';
+
+export interface DashboardViewTab {
+  id: DashboardView;
+  label: string;
+  description: string;
+}
+
+export interface SectionNavItem {
+  id: SectionId;
+  label: string;
+  view: DashboardView;
+}
 
 export interface GiftRecord {
   id: string;
@@ -63,8 +86,6 @@ export interface ManualBadgeReviewItem {
 }
 
 export interface FilterState {
-
-
   query: string;
   folder: 'all' | GiftFolder;
   currency: 'all' | Exclude<CurrencyType, null>;
@@ -73,6 +94,12 @@ export interface FilterState {
   gameplayType: 'all' | string;
   priceTier: 'all' | string;
   sortKey: SortKey;
+}
+
+export interface ActiveFilterChip {
+  key: keyof FilterState;
+  label: string;
+  value: string;
 }
 
 export interface OverviewMetrics {
@@ -96,8 +123,9 @@ export interface ChartDatum {
   detail?: string;
   description?: string;
   percentage?: number;
+  key?: string;
+  giftId?: string;
 }
-
 
 export interface BadgeSummary {
   code: string;

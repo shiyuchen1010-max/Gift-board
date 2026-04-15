@@ -160,7 +160,7 @@ export async function saveWorkspaceReviewFiles(options: {
 
   // Fallback to File System Access API
   if (!rootHandle) {
-    throw new Error('当前环境不支持本地目录直写，请用最新版 Chrome 或 Edge 打开，或确保你在本地开发服务器中。');
+    throw new Error('当前环境暂不支持直接保存到项目目录，请切换到支持的本地浏览环境后重试。');
   }
 
   const [existingBindings, publicReport, docsReport] = await Promise.all([

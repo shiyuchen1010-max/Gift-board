@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
-import type { BadgeDefinition, FilterState, GiftRecord } from '../types/gift';
 
-
+import { getOrderedPriceTiers } from '../lib/analytics';
+import { currencyLabels, folderLabels } from '../lib/format';
+import type { ActiveFilterChip, BadgeDefinition, FilterState, GiftRecord } from '../types/gift';
 
 const initialState: FilterState = {
   query: '',
@@ -14,13 +15,30 @@ const initialState: FilterState = {
   sortKey: 'price-desc',
 };
 
+const sortLabels: Record<FilterState['sortKey'], string> = {
+  'price-desc': '价格从高到低',
+  'price-asc': '价格从低到高',
+  'name-asc': '名称 A-Z',
+  'badge-confidence': '角标识别把握',
+};
+
+function normalizeFilters(next: FilterState): FilterState {
+  if (next.gameplayType !== 'all') {
+    next.badgeType = 'all';
+  }
+  if (next.badgeType !== 'all') {
+    next.gameplayType = 'all';
+  }
+  return next;
+}
+
 export function useGiftFilters(gifts: GiftRecord[], badges: BadgeDefinition[]) {
   const [filters, setFilters] = useState<FilterState>(initialState);
 
   const options = useMemo(() => {
     const badgeTypes = badges.filter((item) => item.code !== 'unknown-badge');
     const gameplayValues = Array.from(new Set(badgeTypes.map((item) => item.gameplay).filter(Boolean)));
-    const priceTiers = Array.from(new Set(gifts.map((gift) => gift.priceTier)));
+    const priceTiers = getOrderedPriceTiers(gifts.map((gift) => gift.priceTier));
     return {
       badgeTypes,
       gameplayValues,
@@ -28,6 +46,10 @@ export function useGiftFilters(gifts: GiftRecord[], badges: BadgeDefinition[]) {
     };
   }, [badges, gifts]);
 
+  const badgeGameplayMap = useMemo(
+    () => new Map(options.badgeTypes.map((badge) => [badge.code, badge.gameplay || badge.label])),
+    [options.badgeTypes],
+  );
 
 
   const filteredGifts = useMemo(() => {
@@ -52,19 +74,50 @@ export function useGiftFilters(gifts: GiftRecord[], badges: BadgeDefinition[]) {
     });
   }, [filters, gifts]);
 
+  const activeFilters = useMemo<ActiveFilterChip[]>(() => {
+    const next: ActiveFilterChip[] = [];
+
+    if (filters.query.trim()) {
+      next.push({ key: 'query', label: '关键词', value: filters.query.trim() });
+    }
+    if (filters.folder !== 'all') {
+      next.push({ key: 'folder', label: '礼物分类', value: folderLabels[filters.folder] });
+    }
+    if (filters.currency !== 'all') {
+      next.push({ key: 'currency', label: '货币类型', value: currencyLabels[filters.currency] });
+    }
+    if (filters.badgeMode !== 'all') {
+      next.push({ key: 'badgeMode', label: '角标状态', value: filters.badgeMode === 'with' ? '仅看有角标' : '仅看无角标' });
+    }
+    if (filters.badgeType !== 'all') {
+      next.push({ key: 'badgeType', label: '玩法标签', value: badgeGameplayMap.get(filters.badgeType) ?? filters.badgeType });
+    }
+    if (filters.gameplayType !== 'all') {
+      next.push({ key: 'gameplayType', label: '玩法标签', value: filters.gameplayType });
+    }
+
+    if (filters.priceTier !== 'all') {
+      next.push({ key: 'priceTier', label: '价格分层', value: filters.priceTier });
+    }
+    if (filters.sortKey !== initialState.sortKey) {
+      next.push({ key: 'sortKey', label: '排序方式', value: sortLabels[filters.sortKey] });
+    }
+
+    return next;
+  }, [badgeGameplayMap, filters]);
+
+
   function updateFilter<Key extends keyof FilterState>(key: Key, value: FilterState[Key]) {
-    setFilters((prev) => {
-      const next = { ...prev, [key]: value };
-      if (key === 'gameplayType' && value !== 'all') {
-        next.badgeType = 'all';
-      }
-      if (key === 'badgeType' && value !== 'all') {
-        next.gameplayType = 'all';
-      }
-      return next;
-    });
+    setFilters((prev) => normalizeFilters({ ...prev, [key]: value }));
   }
 
+  function applyFilterPatch(patch: Partial<FilterState>) {
+    setFilters((prev) => normalizeFilters({ ...prev, ...patch }));
+  }
+
+  function clearFilter(key: keyof FilterState) {
+    setFilters((prev) => normalizeFilters({ ...prev, [key]: initialState[key] }));
+  }
 
   function resetFilters() {
     setFilters(initialState);
@@ -74,7 +127,10 @@ export function useGiftFilters(gifts: GiftRecord[], badges: BadgeDefinition[]) {
     filters,
     filteredGifts,
     options,
+    activeFilters,
     updateFilter,
+    applyFilterPatch,
+    clearFilter,
     resetFilters,
   };
 }

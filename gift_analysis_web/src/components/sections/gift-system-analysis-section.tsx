@@ -3,6 +3,8 @@ import { Crown, Gem, LayoutGrid, Sparkles } from 'lucide-react';
 import type { GiftSystemAnalysis } from '../../types/analysis';
 import type { BadgeDefinition } from '../../types/gift';
 import { formatPercent, formatPrice } from '../../lib/format';
+import { BadgeLabel } from '../badges/badge-label';
+
 
 interface GiftSystemAnalysisSectionProps {
   analysis: GiftSystemAnalysis;
@@ -42,8 +44,41 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
     },
   ];
 
+  const folderBriefs = [
+    {
+      key: 'classic',
+      label: 'Classic',
+      title: '常驻礼物',
+      description: '用户最熟悉的礼物池，价格覆盖低中高档，主要用于日常打赏。',
+      insight: '高频使用，负责培养用户的付费习惯。',
+    },
+    {
+      key: 'activity',
+      label: 'Activity',
+      title: '活动礼物',
+      description: '包含限时礼物与部分常驻主题礼物，常和节日、宗教文化、地方饮食或生日场景相关。',
+      insight: '适合借节庆节点放大送礼氛围与短期转化。',
+    },
+    {
+      key: 'member',
+      label: 'Member',
+      title: '成员礼物',
+      description: '类似直播间粉丝团礼物，仅本直播间成员可送，并且不同成员等级对应不同礼物权限。',
+      insight: '本质是用等级身份和专属权限驱动持续留存。',
+    },
+    {
+      key: 'royal',
+      label: 'Royal',
+      title: 'VIP 礼物',
+      description: '只有开通 VIP 才能赠送，属于更强身份感的专属礼物。',
+      insight: '强调会员身份外显，提升高价值用户的专属感。',
+    },
+  ];
+
+
   return (
-    <section id="system-analysis" className="flex flex-col gap-5">
+    <section id="system-analysis" className="flex scroll-mt-44 flex-col gap-5">
+
       <div>
         <h2 className="section-title">送礼系统调研分析</h2>
         <p className="section-copy">把礼物数量、价格层级、角标玩法和高价值样本放到同一个视角里看，能更清楚地判断这个系统到底靠什么驱动付费与传播。</p>
@@ -53,7 +88,7 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,199,240,0.18),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(109,94,247,0.2),transparent_28%)]" />
         <div className="relative z-10 flex flex-col gap-6">
           <div className="max-w-4xl">
-            <span className="inline-flex rounded-full border border-cyan/20 bg-cyan/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-cyan-100">Research Layer · Gift System</span>
+            <span className="inline-flex rounded-full border border-cyan/20 bg-cyan/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-cyan-100">背景分析 · 全量视角</span>
             <h3 className="mt-4 text-3xl font-bold leading-tight text-white lg:text-4xl">当前送礼系统的商业价值核心，不在“送礼”本身，而在礼物背后的可见度、榜单周期与身份外显。</h3>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 lg:text-base">
               从现有数据看，礼物池由大规模常驻礼物托底，再由角标玩法把高价值礼物包装成广播位、名片展示、榜单积分或局内反馈工具。也就是说，真正被售卖的是“被更多人看见”和“在更重要节点被记住”。
@@ -78,7 +113,23 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
       <div className="grid gap-4 xl:grid-cols-[1.2fr_0.8fr]">
         <article className="glass-panel rounded-[30px] p-5">
           <h3 className="text-lg font-semibold text-white">结构拆解</h3>
-          <p className="mt-2 text-sm leading-6 text-slate-300">先看礼物池怎么分布，再看角标在哪些分类里承担更强的玩法密度。</p>
+          <p className="mt-2 text-sm leading-6 text-slate-300">先看礼物池怎么分布，再看每类礼物承担什么角色，以及角标在哪些分类里承担更强的玩法密度。</p>
+          <div className="mt-5 rounded-[24px] border border-white/10 bg-slate-950/35 p-4">
+            <p className="text-xs uppercase tracking-[0.24em] text-slate-400">礼物分类速览</p>
+            <p className="mt-2 text-sm leading-6 text-slate-300">把 Classic、Activity、Member、Royal 四类礼物的运营角色放在同一层里看，更容易理解不同礼物池分别服务谁、服务什么场景。</p>
+            <div className="mt-4 grid gap-3 lg:grid-cols-2">
+              {folderBriefs.map((item) => (
+                <div key={item.key} className="rounded-[22px] border border-white/10 bg-white/5 p-4">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full border border-cyan/20 bg-cyan/10 px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.18em] text-cyan-100">{item.label}</span>
+                    <span className="text-sm font-semibold text-white">{item.title}</span>
+                  </div>
+                  <p className="mt-3 text-sm leading-6 text-slate-300">{item.description}</p>
+                  <p className="mt-3 rounded-2xl border border-amber-300/15 bg-amber-300/10 px-3 py-2 text-xs leading-5 text-amber-100">{item.insight}</p>
+                </div>
+              ))}
+            </div>
+          </div>
           <div className="mt-5 grid gap-4 lg:grid-cols-2">
             <MetricList title="分类分布" items={analysis.folderDistribution} />
             <MetricList title="价格分层" items={analysis.priceTierDistribution} />
@@ -86,6 +137,7 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
             <CoverageList items={analysis.folderBadgeCoverage} />
           </div>
         </article>
+
 
         <article className="glass-panel rounded-[30px] p-5">
           <h3 className="text-lg font-semibold text-white">结论提炼</h3>
@@ -122,11 +174,12 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="max-w-2xl">
                   <span
-                    className="rounded-full px-3 py-1 text-xs text-white"
+                    className="inline-flex rounded-full px-3 py-1 text-xs text-white"
                     style={{ backgroundColor: `${badgeColorMap.get(item.code) ?? '#94A3B8'}22`, border: `1px solid ${badgeColorMap.get(item.code) ?? '#94A3B8'}66` }}
                   >
-                    {item.label}
+                    <BadgeLabel code={item.code} label={item.label} textClassName="text-xs text-white" />
                   </span>
+
                   <p className="mt-3 text-sm leading-6 text-slate-300 whitespace-pre-line">{item.description}</p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-right">

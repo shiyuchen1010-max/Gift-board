@@ -14,10 +14,13 @@ CONFIG_DIR = os.path.join(WORK_DIR, "gift_analysis_config")
 WEB_PUBLIC_DIR = os.path.join(WORK_DIR, "gift_analysis_web", "public")
 WEB_DATA_DIR = os.path.join(WEB_PUBLIC_DIR, "data")
 WEB_GIFTS_DIR = os.path.join(WEB_PUBLIC_DIR, "gifts")
+WEB_BADGES_DIR = os.path.join(WEB_PUBLIC_DIR, "badges")
+BADGE_ICON_SOURCE_DIR = os.path.join(ROOT_DIR, "角标图片")
 BADGE_SAMPLE_FILE = os.path.join(ROOT_DIR, "角标映射示例.txt")
 BADGE_RULE_FILE = os.path.join(ROOT_DIR, "角标规则说明.txt")
 MANUAL_REVIEW_FILE = os.path.join(CONFIG_DIR, "manual_badge_reviews.json")
 WEB_MANUAL_REVIEW_FILE = os.path.join(WEB_DATA_DIR, "manual_badge_reviews.json")
+
 
 VALID_FOLDERS = ("classic", "activity", "member", "royal")
 EXTENSION = ".png"
@@ -679,7 +682,22 @@ def export_images(records: list[dict]) -> None:
         shutil.copy2(record["imagePath"], os.path.join(target_dir, record["fileName"]))
 
 
+def export_badge_icons() -> None:
+    if not os.path.isdir(BADGE_ICON_SOURCE_DIR):
+        return
+    if os.path.isdir(WEB_BADGES_DIR):
+        shutil.rmtree(WEB_BADGES_DIR)
+    ensure_dir(WEB_BADGES_DIR)
+    for file_name in sorted(os.listdir(BADGE_ICON_SOURCE_DIR)):
+        if not file_name.lower().endswith(EXTENSION):
+            continue
+        source_path = os.path.join(BADGE_ICON_SOURCE_DIR, file_name)
+        target_path = os.path.join(WEB_BADGES_DIR, file_name)
+        shutil.copy2(source_path, target_path)
+
+
 def main() -> None:
+
     ensure_dir(CONFIG_DIR)
     ensure_dir(WEB_DATA_DIR)
     records = collect_gift_records()
@@ -724,7 +742,9 @@ def main() -> None:
     ludo_plan = build_facebook_ludo_plan(gift_system_analysis, badge_definitions)
 
     export_images(records)
+    export_badge_icons()
     write_json(os.path.join(CONFIG_DIR, "badge_definitions.json"), badge_definitions)
+
     write_json(os.path.join(CONFIG_DIR, "gift_badge_bindings.json"), bindings)
     write_json(os.path.join(CONFIG_DIR, "gift_system_analysis.json"), gift_system_analysis)
     write_json(os.path.join(CONFIG_DIR, "facebook_ludo_nochat_plan.json"), ludo_plan)

@@ -2,6 +2,8 @@ import { Coins, Gamepad2, Rocket, ShieldAlert, Trophy } from 'lucide-react';
 
 import type { FacebookLudoNoChatPlan } from '../../types/analysis';
 import { formatPercent, formatPrice } from '../../lib/format';
+import { BadgeLabel } from '../badges/badge-label';
+
 
 interface FacebookLudoNoChatPlanSectionProps {
   plan: FacebookLudoNoChatPlan;
@@ -16,7 +18,8 @@ const riskTone = {
 
 export function FacebookLudoNoChatPlanSection({ plan }: FacebookLudoNoChatPlanSectionProps) {
   return (
-    <section id="ludo-plan" className="flex flex-col gap-5">
+    <section id="ludo-plan" className="flex scroll-mt-44 flex-col gap-5">
+
       <div>
         <h2 className="section-title">Facebook Ludo 无聊天室接入规划</h2>
         <p className="section-copy">规划重点不是把聊天室礼物原样搬过来，而是把送礼动作重做成适配棋局节奏、结算荣誉和大厅曝光的新社交货币。</p>
@@ -26,7 +29,7 @@ export function FacebookLudoNoChatPlanSection({ plan }: FacebookLudoNoChatPlanSe
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(52,211,153,0.16),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(34,199,240,0.16),transparent_30%)]" />
         <div className="relative z-10 grid gap-6 xl:grid-cols-[1.15fr_0.85fr]">
           <div>
-            <span className="inline-flex rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-emerald-100">Strategy Layer · Ludo Migration</span>
+            <span className="inline-flex rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-emerald-100">迁移参考 · 全量视角</span>
             <h3 className="mt-4 text-3xl font-bold leading-tight text-white lg:text-4xl">推荐方案：先做“结算页 + 高光节点 + 大厅播报”三位一体的轻量送礼系统，再逐步接入榜单、盲盒和成长链。</h3>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 lg:text-base">{plan.positioning}</p>
             <div className="mt-5 grid gap-3 sm:grid-cols-3">

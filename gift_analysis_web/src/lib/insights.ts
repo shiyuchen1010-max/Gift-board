@@ -34,7 +34,8 @@ export function buildInsights(
   if (premiumBadge) {
     insights.push({
       title: '最容易形成溢价的角标',
-      detail: `${premiumBadge.label} 的平均价格达到 ${formatPrice(Math.round(premiumBadge.averagePrice))}，属于当前数据里更有溢价感的角标类型。`,
+      detail: `${premiumBadge.label} 的平均价格达到 ${formatPrice(Math.round(premiumBadge.averagePrice))}，属于当前数据里更有溢价感的玩法标签。`,
+
       tone: 'primary',
     });
   }

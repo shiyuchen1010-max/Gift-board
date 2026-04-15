@@ -1,6 +1,15 @@
 import type { BadgeDefinition, BadgeSummary, ChartDatum, GiftRecord, OverviewMetrics } from '../types/gift';
 import { currencyLabels, folderLabels } from './format';
 
+const priceTierMeta: Record<string, { order: number; detail: string; description: string }> = {
+  低价: { order: 0, detail: '0–99', description: '适合轻量试送与高频互动的入门价位。' },
+  中价: { order: 1, detail: '100–999', description: '常用于日常表达和中低门槛互动。' },
+  高价: { order: 2, detail: '1,000–5,999', description: '已经进入明显付费表达区间。' },
+  超高价: { order: 3, detail: '6,000–19,999', description: '更偏向强展示、强情绪驱动的高价值礼物。' },
+  收藏级: { order: 4, detail: '20,000+', description: '顶价礼物区间，通常承担稀缺感与强曝光。' },
+  未定价: { order: 5, detail: '未识别价格', description: '当前素材未提取到明确标价。' },
+};
+
 function numericPrices(gifts: GiftRecord[]): number[] {
   return gifts.map((gift) => gift.price).filter((value): value is number => value !== null);
 }
@@ -12,6 +21,17 @@ function median(values: number[]): number {
   const sorted = [...values].sort((a, b) => a - b);
   const middle = Math.floor(sorted.length / 2);
   return sorted.length % 2 === 0 ? (sorted[middle - 1] + sorted[middle]) / 2 : sorted[middle];
+}
+
+export function getOrderedPriceTiers(priceTiers: string[]): string[] {
+  return [...new Set(priceTiers)].sort((left, right) => {
+    const leftOrder = priceTierMeta[left]?.order ?? Number.MAX_SAFE_INTEGER;
+    const rightOrder = priceTierMeta[right]?.order ?? Number.MAX_SAFE_INTEGER;
+    if (leftOrder !== rightOrder) {
+      return leftOrder - rightOrder;
+    }
+    return left.localeCompare(right, 'zh-CN');
+  });
 }
 
 export function buildOverviewMetrics(filtered: GiftRecord[], all: GiftRecord[]): OverviewMetrics {
@@ -50,12 +70,20 @@ export function buildPriceTierData(gifts: GiftRecord[]): ChartDatum[] {
     acc[gift.priceTier] = (acc[gift.priceTier] ?? 0) + 1;
     return acc;
   }, {});
-  return Object.entries(counts).map(([name, value]) => ({ name, value }));
+
+  return getOrderedPriceTiers(Object.keys(counts)).map((name) => ({
+    name,
+    value: counts[name] ?? 0,
+    key: name,
+    detail: priceTierMeta[name]?.detail ?? '区间待补充',
+    description: priceTierMeta[name]?.description ?? '当前层级暂无额外说明。',
+  }));
 }
 
 export function buildFolderCurrencyData(gifts: GiftRecord[]): ChartDatum[] {
   return Object.entries(folderLabels).map(([folder, label]) => ({
     name: label,
+    key: folder,
     value: gifts.filter((gift) => gift.folder === folder).length,
     gold: gifts.filter((gift) => gift.folder === folder && gift.currency === 'Gold').length,
     diamond: gifts.filter((gift) => gift.folder === folder && gift.currency === 'Diamond').length,
@@ -69,6 +97,7 @@ export function buildBadgeTypeData(gifts: GiftRecord[], definitions: BadgeDefini
     .map((definition) => {
       const count = gifts.filter((gift) => gift.badgeType === definition.code).length;
       return {
+        key: definition.code,
         name: definition.label,
         value: count,
         color: definition.color,
@@ -80,7 +109,6 @@ export function buildBadgeTypeData(gifts: GiftRecord[], definitions: BadgeDefini
     .filter((item) => item.value > 0);
 }
 
-
 export function buildTopGiftData(gifts: GiftRecord[], limit = 8): ChartDatum[] {
   return [...gifts]
     .filter((gift) => gift.price !== null)
@@ -90,6 +118,9 @@ export function buildTopGiftData(gifts: GiftRecord[], limit = 8): ChartDatum[] {
       name: gift.name,
       value: gift.price ?? 0,
       color: gift.hasBadge ? '#22C7F0' : '#6D5EF7',
+      detail: folderLabels[gift.folder],
+      description: gift.badgeType ? gift.gameplayType ?? '玩法礼物' : '基础礼物',
+      giftId: gift.id,
     }));
 }
 
