@@ -11,10 +11,8 @@ interface UseDashboardInteractionsOptions {
 
 interface UseDashboardInteractionsResult {
   activeSectionId: SectionId;
-  selectedGiftId: string | null;
   focusedReviewGiftId: string | null;
   jumpToSection: (sectionId: SectionId) => void;
-  selectGift: (giftId: string | null, nextSectionId?: SectionId) => void;
   openReviewForGift: (giftId: string) => void;
   clearReviewFocus: () => void;
 }
@@ -26,7 +24,6 @@ export function useDashboardInteractions({
   onViewChange,
 }: UseDashboardInteractionsOptions): UseDashboardInteractionsResult {
   const [activeSectionId, setActiveSectionId] = useState<SectionId>(visibleSectionIds[0] ?? 'overview');
-  const [selectedGiftId, setSelectedGiftId] = useState<string | null>(null);
   const [focusedReviewGiftId, setFocusedReviewGiftId] = useState<string | null>(null);
   const [pendingSectionId, setPendingSectionId] = useState<SectionId | null>(null);
 
@@ -110,19 +107,8 @@ export function useDashboardInteractions({
     [activeView, onViewChange, sectionViewMap],
   );
 
-  const selectGift = useCallback(
-    (giftId: string | null, nextSectionId?: SectionId) => {
-      setSelectedGiftId(giftId);
-      if (nextSectionId) {
-        jumpToSection(nextSectionId);
-      }
-    },
-    [jumpToSection],
-  );
-
   const openReviewForGift = useCallback(
     (giftId: string) => {
-      setSelectedGiftId(giftId);
       setFocusedReviewGiftId(giftId);
       jumpToSection('manual-review');
     },
@@ -135,11 +121,10 @@ export function useDashboardInteractions({
 
   return {
     activeSectionId,
-    selectedGiftId,
     focusedReviewGiftId,
     jumpToSection,
-    selectGift,
     openReviewForGift,
     clearReviewFocus,
   };
 }
+

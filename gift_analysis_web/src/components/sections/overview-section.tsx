@@ -1,13 +1,13 @@
-import { ArrowRight, Crown, Gem, Radar, Sparkles } from 'lucide-react';
+import { ArrowRight, Crown, Gem, Radar, Sparkles, WalletCards } from 'lucide-react';
 
 import { formatPercent, formatPrice } from '../../lib/format';
+import { YALLA_LUDO_RECHARGE_PACKS } from '../../lib/recharge';
 import type { OverviewMetrics, SectionId } from '../../types/gift';
 
 interface OverviewSectionProps {
   metrics: OverviewMetrics;
   activeFilterCount: number;
   onJumpTo: (sectionId: SectionId) => void;
-  onFocusGift: (giftId: string) => void;
 }
 
 const cards = [
@@ -17,7 +17,7 @@ const cards = [
   { key: 'topGift', label: '最高价格礼物', icon: Crown, accent: 'from-rose-500 to-orange-400' },
 ] as const;
 
-export function OverviewSection({ metrics, activeFilterCount, onJumpTo, onFocusGift }: OverviewSectionProps) {
+export function OverviewSection({ metrics, activeFilterCount, onJumpTo }: OverviewSectionProps) {
   return (
     <section id="overview" className="flex scroll-mt-44 flex-col gap-5">
       <div className="glass-panel relative overflow-hidden rounded-[36px] p-6 lg:p-8">
@@ -57,7 +57,7 @@ export function OverviewSection({ metrics, activeFilterCount, onJumpTo, onFocusG
               <button
                 key={card.key}
                 type="button"
-                onClick={() => handleMetricAction(card.key, metrics, onJumpTo, onFocusGift)}
+                onClick={() => handleMetricAction(card.key, metrics, onJumpTo)}
                 className="rounded-[28px] border border-white/10 bg-slate-950/45 p-5 text-left backdrop-blur-xl transition hover:-translate-y-1 hover:border-cyan/30 hover:bg-slate-950/60"
               >
                 <div className={`mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br ${card.accent}`}>
@@ -71,18 +71,39 @@ export function OverviewSection({ metrics, activeFilterCount, onJumpTo, onFocusG
           </div>
         </div>
       </div>
+
+      <div className="glass-panel rounded-[32px] p-5 lg:p-6">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-emerald-100">
+              <WalletCards className="h-3.5 w-3.5" />
+              Yalla Ludo 钻石充值参考
+            </div>
+            <h3 className="mt-3 text-xl font-semibold text-white">6 档充值包已接入礼物看板</h3>
+            <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-300">
+              礼物卡片上的美元价值按“满足该礼物钻石价格的最省充值组合”做近似估算，仅对钻石礼物生效；金币礼物不参与美元换算。
+            </p>
+          </div>
+          <div className="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs text-slate-300">美元估值仅作充值参考，不代表实际到账汇率</div>
+        </div>
+
+        <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-6">
+          {YALLA_LUDO_RECHARGE_PACKS.map((pack) => (
+            <div key={pack.id} className="rounded-[24px] border border-white/10 bg-slate-950/40 p-4">
+              <p className="text-[11px] uppercase tracking-[0.18em] text-slate-400">充值档位</p>
+              <p className="mt-2 text-xl font-bold text-white">{pack.shortLabel}</p>
+              <p className="mt-2 text-sm text-cyan-100">{pack.diamonds.toLocaleString('zh-CN')} 钻石</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
 
-function handleMetricAction(
-  key: string,
-  metrics: OverviewMetrics,
-  onJumpTo: (sectionId: SectionId) => void,
-  onFocusGift: (giftId: string) => void,
-) {
+function handleMetricAction(key: string, metrics: OverviewMetrics, onJumpTo: (sectionId: SectionId) => void) {
   if (key === 'topGift' && metrics.topGift) {
-    onFocusGift(metrics.topGift.id);
+    onJumpTo('gift-explorer');
     return;
   }
   if (key === 'badgeCount') {
@@ -107,7 +128,7 @@ function resolveDetail(key: string, metrics: OverviewMetrics): string {
   if (key === 'visible') return `在总计 ${metrics.total} 个礼物中，当前条件下共有 ${metrics.visible} 个进入分析。`;
   if (key === 'badgeCount') return '高占比角标通常意味着玩法包装更强，点击后会进入分析空间的角标专题。';
   if (key === 'averagePrice') return `中位价格为 ${formatPrice(Math.round(metrics.medianPrice))}，点击后可继续看价格结构。`;
-  return metrics.topGift ? `来自 ${metrics.topGift.folder}，标价 ${formatPrice(metrics.topGift.price)}，可直接跳去礼物库。` : '暂无最高价样本。';
+  return metrics.topGift ? `来自 ${metrics.topGift.folder}，标价 ${formatPrice(metrics.topGift.price)}，可切到礼物库查看高价样本。` : '暂无最高价样本。';
 }
 
 function ActionCard({ title, detail, actionLabel, onClick }: { title: string; detail: string; actionLabel: string; onClick: () => void }) {
@@ -126,3 +147,4 @@ function ActionCard({ title, detail, actionLabel, onClick }: { title: string; de
     </div>
   );
 }
+

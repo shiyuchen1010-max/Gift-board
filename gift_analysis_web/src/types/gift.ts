@@ -43,6 +43,10 @@ export interface GiftRecord {
   priceLabel: string;
   price: number | null;
   currency: CurrencyType;
+  estimatedUsd: number | null;
+  estimatedUsdLabel: string | null;
+  rechargePlanLabel: string | null;
+  rechargeCoveredDiamonds: number | null;
   hasFilenameBadgeSuffix: boolean;
   priceTier: string;
   hasBadge: boolean;

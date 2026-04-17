@@ -103,7 +103,6 @@ export default function App() {
   const badgeCount = useMemo(() => gifts.filter((gift) => gift.hasBadge).length, [gifts]);
 
   const analysisNavItems = useMemo<SectionNavItem[]>(() => {
-
     const items: SectionNavItem[] = [
       { id: 'insights', label: '结论', view: 'analysis' },
       { id: 'badge-analysis', label: '角标专题', view: 'analysis' },
@@ -137,16 +136,14 @@ export default function App() {
     }
   }, [activeView, analysisNavItems.length]);
 
-  const { activeSectionId, selectedGiftId, focusedReviewGiftId, jumpToSection, selectGift, openReviewForGift, clearReviewFocus } = useDashboardInteractions({
+  const { activeSectionId, focusedReviewGiftId, jumpToSection, openReviewForGift, clearReviewFocus } = useDashboardInteractions({
     visibleSectionIds,
     activeView,
     sectionViewMap: SECTION_VIEW_MAP,
     onViewChange: setActiveView,
   });
-  const selectedGift = useMemo(() => gifts.find((gift) => gift.id === selectedGiftId) ?? null, [gifts, selectedGiftId]);
 
   const handleFilterDrillDown = useCallback(
-
     (patch: Partial<FilterState>, nextSectionId: SectionId = 'gift-explorer') => {
       applyFilterPatch(patch);
       jumpToSection(nextSectionId);
@@ -188,16 +185,10 @@ export default function App() {
       navItems={currentNavItems}
       onViewChange={handleViewChange}
       onNavigate={jumpToSection}
-      selectedGiftName={selectedGift?.name}
     >
       {activeView === 'dashboard' ? (
         <>
-          <OverviewSection
-            metrics={overview}
-            activeFilterCount={activeFilters.length}
-            onJumpTo={jumpToSection}
-            onFocusGift={(giftId) => selectGift(giftId, 'gift-explorer')}
-          />
+          <OverviewSection metrics={overview} activeFilterCount={activeFilters.length} onJumpTo={jumpToSection} />
           <FilterPanel
             filters={filters}
             badgeTypes={options.badgeTypes}
@@ -218,16 +209,12 @@ export default function App() {
             badgeTypeData={badgeTypeData}
             topGiftData={topGiftData}
             badgeDefinitions={badges}
-            selectedGiftId={selectedGiftId}
             onFilterDrillDown={handleFilterDrillDown}
-            onSelectGift={(giftId) => selectGift(giftId, 'gift-explorer')}
             onJumpTo={jumpToSection}
           />
           <GiftExplorerSection
             gifts={filteredGifts}
             badgeMap={badgeMap}
-            selectedGiftId={selectedGiftId}
-            onSelectGift={(giftId) => selectGift(giftId)}
             onOpenReview={openReviewForGift}
             onFilterDrillDown={handleFilterDrillDown}
             onResetFilters={handleResetAndJump}

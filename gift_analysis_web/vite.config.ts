@@ -4,11 +4,29 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 function localSyncPlugin() {
+  const applyLocalBaseRewrite = (req: any) => {
+    if (!req.url) {
+      return;
+    }
+
+    if (req.url === '/Gift-board') {
+      req.url = '/';
+      return;
+    }
+
+    if (req.url.startsWith('/Gift-board/')) {
+      req.url = req.url.slice('/Gift-board'.length) || '/';
+    }
+  };
+
   return {
     name: 'local-workspace-sync',
     configureServer(server: any) {
       server.middlewares.use(async (req: any, res: any, next: any) => {
+        applyLocalBaseRewrite(req);
+
         if (req.url === '/api/save-workspace' && req.method === 'POST') {
+
           let body = '';
           req.on('data', (chunk: any) => { body += chunk.toString() });
           req.on('end', () => {
@@ -114,13 +132,23 @@ function localSyncPlugin() {
           next();
         }
       });
+    },
+    configurePreviewServer(server: any) {
+      server.middlewares.use((req: any, _res: any, next: any) => {
+        applyLocalBaseRewrite(req);
+        next();
+      });
     }
   };
 }
 
+
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Gift-board/' : '/',
+  // Build with relative asset URLs so `vite preview`, local static serving,
+  // and subdirectory deployment can all load the bundled files correctly.
+  base: command === 'build' ? './' : '/',
   plugins: [react(), localSyncPlugin()],
+
   server: {
     host: '0.0.0.0',
     allowedHosts: true,

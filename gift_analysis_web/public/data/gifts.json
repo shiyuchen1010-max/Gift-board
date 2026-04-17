@@ -3143,30 +3143,7 @@
     "gameplayType": "show-all-rooms",
     "badgeConfidence": 1.0
   },
-  {
-    "folder": "classic",
-    "fileName": "132_s17_r1c4_Castle_199999_Diamond.png",
-    "fileStem": "132_s17_r1c4_Castle_199999_Diamond",
-    "imagePath": "C:\\Users\\V_Shyschen\\CodeBuddy\\20260410162015\\extracted_gifts\\classic\\132_s17_r1c4_Castle_199999_Diamond.png",
-    "relativeImagePath": "gifts/classic/132_s17_r1c4_Castle_199999_Diamond.png",
-    "slotRaw": "132",
-    "slot": 132,
-    "screen": 17,
-    "row": 1,
-    "col": 4,
-    "name": "Castle",
-    "nameStem": "Castle",
-    "priceLabel": "199999",
-    "price": 199999,
-    "currency": "Diamond",
-    "hasFilenameBadgeSuffix": false,
-    "id": "classic::132_s17_r1c4",
-    "priceTier": "收藏级",
-    "hasBadge": true,
-    "badgeType": "show-all-rooms",
-    "gameplayType": "show-all-rooms",
-    "badgeConfidence": 1.0
-  },
+
   {
     "folder": "classic",
     "fileName": "133_s17_r2c1_Gift_Box_Select_gift_Diamond.png",

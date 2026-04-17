@@ -1,4 +1,5 @@
-import { resolveAssetPath } from './format';
+import { formatUsd, resolveAssetPath } from './format';
+import { buildRechargeEstimator } from './recharge';
 import type { FacebookLudoNoChatPlan, GiftSystemAnalysis } from '../types/analysis';
 import type { BadgeDefinition, GiftRecord, ManualBadgeReviewItem } from '../types/gift';
 
@@ -29,10 +30,26 @@ export async function loadDashboardData(): Promise<{
   ]);
 
   const badgeMap = new Map(badges.map((badge) => [badge.code, badge]));
-  const gifts = rawGifts.map((gift) => ({
-    ...gift,
-    gameplayType: gift.badgeType ? badgeMap.get(gift.badgeType)?.gameplay ?? gift.gameplayType : gift.gameplayType,
-  }));
+  const maxDiamondPrice = rawGifts.reduce((currentMax, gift) => {
+    if (gift.currency !== 'Diamond' || gift.price === null) {
+      return currentMax;
+    }
+    return Math.max(currentMax, gift.price);
+  }, 0);
+  const estimateRecharge = buildRechargeEstimator(maxDiamondPrice);
+
+  const gifts = rawGifts.map((gift) => {
+    const rechargeEstimate = gift.currency === 'Diamond' && gift.price !== null ? estimateRecharge(gift.price) : null;
+
+    return {
+      ...gift,
+      estimatedUsd: rechargeEstimate?.estimatedUsd ?? null,
+      estimatedUsdLabel: rechargeEstimate ? formatUsd(rechargeEstimate.estimatedUsd) : null,
+      rechargePlanLabel: rechargeEstimate?.rechargePlanLabel ?? null,
+      rechargeCoveredDiamonds: rechargeEstimate?.coveredDiamonds ?? null,
+      gameplayType: gift.badgeType ? badgeMap.get(gift.badgeType)?.gameplay ?? gift.gameplayType : gift.gameplayType,
+    };
+  });
 
   return {
     gifts,

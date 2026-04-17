@@ -25,7 +25,6 @@ interface AppShellProps {
   navItems: SectionNavItem[];
   onViewChange: (view: DashboardView) => void;
   onNavigate: (sectionId: SectionId) => void;
-  selectedGiftName?: string | null;
 }
 
 const iconMap: Record<SectionId, LucideIcon> = {
@@ -45,7 +44,7 @@ const viewIconMap: Record<DashboardView, LucideIcon> = {
   analysis: Lightbulb,
 };
 
-export function AppShell({ children, total, badgeCount, activeView, activeSectionId, viewTabs, navItems, onViewChange, onNavigate, selectedGiftName }: AppShellProps) {
+export function AppShell({ children, total, badgeCount, activeView, activeSectionId, viewTabs, navItems, onViewChange, onNavigate }: AppShellProps) {
   const activeViewLabel = viewTabs.find((item) => item.id === activeView)?.label ?? '数据看板';
   const activeSectionLabel = navItems.find((item) => item.id === activeSectionId)?.label ?? navItems[0]?.label ?? '概览';
 
@@ -68,7 +67,6 @@ export function AppShell({ children, total, badgeCount, activeView, activeSectio
               <StatusPill label="可见角标" value={String(badgeCount)} accent="cyan" />
               <StatusPill label="当前界面" value={activeViewLabel} accent="violet" />
               <StatusPill label="当前分区" value={activeSectionLabel} accent="violet" />
-              {selectedGiftName ? <StatusPill label="当前聚焦" value={selectedGiftName} accent="emerald" /> : null}
             </div>
           </div>
 

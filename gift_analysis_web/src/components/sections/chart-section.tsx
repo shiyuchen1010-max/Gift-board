@@ -7,7 +7,6 @@ import { PriceTierChart } from '../charts/price-tier-chart';
 import { TopPriceChart } from '../charts/top-price-chart';
 import { BadgeLabel } from '../badges/badge-label';
 
-
 interface ChartSectionProps {
   filters: FilterState;
   priceTierData: ChartDatum[];
@@ -15,24 +14,11 @@ interface ChartSectionProps {
   badgeTypeData: ChartDatum[];
   topGiftData: ChartDatum[];
   badgeDefinitions: BadgeDefinition[];
-  selectedGiftId: string | null;
   onFilterDrillDown: (patch: Partial<FilterState>, nextSectionId?: SectionId) => void;
-  onSelectGift: (giftId: string) => void;
   onJumpTo: (sectionId: SectionId) => void;
 }
 
-export function ChartSection({
-  filters,
-  priceTierData,
-  folderCurrencyData,
-  badgeTypeData,
-  topGiftData,
-  badgeDefinitions,
-  selectedGiftId,
-  onFilterDrillDown,
-  onSelectGift,
-  onJumpTo,
-}: ChartSectionProps) {
+export function ChartSection({ filters, priceTierData, folderCurrencyData, badgeTypeData, topGiftData, badgeDefinitions, onFilterDrillDown, onJumpTo }: ChartSectionProps) {
   const hasChartFocus = filters.priceTier !== 'all' || filters.folder !== 'all' || filters.currency !== 'all' || filters.badgeType !== 'all';
 
   return (
@@ -74,12 +60,12 @@ export function ChartSection({
           onSelectFolderCurrency={(folder, currency) => onFilterDrillDown({ folder: folder as FilterState['folder'], currency }, 'gift-explorer')}
         />
         <BadgeGameplayChart data={badgeTypeData} activeKey={filters.badgeType !== 'all' ? filters.badgeType : null} onSelectBadge={(badgeType) => onFilterDrillDown({ badgeType }, 'badge-analysis')} />
-        <TopPriceChart data={topGiftData} selectedGiftId={selectedGiftId} onSelectGift={onSelectGift} />
+        <TopPriceChart data={topGiftData} />
       </div>
 
       <div className="glass-panel rounded-[28px] p-5">
         <h3 className="mb-2 text-lg font-semibold text-white">玩法说明索引</h3>
-        <p className="mb-4 text-sm text-slate-300">角标说明已经和图表、专题、礼物库保持一致。你可以先看说明，再点击对应玩法直接聚焦到样本。</p>
+        <p className="mb-4 text-sm text-slate-300">角标说明已经和图表、专题、礼物库保持一致。你可以先看说明，再点击对应玩法直接筛到样本。</p>
         <div className="flex flex-wrap gap-2">
           {badgeDefinitions.map((badge) => (
             <button
@@ -91,13 +77,13 @@ export function ChartSection({
             >
               <BadgeLabel code={badge.code} label={badge.label} textClassName="text-xs text-white" />
             </button>
-
           ))}
         </div>
       </div>
     </section>
   );
 }
+
 
 function FocusBanner({ filters }: { filters: FilterState }) {
   const labels = [
