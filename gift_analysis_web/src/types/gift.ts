@@ -12,7 +12,9 @@ export type SectionId =
   | 'gift-explorer'
   | 'manual-review'
   | 'system-analysis'
-  | 'ludo-plan';
+  | 'commercial-analysis'
+  | 'research-report';
+
 
 export interface DashboardViewTab {
   id: DashboardView;

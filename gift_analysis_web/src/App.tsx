@@ -4,9 +4,11 @@ import { FilterPanel } from './components/filters/filter-panel';
 import { AppShell } from './components/layout/app-shell';
 import { BadgeAnalysisSection } from './components/sections/badge-analysis-section';
 import { ChartSection } from './components/sections/chart-section';
-import { FacebookLudoNoChatPlanSection } from './components/sections/facebook-ludo-nochat-plan-section';
 import { GiftExplorerSection } from './components/sections/gift-explorer-section';
+
 import { GiftSystemAnalysisSection } from './components/sections/gift-system-analysis-section';
+import { GiftCommercialAnalysisSection } from './components/sections/gift-commercial-analysis-section';
+import { GiftResearchReportSection } from './components/sections/gift-research-report-section';
 import { InsightSection } from './components/sections/insight-section';
 import { ManualReviewSection } from './components/sections/manual-review-section';
 import { OverviewSection } from './components/sections/overview-section';
@@ -23,8 +25,9 @@ import {
 import { loadDashboardData } from './lib/data-loader';
 import { buildInsights } from './lib/insights';
 import { applyManualReviewsToGifts } from './lib/manual-review';
-import type { FacebookLudoNoChatPlan, GiftSystemAnalysis } from './types/analysis';
+import type { GiftSystemAnalysis } from './types/analysis';
 import type {
+
   BadgeDefinition,
   DashboardView,
   DashboardViewTab,
@@ -44,8 +47,10 @@ const SECTION_VIEW_MAP: Record<SectionId, DashboardView> = {
   'gift-explorer': 'dashboard',
   'manual-review': 'dashboard',
   'system-analysis': 'analysis',
-  'ludo-plan': 'analysis',
+  'commercial-analysis': 'analysis',
+  'research-report': 'analysis',
 };
+
 
 const DASHBOARD_NAV_ITEMS: SectionNavItem[] = [
   { id: 'overview', label: '概览', view: 'dashboard' },
@@ -57,8 +62,9 @@ const DASHBOARD_NAV_ITEMS: SectionNavItem[] = [
 
 const VIEW_TAB_META: Record<DashboardView, DashboardViewTab> = {
   dashboard: { id: 'dashboard', label: '数据看板', description: '筛选、图表、礼物与复核' },
-  analysis: { id: 'analysis', label: '分析空间', description: '结论、专题、背景与规划' },
+  analysis: { id: 'analysis', label: '分析空间', description: '结论、专题与背景' },
 };
+
 
 export default function App() {
   const [sourceGifts, setSourceGifts] = useState<GiftRecord[]>([]);
@@ -66,8 +72,8 @@ export default function App() {
   const [manualReviews, setManualReviews] = useState<ManualBadgeReviewItem[]>([]);
   const [savedManualReviews, setSavedManualReviews] = useState<ManualBadgeReviewItem[]>([]);
   const [giftSystemAnalysis, setGiftSystemAnalysis] = useState<GiftSystemAnalysis | null>(null);
-  const [facebookLudoPlan, setFacebookLudoPlan] = useState<FacebookLudoNoChatPlan | null>(null);
   const [activeView, setActiveView] = useState<DashboardView>('dashboard');
+
   const [loading, setLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
@@ -79,8 +85,8 @@ export default function App() {
         setManualReviews(data.manualReviews);
         setSavedManualReviews(data.manualReviews);
         setGiftSystemAnalysis(data.giftSystemAnalysis);
-        setFacebookLudoPlan(data.facebookLudoPlan);
         setLoading(false);
+
       })
       .catch(() => {
         console.error('加载礼物看板数据失败');
@@ -110,14 +116,13 @@ export default function App() {
 
     if (giftSystemAnalysis) {
       items.push({ id: 'system-analysis', label: '背景分析', view: 'analysis' });
-    }
-
-    if (facebookLudoPlan) {
-      items.push({ id: 'ludo-plan', label: '迁移规划', view: 'analysis' });
+      items.push({ id: 'commercial-analysis', label: '商业分析', view: 'analysis' });
+      items.push({ id: 'research-report', label: '深度调研', view: 'analysis' });
     }
 
     return items;
-  }, [facebookLudoPlan, giftSystemAnalysis]);
+  }, [giftSystemAnalysis]);
+
 
   const viewTabs = useMemo(() => {
     const tabs = [VIEW_TAB_META.dashboard];
@@ -235,9 +240,16 @@ export default function App() {
         <>
           <InsightSection insights={insights} onJumpTo={jumpToSection} onFilterDrillDown={handleFilterDrillDown} />
           <BadgeAnalysisSection summaries={badgeSummaries} onFilterDrillDown={handleFilterDrillDown} onJumpTo={jumpToSection} />
-          {giftSystemAnalysis ? <GiftSystemAnalysisSection analysis={giftSystemAnalysis} badges={badges} /> : null}
-          {facebookLudoPlan ? <FacebookLudoNoChatPlanSection plan={facebookLudoPlan} /> : null}
+          {giftSystemAnalysis ? (
+            <>
+              <GiftSystemAnalysisSection analysis={giftSystemAnalysis} />
+              <GiftCommercialAnalysisSection analysis={giftSystemAnalysis} />
+              <GiftResearchReportSection />
+            </>
+          ) : null}
         </>
+
+
       )}
     </AppShell>
   );

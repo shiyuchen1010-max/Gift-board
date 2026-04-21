@@ -1,18 +1,14 @@
 import { Crown, Gem, LayoutGrid, Sparkles } from 'lucide-react';
 
 import type { GiftSystemAnalysis } from '../../types/analysis';
-import type { BadgeDefinition } from '../../types/gift';
 import { formatPercent, formatPrice } from '../../lib/format';
-import { BadgeLabel } from '../badges/badge-label';
 
 
 interface GiftSystemAnalysisSectionProps {
   analysis: GiftSystemAnalysis;
-  badges: BadgeDefinition[];
 }
 
-export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalysisSectionProps) {
-  const badgeColorMap = new Map(badges.map((badge) => [badge.code, badge.color]));
+export function GiftSystemAnalysisSection({ analysis }: GiftSystemAnalysisSectionProps) {
   const summaryCards = [
     {
       label: '礼物总量',
@@ -160,48 +156,7 @@ export function GiftSystemAnalysisSection({ analysis, badges }: GiftSystemAnalys
         </article>
       </div>
 
-      <article className="glass-panel rounded-[30px] p-5">
-        <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
-          <div>
-            <h3 className="text-lg font-semibold text-white">玩法分布与价格信号</h3>
-            <p className="mt-2 text-sm leading-6 text-slate-300">每一类角标都对应一条运营杠杆：有的放大身份，有的驱动榜单，有的负责抽奖和刺激。</p>
-          </div>
-          <p className="text-xs uppercase tracking-[0.24em] text-slate-400">当前按礼物数量排序</p>
-        </div>
-        <div className="mt-5 grid gap-4 xl:grid-cols-2">
-          {analysis.gameplayBreakdown.map((item) => (
-            <article key={item.code} className="rounded-[26px] border border-white/10 bg-slate-950/45 p-5">
-              <div className="flex flex-wrap items-start justify-between gap-3">
-                <div className="max-w-2xl">
-                  <span
-                    className="inline-flex rounded-full px-3 py-1 text-xs text-white"
-                    style={{ backgroundColor: `${badgeColorMap.get(item.code) ?? '#94A3B8'}22`, border: `1px solid ${badgeColorMap.get(item.code) ?? '#94A3B8'}66` }}
-                  >
-                    <BadgeLabel code={item.code} label={item.label} textClassName="text-xs text-white" />
-                  </span>
 
-                  <p className="mt-3 text-sm leading-6 text-slate-300 whitespace-pre-line">{item.description}</p>
-                </div>
-                <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-right">
-                  <p className="text-xs uppercase tracking-[0.24em] text-slate-400">玩法覆盖</p>
-                  <p className="mt-2 text-2xl font-bold text-white">{item.count}</p>
-                  <p className="text-xs text-cyan-200">{formatPercent(item.coverage)}</p>
-                </div>
-              </div>
-              <div className="mt-4 grid gap-3 md:grid-cols-3">
-                <InfoTile label="均价" value={formatPrice(Math.round(item.averagePrice))} />
-                <InfoTile label="最高价" value={formatPrice(item.maxPrice)} />
-                <InfoTile label="主阵地" value={item.dominantFolder} />
-              </div>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {item.sampleNames.map((name) => (
-                  <span key={`${item.code}-${name}`} className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-100">{name}</span>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
-      </article>
 
       <article className="glass-panel rounded-[30px] p-5">
         <h3 className="text-lg font-semibold text-white">高价值礼物样本</h3>

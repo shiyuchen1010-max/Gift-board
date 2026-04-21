@@ -1,7 +1,8 @@
 import { formatUsd, resolveAssetPath } from './format';
 import { buildRechargeEstimator } from './recharge';
-import type { FacebookLudoNoChatPlan, GiftSystemAnalysis } from '../types/analysis';
+import type { GiftSystemAnalysis } from '../types/analysis';
 import type { BadgeDefinition, GiftRecord, ManualBadgeReviewItem } from '../types/gift';
+
 
 async function fetchJson<T>(path: string, fallback: T): Promise<T> {
   const response = await fetch(resolveAssetPath(path));
@@ -19,15 +20,14 @@ export async function loadDashboardData(): Promise<{
   badges: BadgeDefinition[];
   manualReviews: ManualBadgeReviewItem[];
   giftSystemAnalysis: GiftSystemAnalysis | null;
-  facebookLudoPlan: FacebookLudoNoChatPlan | null;
 }> {
-  const [rawGifts, badges, manualReviews, giftSystemAnalysis, facebookLudoPlan] = await Promise.all([
+  const [rawGifts, badges, manualReviews, giftSystemAnalysis] = await Promise.all([
     fetchJson<GiftRecord[]>('/data/gifts.json', []),
     fetchJson<BadgeDefinition[]>('/data/badge_definitions.json', []),
     fetchJson<ManualBadgeReviewItem[]>('/data/manual_badge_reviews.json', []),
     fetchJson<GiftSystemAnalysis | null>('/data/gift_system_analysis.json', null),
-    fetchJson<FacebookLudoNoChatPlan | null>('/data/facebook_ludo_nochat_plan.json', null),
   ]);
+
 
   const badgeMap = new Map(badges.map((badge) => [badge.code, badge]));
   const maxDiamondPrice = rawGifts.reduce((currentMax, gift) => {
@@ -56,6 +56,6 @@ export async function loadDashboardData(): Promise<{
     badges,
     manualReviews,
     giftSystemAnalysis,
-    facebookLudoPlan,
   };
 }
+

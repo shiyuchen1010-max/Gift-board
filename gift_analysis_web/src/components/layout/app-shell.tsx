@@ -1,15 +1,17 @@
 import {
   BarChart3,
+  BookOpen,
   ClipboardCheck,
   FileText,
   GalleryVerticalEnd,
-  Gamepad2,
   Lightbulb,
   LayoutDashboard,
+  PieChart,
   SlidersHorizontal,
   Sparkles,
   Target,
 } from 'lucide-react';
+
 import type { LucideIcon } from 'lucide-react';
 import type { ReactNode } from 'react';
 
@@ -36,8 +38,10 @@ const iconMap: Record<SectionId, LucideIcon> = {
   'gift-explorer': GalleryVerticalEnd,
   'manual-review': ClipboardCheck,
   'system-analysis': FileText,
-  'ludo-plan': Gamepad2,
+  'commercial-analysis': PieChart,
+  'research-report': BookOpen,
 };
+
 
 const viewIconMap: Record<DashboardView, LucideIcon> = {
   dashboard: LayoutDashboard,
