@@ -113,9 +113,23 @@ export function GiftResearchReportSection() {
               <p className="text-sm leading-6 text-slate-300">盲盒（Gacha）引入斯金纳箱刺激，提供以小博大希望，降低下沉用户门槛，同时成为极致的房间氛围“核弹”。</p>
             </div>
           </div>
-          <p className="mt-6 text-xs text-slate-500 text-center">
-            *总结：该系统通过“榜单”制造竞争焦虑，通过“盲盒”制造概率焦虑，通过“结算”制造时效焦虑。礼物只是社交地位交易的外壳。
-          </p>
+          <div className="mt-6 rounded-[24px] border border-amber-400/30 bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-rose-500/15 p-5 shadow-[0_0_0_1px_rgba(251,191,36,0.08)]">
+            <div className="flex items-start gap-4">
+              <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-amber-400/20 text-amber-300">
+                <Presentation className="h-5 w-5" />
+              </div>
+              <div className="space-y-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-200/80">核心结论</p>
+                <p className="text-base font-semibold leading-7 text-white">
+                  这套礼物系统真正售卖的并不是特效本身，而是被包装成礼物的
+                  <strong className="text-amber-300">社交地位、竞争压力与情绪成瘾</strong>：它用
+                  <strong className="text-amber-300">榜单</strong>制造竞争焦虑，用
+                  <strong className="text-amber-300">盲盒</strong>制造概率焦虑，用
+                  <strong className="text-amber-300">结算</strong>制造时效焦虑，最终把消费冲动沉淀为长期身份资产。
+                </p>
+              </div>
+            </div>
+          </div>
         </article>
       </div>
     </section>
